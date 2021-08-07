@@ -1,4 +1,4 @@
-describe RollCollection do
+describe Roll do
 
   let(:data_hash) {
     {
@@ -21,7 +21,7 @@ describe RollCollection do
     }
   }
 
-  subject { RollCollection.from_hash(data_hash) }
+  subject { Roll.from_hash(data_hash) }
 
   describe '#weapon_id' do
     it 'returns the weapon_id' do

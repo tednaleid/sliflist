@@ -1,4 +1,4 @@
-class RollCollection
+class Roll
 
   attr_reader :weapon_id
   attr_reader :name
@@ -29,7 +29,7 @@ class RollCollection
       extended_perks[perk_slot_name] = desired_perk_names.map{|n| Perk.from_name(n)}
     end
 
-    RollCollection.new(
+    Roll.new(
       data_hash['weapon_id'],
       data_hash['name'],
       data_hash['ratings_emoji'],

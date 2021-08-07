@@ -80,8 +80,8 @@ YML
     end
   end
 
-  describe '.weapon_store' do
-    let(:store) { Banshee44.roll_collections_store }
+  describe '.roll_store' do
+    let(:store) { Banshee44.roll_store }
 
     it 'provides access to the proper number of weapons' do
       expect(store.length).to eq(4)

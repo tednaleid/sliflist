@@ -1,20 +1,20 @@
 class Banshee44
 
-  def self.roll_collections_store
-    @@ROLL_COLLECTIONS_STORE ||= populate_store
+  def self.roll_store
+    @@ROLL_STORE ||= populate_store
   end
 
   private
 
   def self.populate_store
-    @@ROLL_COLLECTIONS_STORE = []
+    @@ROLL_STORE = []
     Dir['./roll_collections/**/*.yml'].each do |fn|
-      roll_collections = YAML.load_file(fn)
-      roll_collections.each do |rc|
-        @@ROLL_COLLECTIONS_STORE << RollCollection.from_hash(rc)
+      rolls = YAML.load_file(fn)
+      rolls.each do |r|
+        @@ROLL_STORE << Roll.from_hash(r)
       end
     end
-    @@ROLL_COLLECTIONS_STORE
+    @@ROLL_STORE
   end
 
 end
