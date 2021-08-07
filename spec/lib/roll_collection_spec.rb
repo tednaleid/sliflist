@@ -4,8 +4,9 @@ describe RollCollection do
     {
       'weapon_id' => 1119734784,
       'name'     => 'Chasing Stability',
-      'overview' => 'Big time Stability roll',
       'ratings_emoji' => '🏃‍♂️',
+      'tags' => ['pve','pvp'],
+      'overview' => 'Big time Stability roll',
       'base_perks' => {
         'barrels'     => ['Arrowhead Brake', 'Smallbore'],
         'magazines'   => ['Accelerated Coils', 'Accurized Rounds'],
@@ -37,6 +38,18 @@ describe RollCollection do
   describe '#overview' do
     it 'returns the overview' do
       expect(subject.overview).to eq('Big time Stability roll')
+    end
+  end
+
+  describe '#ratings_emoji' do
+    it 'returns the emoji used for variants' do
+      expect(subject.ratings_emoji).to eq('🏃‍♂️')
+    end
+  end
+
+  describe '#tags' do
+    it 'returns the overview' do
+      expect(subject.tags).to match_array(['pvp','pve'])
     end
   end
 

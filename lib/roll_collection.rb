@@ -3,14 +3,16 @@ class RollCollection
   attr_reader :weapon_id
   attr_reader :name
   attr_reader :ratings_emoji
+  attr_reader :tags
   attr_reader :overview
   attr_reader :base_perks
   attr_reader :extended_perks
 
-  def initialize(weapon_id, name, emoji, overview, base_perks, extended_perks)
+  def initialize(weapon_id, name, emoji, tags, overview, base_perks, extended_perks)
     @weapon_id = weapon_id
     @name = name
-    @emoji = emoji
+    @ratings_emoji = emoji
+    @tags = tags
     @overview = overview
     @base_perks = base_perks
     @extended_perks = extended_perks
@@ -31,6 +33,7 @@ class RollCollection
       data_hash['weapon_id'],
       data_hash['name'],
       data_hash['ratings_emoji'],
+      data_hash['tags'],
       data_hash['overview'],
       base_perks,
       extended_perks
