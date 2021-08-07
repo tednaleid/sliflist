@@ -1,8 +1,8 @@
 # Bundler
 .bundle/
 
+# RubyMine
+.idea/
+
 # macOS
 .DS_Store
-
-# Development notes
-scratch.txt
