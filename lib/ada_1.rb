@@ -1,4 +1,4 @@
-class Banshee
+class Ada1
 
   def self.weapon_store
     @@WEAPON_STORE ||= populate_weapon_store

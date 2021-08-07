@@ -1,4 +1,4 @@
-describe 'Banshee' do
+describe Ada1 do
 
   let(:rendition_yml) { <<-YML
 name: Extraordinary Rendition
@@ -41,14 +41,14 @@ YML
   end
 
   describe '.weapon_store' do
-    let(:store) { Banshee.weapon_store }
+    let(:store) { Ada1.weapon_store }
 
     it 'provides access to the proper number of weapons' do
       expect(store.length).to eq(2)
     end 
 
     it 'provides the proper weapons' do
-      store_sorted = Banshee.weapon_store.sort_by{|w| w.name}
+      store_sorted = Ada1.weapon_store.sort_by{|w| w.name}
       rendition = store_sorted[0]
       hawkmoon = store_sorted[1]
 
