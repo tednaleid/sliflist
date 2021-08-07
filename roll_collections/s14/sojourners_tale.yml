@@ -1,0 +1,75 @@
+- 
+  weapon_id: 599895591
+  name: The Tale of Coolguy
+  ratings_emoji: 📖
+  tags: ['pvp']
+  overview: >
+    Coolguy has a terrific
+    [video breakdown](https://www.youtube.com/watch?v=_iDuWqA5MQM)
+    of Soujourner's Tale. It's the only weapon in the game that can roll
+    with this combo of `Tunnel Vision` and `Killing Wind`, which both
+    proc on reload. What was new to me was that the benefits proc **as
+    soon as a single shell has been reloaded**. You don't have to wait
+    for the full mag to finish!
+  base_perks: 
+    barrels: [Fluted Barrel]
+    magazines: [Assault Mag]
+    perks1: [Tunnel Vision]
+    perks2: [Killing Wind]
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Corkscrew Rifling, Hammer-Forged Rifling, Arrowhead Brake, Smallbore]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+-
+  weapon_id: 599895591
+  name: Slugger's Choice
+  ratings_emoji: 🐌
+  tags: ['pvp']
+  overview: >
+    Your standard set of "secure that first kill" perks.
+  base_perks: 
+    barrels: [Fluted Barrel]
+    magazines: [Assault Mag]
+    perks1: [Moving Target, Quickdraw, Threat Detector]
+    perks2: [Opening Shot]
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Corkscrew Rifling, Hammer-Forged Rifling, Arrowhead Brake, Smallbore]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+-
+  weapon_id: 599895591
+  name: Ehroar's Pick
+  ratings_emoji: 🦁
+  tags: ['pve']
+  overview:
+    Ehroar has a great
+    [video review](https://www.youtube.com/watch?v=hBgKZmknK2Y)
+    of the Sojourner's Tale. It can't roll with Vorpal but it can roll
+    with Surrounded and Frenzy, both of which provide significant damage
+    bonuses.
+  base_perks:
+    barrels: [Full Bore]
+    magazines: [Assault Mag]
+    perks1: [Auto-Loading Holster]
+    perks2: [Frenzy, Surrounded]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Smallbore, Extended Barrel]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+-
+  weapon_id: 599895591
+  name: Just Passing Through
+  ratings_emoji: 🏃
+  tags: ['pve']
+  overview:
+    Classic pairing here.
+  base_perks:
+    barrels: [Full Bore]
+    magazines: [Assault Mag]
+    perks1: [Threat Detector]
+    perks2: [Surrounded]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Smallbore, Extended Barrel]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+    

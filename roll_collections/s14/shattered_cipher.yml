@@ -1,0 +1,17 @@
+- 
+  weapon_id: 2434225986
+  name: Piecemeal Translator
+  ratings_emoji: 🕵️
+  tags: ['pve']
+  overview: > 
+    Rampage is the only damage-boosting perk in the final column, so we'll
+    go with some reload-boosting perks to help out.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Extended Mag]
+    perks1: [Auto-Loading Holster, Field Prep]
+    perks2: [Rampage]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Extended Mag, Appended Mag, Tactical Mag, Alloy Magazine]

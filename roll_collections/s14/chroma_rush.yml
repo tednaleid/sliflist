@@ -1,0 +1,75 @@
+- 
+  weapon_id: 1119734784
+  name: Catching Fire
+  ratings_emoji: 🔥
+  tags: ['pvp']
+  overview: >
+    With `Heating Up` and `Kill Clip` going, Chroma Rush feels like a
+    longer-range
+    [Recluse](https://www.light.gg/db/items/3354242550/the-recluse/).
+    `Kill Clip` takes you from an optimal TTK of `9h1b/0.77s` to
+    `6h2b/0.60s` and your body shot TTK from `1.17s` to `0.83s`. `Heating
+    Up` seems practically designed for Auto Rifles, buffing your Accuracy,
+    Stability and Recoil 🤯 "But Slif, `Heating Up` will go to waste while
+    I'm reloading to proc Kill Clip". The reload is snappy; you'll have
+    time. Throw on some some Auto Rifle reload mods if you're concerned.
+  base_perks: 
+    barrels: [Smallbore]
+    magazines: [Steady Rounds]
+    perks1: [Heating Up]
+    perks2: [Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Smallbore, Polygonal Rifling, Corkscrew Rifling, Fluted Barrel, Chambered Compensator, Arrowhead Brake]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell, Accurized Rounds]
+-
+  weapon_id: 1119734784
+  name: Color Wheel
+  ratings_emoji: 🎨
+  tags: ['pvp']
+  overview: >
+    This is similar to the above roll, swapping out `Heating Up` in
+    exchange for `Tunnel Vision`, which perhaps more synergistically procs
+    on reload along with `Kill Clip`.
+  base_perks: 
+    barrels: [Smallbore]
+    magazines: [Steady Rounds]
+    perks1: [Tunnel Vision]
+    perks2: [Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Smallbore, Polygonal Rifling, Corkscrew Rifling, Fluted Barrel, Chambered Compensator, Arrowhead Brake]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell, Accurized Rounds]
+-
+  weapon_id: 1119734784
+  name: Still Life
+  ratings_emoji: 🍊
+  tags: ['pve']
+  overview:
+    Both `Subsistence` and `Rampage` form the core of this roll.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Subsistence]
+    perks2: [Rampage]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Full Bore, Extended Barrel]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]
+-
+  weapon_id: 1119734784
+  name: Captured Moment
+  ratings_emoji: 🖼
+  tags: ['pve']
+  overview:
+    Same as the roll above, centered around `Feeding Frenzy` and `Kill
+    Clip`.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Feeding Frenzy]
+    perks2: [Kill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Full Bore, Extended Barrel]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]
