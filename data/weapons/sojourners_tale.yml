@@ -1,0 +1,12 @@
+name: Sojourner's Tale
+item_id: 599895591
+drop_id: 14
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Sojourner's Tale is a Legendary Slug Shotgun in the Energy slot, introduced
+  in S14.

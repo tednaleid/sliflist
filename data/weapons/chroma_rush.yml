@@ -1,0 +1,17 @@
+name: Chroma Rush
+item_id: 1119734784
+drop_id: 14
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Chroma Rush is one of the many beautiful new weapons available in S14. It's
+  a 720 RPM Rapid-Fire Frame Auto Rifle; the only available in the game apart
+  from Arctic Haze. See how they compare
+  [over on light.gg](https://www.light.gg/db/items/compare/?h=BCvcwA;BP3N0;).
+  Artic Haze suffered from a punishing base recoil and a
+  lack of stability and damage-dealing perks whereas Chroma has both of those
+  in spades.

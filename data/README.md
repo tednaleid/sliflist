@@ -1,0 +1,1 @@
+`./data` contains a catalog of constant data related to `wishlist` or the Destiny database itself.

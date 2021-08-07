@@ -1,0 +1,8 @@
+# Bundler
+.bundle/
+
+# macOS
+.DS_Store
+
+# Development notes
+scratch.txt
