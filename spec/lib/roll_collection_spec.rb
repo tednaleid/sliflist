@@ -2,6 +2,7 @@ describe RollCollection do
 
   let(:data_hash) {
     {
+      'weapon_id' => 1119734784,
       'name'     => 'Chasing Stability',
       'overview' => 'Big time Stability roll',
       'ratings_emoji' => '🏃‍♂️',
@@ -20,6 +21,12 @@ describe RollCollection do
   }
 
   subject { RollCollection.from_hash(data_hash) }
+
+  describe '#weapon_id' do
+    it 'returns the weapon_id' do
+      expect(subject.weapon_id).to eq(1119734784)
+    end
+  end
 
   describe '#name' do
     it 'returns the name' do
