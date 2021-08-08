@@ -1,6 +1,7 @@
 require 'yaml'
 
 require 'ada_1'
+require 'asher_mir'
 require 'banshee_44'
 require 'drop_source'
 require 'perk'
