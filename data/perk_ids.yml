@@ -226,7 +226,13 @@ Polymer Grip: 862848869
 Smooth Grip: 3326204863
 Textured Grip: 3917450714
 
-# Masterworks - MW 1 through 10 plus a special 10 Masterwork that's only on curated rolls
+# Masterworks - MW 1 through 10 plus a special "Fully Masterwored" ID that's
+# only on certain curated rolls. These blow out the number of rolls we capture
+# in the wishlist, but if we didn't capture then, it would stop identifying
+# rolls accurately as the Masterwork level increased.
+#
+# For example, the Charge Time one is described here (click on 'Details')
+#   https://data.destinysets.com/i/InventoryItem:1431498388
 Charge MW:    [3353797898, 3353797897, 3353797896, 3353797903, 3353797902, 3353797901, 3353797900, 3353797891, 3353797890, 3128594062, 1431498388]
 Handling MW:  [518224747,   518224744,  518224745,  518224750,  518224751,  518224748,  518224749,  518224738,  518224739, 186337601, 2357520979]
 Range MW:     [150943607,   150943604,  150943605,  150943602,  150943603,  150943600,  150943601,  150943614,  150943615, 2697220197, 684616255]
