@@ -74,9 +74,9 @@ YML
 
   before(:example) do
     FakeFS do
-      FileUtils.mkdir_p('roll_collections/s14')
-      File.write('./roll_collections/s14/chroma_rush.yml', chroma_rush_yml)
-      File.write('./roll_collections/s14/sojourners_tale.yml', sojourners_tale_yml)
+      FileUtils.mkdir_p('rolls/s14')
+      File.write('./rolls/s14/chroma_rush.yml', chroma_rush_yml)
+      File.write('./rolls/s14/sojourners_tale.yml', sojourners_tale_yml)
     end
   end
 

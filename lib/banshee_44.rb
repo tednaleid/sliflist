@@ -8,7 +8,7 @@ class Banshee44
 
   def self.populate_store
     @@ROLL_STORE = []
-    Dir['./roll_collections/**/*.yml'].each do |fn|
+    Dir['./rolls/**/*.yml'].each do |fn|
       rolls = YAML.load_file(fn)
       rolls.each do |r|
         @@ROLL_STORE << Roll.from_hash(r)
