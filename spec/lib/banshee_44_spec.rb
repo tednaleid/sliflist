@@ -36,6 +36,26 @@ describe Banshee44 do
 YML
   }
 
+  let(:imperial_needle_yml) { <<-YML
+-
+  weapon_id: 3460122497
+  name: GuiltySpark's Aggro Needle
+  ratings_emoji: 😡
+  tags: ['pvp']
+  overview: >
+    (copied from [Whispering Slab](https://rslifka.github.io/wishlist/#whispering-slab))   
+  base_perks:
+    barrels: [Elastic String]
+    magazines: [Fiberglass Arrow Shaft]
+    perks1: [Killing Wind]
+    perks2: [Opening Shot]
+    masterworks: [Accuracy MW, Draw Time MW]
+  extended_perks:
+    barrels: [Elastic String, Polymer String]
+    magazines: [Fiberglass Arrow Shaft, Straight Fletching]
+YML
+  }
+
   let(:sojourners_tale_yml) { <<-YML
 - 
   weapon_id: 599895591
@@ -74,7 +94,9 @@ YML
 
   before(:example) do
     FakeFS do
+      FileUtils.mkdir_p('rolls/s13')
       FileUtils.mkdir_p('rolls/s14')
+      File.write('./rolls/s13/imperial_needle.yml', imperial_needle_yml)
       File.write('./rolls/s14/chroma_rush.yml', chroma_rush_yml)
       File.write('./rolls/s14/sojourners_tale.yml', sojourners_tale_yml)
     end
@@ -83,30 +105,33 @@ YML
   describe '.roll_store' do
     let(:store) { Banshee44.roll_store }
 
-    it 'provides access to the proper number of weapons' do
-      expect(store.length).to eq(4)
-    end 
+    it 'provides access to rolls' do
+      store.each do |roll|
+        expect(roll).to be_a(Roll)
+      end
+    end
 
-    it 'provides the proper roll collections' do
-      store_sorted = store.sort_by{|w| "#{w.weapon_id}-#{w.name}"}
+    it 'provides access to the proper number of rolls' do
+      expect(store.length).to eq(5)
+    end
 
-      ca_catching = store_sorted[0]
-      ca_color = store_sorted[1]
-      st_slugger = store_sorted[2]
-      st_coolguy = store_sorted[3]
-
-      expect(st_slugger.weapon_id).to eq(599895591)
-      expect(st_slugger.name).to eq('Slugger\'s Choice')
-
-      expect(st_coolguy.weapon_id).to eq(599895591)
-      expect(st_coolguy.name).to eq('The Tale of Coolguy')
-
-      expect(ca_catching.weapon_id).to eq(1119734784)
-      expect(ca_catching.name).to eq('Catching Fire')
-
-      expect(ca_color.weapon_id).to eq(1119734784)
-      expect(ca_color.name).to eq('Color Wheel')
-    end  
+    # We often need to compare wishlist output when making incremental changes
+    # and having it be in a predictable order helps immensely with that
+    it 'provides the rolls in alphbetical order by weapon name' do
+      # Chroma Rush
+      expect(store[0].name).to eq('Catching Fire')
+      expect(store[0].weapon_id).to eq(1119734784)
+      expect(store[1].name).to eq('Color Wheel')
+      expect(store[1].weapon_id).to eq(1119734784)
+      # Imperial Needle
+      expect(store[2].name).to eq('GuiltySpark\'s Aggro Needle')
+      expect(store[2].weapon_id).to eq(3460122497)
+      # Sojourner's Tale
+      expect(store[3].name).to eq('The Tale of Coolguy')
+      expect(store[3].weapon_id).to eq(599895591)
+      expect(store[4].name).to eq('Slugger\'s Choice')
+      expect(store[4].weapon_id).to eq(599895591)
+    end
 
   end
 

@@ -1,0 +1,32 @@
+-
+  weapon_id: 3460122497
+  name: GuiltySpark's Aggro Needle
+  ratings_emoji: 😡
+  tags: ['pvp']
+  overview: >
+    (copied from [Whispering Slab](https://rslifka.github.io/wishlist/#whispering-slab))   
+  base_perks:
+    barrels: [Elastic String]
+    magazines: [Fiberglass Arrow Shaft]
+    perks1: [Killing Wind]
+    perks2: [Opening Shot]
+    masterworks: [Accuracy MW, Draw Time MW]
+  extended_perks:
+    barrels: [Elastic String, Polymer String]
+    magazines: [Fiberglass Arrow Shaft, Straight Fletching]
+-
+  weapon_id: 3460122497
+  name: GuiltySpark's Reserved Needle
+  ratings_emoji: 🧐
+  tags: ['pvp']
+  overview: >
+    (copied from [Whispering Slab](https://rslifka.github.io/wishlist/#whispering-slab))   
+  base_perks:
+    barrels: [High Tension String]
+    magazines: [Fiberglass Arrow Shaft]
+    perks1: [Archer's Tempo]
+    perks2: [Opening Shot]
+    masterworks: [Accuracy MW, Draw Time MW]
+  extended_perks:
+    barrels: [High Tension String, Polymer String]
+    magazines: [Fiberglass Arrow Shaft, Straight Fletching]
