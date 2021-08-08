@@ -8,6 +8,15 @@ class Perk
     @perk_ids = perk_ids
   end
 
+  def to_s
+    "Perk: #{@name}; IDs: #{@perk_ids}"
+  end
+
+  def ==(other_obj)
+    return @name == other_obj.name && 
+      @perk_ids == other_obj.perk_ids
+  end
+
   def self.from_name(perk_name)
     raise "Perk '#{perk_name}'' not found in perk_ids.yml" unless get_perk_store()[perk_name]
     get_perk_store()[perk_name]
