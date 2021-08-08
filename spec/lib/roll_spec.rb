@@ -9,14 +9,14 @@ describe Roll do
       'overview' => 'Big time Stability roll',
       'base_perks' => {
         'barrels'     => ['Arrowhead Brake'],
-        'magazines'   => ['Accelerated Coils'],
-        'perks1'      => ['Adrenaline Junkie'],
-        'perks2'      => ['Auto-Loading Holster'],
-        'masterworks' => ['Impact MW']
+        'magazines'   => ['Steady Rounds'],
+        'perks1'      => ['Tunnel Vision'],
+        'perks2'      => ['Kill Clip'],
+        'masterworks' => ['Range MW']
       },
       'extended_perks' => {
-        'barrels'     => ['Arrowhead Brake', 'Smallbore'],
-        'magazines'   => ['Accelerated Coils', 'Accurized Rounds'],
+        'barrels'     => ['Arrowhead Brake', 'Polygonal Rifling'],
+        'magazines'   => ['Steady Rounds', 'Accurized Rounds'],
       }
     }
   }
@@ -60,10 +60,10 @@ describe Roll do
       expect(b.length).to eq(5)
 
       expect(b['barrels']).to match_array([Perk.from_name('Arrowhead Brake')])
-      expect(b['magazines']).to match_array([Perk.from_name('Accelerated Coils')])
-      expect(b['perks1']).to match_array([Perk.from_name('Adrenaline Junkie')])
-      expect(b['perks2']).to match_array([Perk.from_name('Auto-Loading Holster')])
-      expect(b['masterworks']).to match_array([Perk.from_name('Impact MW')])
+      expect(b['magazines']).to match_array([Perk.from_name('Steady Rounds')])
+      expect(b['perks1']).to match_array([Perk.from_name('Tunnel Vision')])
+      expect(b['perks2']).to match_array([Perk.from_name('Kill Clip')])
+      expect(b['masterworks']).to match_array([Perk.from_name('Range MW')])
     end
   end
 
@@ -73,8 +73,8 @@ describe Roll do
 
       expect(e.length).to eq(2)
 
-      expect(e['barrels']).to match_array([Perk.from_name('Arrowhead Brake'),Perk.from_name('Smallbore')])
-      expect(e['magazines']).to match_array([Perk.from_name('Accelerated Coils'),Perk.from_name('Accurized Rounds')])
+      expect(e['barrels']).to match_array([Perk.from_name('Arrowhead Brake'),Perk.from_name('Polygonal Rifling')])
+      expect(e['magazines']).to match_array([Perk.from_name('Steady Rounds'),Perk.from_name('Accurized Rounds')])
     end
   end
 
@@ -107,36 +107,36 @@ describe Roll do
       # 🏃‍♂️🏃‍♂️🏃‍♂️🌟 Collector's Edition
       expect(variants[0].perks).to include({
         'barrels'     => [Perk.from_name('Arrowhead Brake')],
-        'magazines'   => [Perk.from_name('Accelerated Coils')],
-        'perks1'      => [Perk.from_name('Adrenaline Junkie')],
-        'perks2'      => [Perk.from_name('Auto-Loading Holster')],
-        'masterworks' => [Perk.from_name('Impact MW')]
+        'magazines'   => [Perk.from_name('Steady Rounds')],
+        'perks1'      => [Perk.from_name('Tunnel Vision')],
+        'perks2'      => [Perk.from_name('Kill Clip')],
+        'masterworks' => [Perk.from_name('Range MW')]
       })
 
       # 🏃‍♂️🏃‍♂️🏃‍♂️🌟 CE (+barrels)
       expect(variants[1].perks).to include({
-        'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Smallbore')],
-        'magazines'   => [Perk.from_name('Accelerated Coils')],
-        'perks1'      => [Perk.from_name('Adrenaline Junkie')],
-        'perks2'      => [Perk.from_name('Auto-Loading Holster')],
-        'masterworks' => [Perk.from_name('Impact MW')]
+        'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
+        'magazines'   => [Perk.from_name('Steady Rounds')],
+        'perks1'      => [Perk.from_name('Tunnel Vision')],
+        'perks2'      => [Perk.from_name('Kill Clip')],
+        'masterworks' => [Perk.from_name('Range MW')]
       })
 
       # 🏃‍♂️🏃‍♂️🏃‍♂️🌟 CE (*masterworks)
       expect(variants[3].perks).to include({
         'barrels'     => [Perk.from_name('Arrowhead Brake')],
-        'magazines'   => [Perk.from_name('Accelerated Coils')],
-        'perks1'      => [Perk.from_name('Adrenaline Junkie')],
-        'perks2'      => [Perk.from_name('Auto-Loading Holster')],
+        'magazines'   => [Perk.from_name('Steady Rounds')],
+        'perks1'      => [Perk.from_name('Tunnel Vision')],
+        'perks2'      => [Perk.from_name('Kill Clip')],
         'masterworks' => []
       })
 
       # 🏃‍♂️🏃‍♂️ (+barrels, +magazines, *masterworks)
       expect(variants[7].perks).to include({
-        'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Smallbore')],
-        'magazines'   => [Perk.from_name('Accelerated Coils'), Perk.from_name('Accurized Rounds')],
-        'perks1'      => [Perk.from_name('Adrenaline Junkie')],
-        'perks2'      => [Perk.from_name('Auto-Loading Holster')],
+        'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
+        'magazines'   => [Perk.from_name('Steady Rounds'), Perk.from_name('Accurized Rounds')],
+        'perks1'      => [Perk.from_name('Tunnel Vision')],
+        'perks2'      => [Perk.from_name('Kill Clip')],
         'masterworks' => []
       })
     end
