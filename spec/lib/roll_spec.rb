@@ -85,6 +85,12 @@ describe Roll do
       expect(variants.length).to eq(9)
     end
 
+    it 'sets the weapon IDs' do
+      variants.each do |v|
+        expect(v.weapon_id).to eq(1119734784)
+      end
+    end
+
     it 'returns variant names' do
       expect(variants[0].name).to eq('[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️🏃‍♂️🌟 Collector\'s Edition')
       expect(variants[1].name).to eq('[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️🏃‍♂️ CE (+barrels)')

@@ -1,14 +1,24 @@
 describe Variant do
 
   subject {
-    Variant.new('TEST_NAME', {
-      'barrels' => [Perk.from_name('Arrowhead Brake')],
-      'magazines' => [Perk.from_name('Accurized Rounds')],
-      'perks1' => [Perk.from_name('Backup Plan')],
-      'perks2' => [Perk.from_name('Rampage')],
-      'masterworks' => [Perk.from_name('Range MW')]
-    })
+    Variant.new(
+      'TEST_WEAPON_ID',
+      'TEST_NAME',
+      {
+        'barrels' => [Perk.from_name('Arrowhead Brake')],
+        'magazines' => [Perk.from_name('Accurized Rounds')],
+        'perks1' => [Perk.from_name('Backup Plan')],
+        'perks2' => [Perk.from_name('Rampage')],
+        'masterworks' => [Perk.from_name('Range MW')]
+      }
+    )
   }
+
+  describe '#weapon_id' do
+    it 'returns the name' do
+      expect(subject.weapon_id).to eq('TEST_WEAPON_ID')
+    end
+  end
 
   describe '#name' do
     it 'returns the name' do
