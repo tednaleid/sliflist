@@ -5,10 +5,11 @@ class AsherMir
   end
 
   def wishlist
-    StringIO.new.tap do |output|
-      output.puts('//notes:'+@variant.name)
-      output.puts(entries)
-    end.string
+    results = StringIO.new
+    results << "//notes:#{@variant.name}"
+    results << "\n"
+    results << entries.split("\n").sort.join("\n")
+    results.string
   end
 
   def self.generate_dim_wishlist(variant)

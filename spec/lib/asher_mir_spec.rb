@@ -68,9 +68,7 @@ describe AsherMir do
 
     context 'when there are multiple perks in nearly every slot' do
       it 'creates a wishlist' do
-        wishlist = AsherMir.generate_dim_wishlist(add_barrels_add_masterwork_variant)
-        wishlist = wishlist.split("\n").sort.join("\n")
-        expect(wishlist).to eq(add_barrels_add_masterwork_gold)
+        expect(AsherMir.generate_dim_wishlist(add_barrels_add_masterwork_variant)).to eq(add_barrels_add_masterwork_gold)
       end
     end
   end
