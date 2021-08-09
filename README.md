@@ -1,7 +1,7 @@
 
 [Wishlist - Latest Version](https://raw.githubusercontent.com/rslifka/sliflist/master/wishlist.txt)
 
-[Roll Commentary - Latest Version](https://rslifka.github.io/wishlist/)
+[Roll Commentary - Latest Version](#) - Temporarily disabled
 
 # Welcome
 *"Did I strike Silver or Gold? Should I shard or keep this?"*
