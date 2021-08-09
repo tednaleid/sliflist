@@ -1,0 +1,14 @@
+name: Gridskipper
+item_id: 1621558458
+drop_id: 14
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Gridskipper is a 540RPM Rapid-Fire Pulse Rifle introduced in Season 14. It's
+  the only 540 RPM Energy Pulse Rifle available at the moment and drops with all
+  of the new seasonal perks. Definitely pick this up if you frequent the
+  Crucible.

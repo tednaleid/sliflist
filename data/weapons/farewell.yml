@@ -1,0 +1,14 @@
+name: Farewell
+item_id: 541188001
+drop_id: 14
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Farewell is a Lightweight frame, 360 RPM Sidearm introduced in S14. It's the
+  only Kinetic Lightweight available in the game, and the only *other* sidearm
+  [of that type](https://www.light.gg/db/items/compare/?h=gQd-h;DqtxKU)
+  entirely.
