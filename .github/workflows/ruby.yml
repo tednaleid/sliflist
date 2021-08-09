@@ -1,0 +1,27 @@
+name: Combine wishlists and commit to master
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: Build and test with Rake
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec rake
+    # - name: Commit files
+    #   run: |
+    #     git config --local user.email "action@github.com"
+    #     git config --local user.name "GitHub Action"
+    #     git add wishlist.txt
+    #     git add docs
+    #     git commit -m "Publishing latest wishlist and thoughts"
+    # - name: GitHub Push
+    #   uses: ad-m/github-push-action@v0.5.0
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
