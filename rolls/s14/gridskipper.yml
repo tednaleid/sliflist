@@ -1,0 +1,55 @@
+-
+  weapon_id: 1621558458
+  name: Heat Dome
+  ratings_emoji: 🥵
+  tags: ['pvp']
+  overview: >
+    The two new third-column perks `Heating Up` and `Tunnel Vision` are
+    brilliant on the Gridskipper. I'm partial to `Heating Up` but people
+    love them both. The roll wouldn't otherwise be different so I'm
+    combining them here.
+  base_perks: 
+    barrels: [Arrowhead Brake]
+    magazines: [Ricochet Rounds]
+    perks1: [Heating Up, Tunnel Vision]
+    perks2: [Multikill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell, Light Mag, Armor-Piercing Rounds]
+-
+  weapon_id: 1621558458
+  name: Quick and the Dead
+  ratings_emoji: 💀
+  tags: ['pvp']
+  overview: >
+    Nice little pairing of two perks that play off of each other's
+    benefits to ADS (`Moving Target` increases movement speed while
+    ADS and `Snapshot` increases ADS speed).
+  base_perks: 
+    barrels: [Arrowhead Brake]
+    magazines: [Ricochet Rounds]
+    perks1: [Moving Target]
+    perks2: [Snapshot]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell, Light Mag, Armor-Piercing Rounds]
+-
+  weapon_id: 1621558458
+  name: Gardening
+  ratings_emoji: 🪴
+  tags: ['pvp']  
+  overview: >
+    On Pulse Rifles, `Firmly Planted` is an acquired taste. I loved it on
+    my Jian 7 paired with `Rangefinder`; amazing laser beam on long(er)
+    sight lines.
+  base_perks: 
+    barrels: [Arrowhead Brake]
+    magazines: [Ricochet Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Multikill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell, Light Mag, Armor-Piercing Rounds]

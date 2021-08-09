@@ -1,0 +1,36 @@
+-
+  weapon_id: 541188001
+  name: exit(0)
+  ratings_emoji: 🛫
+  tags: ['pvp']
+  overview: >
+    Pairing together perks that proc after kills/reloads to set us up for
+    streaks. We'll take any combo of top-tier `Stability`- or `Range`-
+    enhancing perks as follow-ups.
+  base_perks:
+    barrels: [Chambered Compensator, Hammer-Forged Rifling]
+    magazines: [Steady Rounds, Accurized Rounds]
+    perks1: [Tunnel Vision, Heating Up]
+    perks2: [Multikill Clip]
+    masterworks: [Stability MW, Range MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Polygonal Rifling, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Steady Rounds, Accurized Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 541188001
+  name: At Arm's Length
+  ratings_emoji: 🙋
+  tags: ['pvp']
+  overview: >
+    Back in the Breachlight days, shutting down supers with a Vorpal-based
+    roll was a fun gimmick. If we invest everything into `Range`, we can
+    get ADS effectiveness from to 14.67m to 17.32m.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Rangefinder]
+    perks2: [Vorpal Weapon]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Full Bore]
+    magazines: [Accurized Rounds, Tactical Mag, Flared Magwell]
