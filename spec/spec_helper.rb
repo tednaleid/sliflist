@@ -12,13 +12,16 @@ RSpec.configure do |config|
 
   config.before(:example) do
     FakeFS do
-      Dir.mkdir('data')
-      
+      # Some of our services memoize and need to be cleared out between spes
+      Banshee44.reboot
+
       # Many of our specs require various Perk and Drop Source lookups, so we'll
       # copy these into our clean room before every example.
       #
       # These are static resources in the Destiny universe and once present,
       # will not change (e.g. Season 14 will exist in perpetuity).
+      Dir.mkdir('data')
+
       original_filename =  File.expand_path('../../data/perk_ids.yml', __FILE__)
       FakeFS::FileSystem.clone(original_filename, './data/perk_ids.yml')
 

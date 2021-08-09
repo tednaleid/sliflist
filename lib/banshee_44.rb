@@ -4,6 +4,10 @@ class Banshee44
     @@ROLL_STORE ||= populate_store
   end
 
+  def self.reboot
+    @@ROLL_STORE = nil
+  end
+
   private
 
   def self.populate_store
