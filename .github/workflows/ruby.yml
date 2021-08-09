@@ -1,7 +1,7 @@
 name: Test and Create the Wishlist
 on: [push]
 jobs:
-  test:
+  test_generate_publish:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
@@ -10,19 +10,9 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - run: bundle exec rake
-  generate_wishlist:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate wishlist
-        run: bundle exec rake generate_wishlist
-  commit_wishlist:
-    needs: generate_wishlist
-    runs-on: ubuntu-latest
-    steps:
-      - name: Commit wishlist
-        run: |
+      - run: |
+          bundle exec rake
+          bundle exec rake generate_wishlist
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add wishlist.txt
