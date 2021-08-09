@@ -1,22 +1,33 @@
-name: Combine wishlists and commit to master
+name: Test and Create the Wishlist
 on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
-    - run: bundle exec rake
-    # - name: Commit files
-    #   run: |
-    #     git config --local user.email "action@github.com"
-    #     git config --local user.name "GitHub Action"
-    #     git add wishlist.txt
-    #     git add docs
-    #     git commit -m "Publishing latest wishlist and thoughts"
-    # - name: GitHub Push
-    #   uses: ad-m/github-push-action@v0.5.0
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - run: bundle exec rake
+  generate_wishlist:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate wishlist
+        run: bundle exec rake generate_wishlist
+  commit_wishlist:
+    needs: generate_wishlist
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commit wishlist
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add wishlist.txt
+          git commit -m "Publishing latest wishlist"
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
