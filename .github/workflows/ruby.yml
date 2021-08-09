@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Install dependencies
         uses: ruby/setup-ruby@v1
         with:
@@ -15,12 +15,6 @@ jobs:
           bundle exec rake
           bundle exec rake generate_wishlist
       - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add wishlist.txt
-          git commit -m "Publishing latest wishlist"
-      - name: GitHub Push
-        uses: ad-m/github-push-action@v0.6.0
+        uses: EndBug/add-and-commit@v7
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          add: wishlist.txt
