@@ -10,14 +10,17 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - run: |
+      - name: Build and test with Rake
+        run: |
           bundle exec rake
           bundle exec rake generate_wishlist
+      - name: Commit files
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add wishlist.txt
           git commit -m "Publishing latest wishlist"
       - name: GitHub Push
-        uses: ad-m/github-push-action@v0.5.0
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
