@@ -6,9 +6,11 @@ RSpec::Core::RakeTask.new(:spec) do |t|
   t.verbose = false
 end
 
-task :generate_wishlist do 
-  puts 'Generating wishlist...'
-  Director.write_dim_wishlist('wishlist.txt')
+task :generate_wishlist, [:environment] do |t, args|
+  filename = (args.environment == 'development') ? 'wishlist.dev.txt' : 'wishlist.txt'
+  puts '[Director] Generating wishlist...'
+  Director.write_dim_wishlist(filename)
+  puts '[Director] Done'
 end
 
 task :default => :spec
