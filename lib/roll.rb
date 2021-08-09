@@ -38,6 +38,7 @@ class Roll
       perks = Marshal.load(Marshal.dump(@base_perks))
 
       pattern.scan(/\.*\+(\w+)/) do |addition|
+        raise "A variant was specified with an extended (+) perk ('#{addition[0]}'), but that perk wasn't specified under 'extended_perks'. Weapon ID: #{@weapon_id}, Roll Name: #{@name}, Variant Name: #{name}" unless @extended_perks[addition[0]]
         perks[addition[0]] = @extended_perks[addition[0]]
       end
 
