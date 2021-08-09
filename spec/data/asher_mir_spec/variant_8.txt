@@ -1,0 +1,2 @@
+//notes:[pve,pvp] "Chasing Stability" 🏃‍♂️ (*barrels, *magazines, *masterworks)
+dimwishlist:item=1119734784&perks=2946784966,1015611457

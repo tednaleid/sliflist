@@ -21,56 +21,40 @@ describe AsherMir do
     )
   }
 
-  # One perk per slot
-  let(:ce_variant) { Banshee44.roll_store[0].variants[0] }
-  let(:ce_gold) { 
-    FakeFS.deactivate!
-    data = File.read(File.expand_path('../../data/asher_mir_spec/ce.txt', __FILE__))
-    FakeFS.activate!
-    data
-  }
-
-  # Empty slot
-  let(:ce_any_masterwork_variant) { Banshee44.roll_store[0].variants[3] }
-  let(:ce_any_masterwork_gold) { 
-    FakeFS.deactivate!
-    data = File.read(File.expand_path('../../data/asher_mir_spec/ce_any_masterwork.txt', __FILE__))
-    FakeFS.activate!
-    data
-  }
-
-  # Multiple perks in nearly every slot
-  let(:add_barrels_add_masterwork_variant) { Banshee44.roll_store[0].variants[4] }
-  let(:add_barrels_add_masterwork_gold) { 
-    FakeFS.deactivate!
-    data = File.read(File.expand_path('../../data/asher_mir_spec/add_barrels_add_magazines.txt', __FILE__))
-    FakeFS.activate!
-    data
-  }
+  subject { AsherMir.new(roll) }
 
   before(:example) do
     allow(Banshee44).to receive(:roll_store).and_return([roll])
   end
 
-  describe '.generate_dim_wishlist' do
-    
-    context 'when there is basically one perk per slot' do
-      it 'creates a wishlist' do
-        expect(AsherMir.generate_dim_wishlist(ce_variant)).to eq(ce_gold)
+  let(:variant_gold_data) {
+    FakeFS.deactivate!
+    gold_data = []
+    (0..8).each do |i|
+      gold_data << File.read(File.expand_path("../../data/asher_mir_spec/variant_#{i}.txt", __FILE__))
+    end
+    FakeFS.activate!
+    gold_data
+  }
+
+  describe '#generate_wishlist' do
+    it 'generates a wishlist comprised of all variant wishlists' do
+      expect(subject.generate_wishlist).to eq(variant_gold_data.join("\n"))
+    end
+  end
+
+  describe '#variant_wishlists' do
+
+    it 'generates the right number of wishlists' do
+      expect(subject.variant_wishlists.length).to eq(9)
+    end
+
+    it 'generates a wishlist for each variant' do
+      (0..8).each do |i|
+        expect(subject.variant_wishlists[i]).to eq(variant_gold_data[i])
       end
     end
 
-    context 'when a slot has no perks specified' do
-      it 'creates a wishlist' do
-        expect(AsherMir.generate_dim_wishlist(ce_any_masterwork_variant)).to eq(ce_any_masterwork_gold)
-      end
-    end
-
-    context 'when there are multiple perks in nearly every slot' do
-      it 'creates a wishlist' do
-        expect(AsherMir.generate_dim_wishlist(add_barrels_add_masterwork_variant)).to eq(add_barrels_add_masterwork_gold)
-      end
-    end
   end
 
 end
