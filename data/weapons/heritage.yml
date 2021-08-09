@@ -1,0 +1,16 @@
+name: Heritage
+item_id: 4248569242
+drop_id: dsc
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Heritage is a kinetic "precision frame" (slug) shotgun that can drop from the 2nd
+  and 3rd encounters of the Deep Stone Crypt raid.  After the initial drop,
+  you have a chance of getting additional rolls from the raid's secret chests.
+
+  As of Season 12, it is the only legendary kinetic slug shotgun that is
+  viable in leveled content.

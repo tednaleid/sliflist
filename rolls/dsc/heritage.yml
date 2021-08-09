@@ -1,0 +1,94 @@
+-
+  weapon_id: 4248569242
+  name: Long-Distance Relationship
+  ratings_emoji: 🌎
+  tags: ['pvp']
+  overview: >
+    With a base `Range` of 71, you can max out the Range on a Heritage roll to
+    give you a bit of an edge in shotgun duels.
+  base_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Slideshot]
+    perks2: [Snapshot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+-
+  weapon_id: 4248569242
+  name: Long-Distance Relationship (-Slideshot)
+  ratings_emoji: 👋
+  tags: ['pvp']
+  overview: >
+    Just like the similarly-named roll, with only Snapshot and max Range, you
+    still have a terrific roll to take into the Crucible.
+  base_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: []
+    perks2: [Snapshot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+-
+  weapon_id: 4248569242
+  name: Killing Slide
+  ratings_emoji: 🎢️
+  tags: ['pvp']
+  overview: >
+    `Killing Wind` providing `Opening Shot`-like levels of AA and with big bumps
+    to ADS movement speed and Handling as well.
+  base_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Slideshot]
+    perks2: [Killing Wind]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+-
+  weapon_id: 4248569242
+  name: Re-Re-Re-Re-Combo Breaker!
+  ratings_emoji: 💥
+  tags: ['pve']
+  overview: >
+    Reconstruction is a new perk that currently only drops on
+    rolls from the DSC Raid.  Every 4 seconds it loads 10% of the
+    base magazine from reserves into the gun, and it maxes out at
+    2x the normal magazine size.  It starts at a base of 6 (12) but
+    with Extended Mag and the Backup Mag mod you can get up to 8 (16)
+    shots without reloading!
+
+    None of the traditional damage perks (Rampage, Kill Clip, Vorpal) are
+    available on this gun, so our best bet for the 4th column is another
+    new perk, Recombination.  Final blows from all "elemental" sources
+    (so, everything that isn't this shotgun) stack up to 10x.  Each stack
+    will add 10% for the next Heritage shot (so up to 2x damage).
+  base_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling]
+    magazines: [Assault Mag]
+    perks1: [Reconstruction]
+    perks2: [Recombination]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Light Mag, Accurized Rounds]
+-
+  weapon_id: 4248569242
+  name: Family Reunion
+  ratings_emoji: 👪
+  tags: ['pve']
+  overview: >
+    Without Recombination, this is still a top-tier PvE boss DPS roll
+  base_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling]
+    magazines: [Assault Mag]
+    perks1: [Reconstruction]
+    perks2: []
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Light Mag, Accurized Rounds]
