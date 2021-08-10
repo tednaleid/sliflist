@@ -1,0 +1,116 @@
+-
+  weapon_id: 766323545
+  name: Weird Auto Rifle but OK
+  ratings_emoji: 🤷‍♂️🌱
+  tags: ['pvp']
+  overview: >
+    We're going to use a Counterbalance Mod to get the Recoil to 100, so
+    we can go for Stability-enhancing Barrel options. Wait, what the
+    hell is `Elemental Capacitor` doing in there?! The Handling and
+    Stability bonuses are material. The Stability bonus is the most
+    noticeable, 
+    [estimated](https://youtu.be/D_Mv-AdfYqM?t=36) to be around `20
+    points`. You *absolutely* feel the difference with `Elemental
+    Capacitor` active (don't forget to swap weapons if you're testing it)
+    so I won't be relaxing it on these rolls. I think there's not much of
+    a point to this SMG above other Energy weapons unless you can flex
+    what makes it unique, and `Elemental Capacitor` certainly does that.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Elemental Capacitor]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 766323545
+  name: Weird Auto Rifle but OK (-Firmly Planted)
+  ratings_emoji: 🤷‍♂️
+  tags: ['pvp']
+  overview: >
+    Same as the previous roll, minus `Firmly Planted`.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: []
+    perks2: [Elemental Capacitor]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 766323545
+  name: Super Shredder
+  ratings_emoji: 💥🌱
+  tags: ['pvp']
+  overview: >
+    Same as our initial set of rolls, pivoting around `Vorpal` if you
+    love shredding supers in PvP, which we can all agree is Destiny's
+    National Pasttime.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Vorpal]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 766323545
+  name: Super Shredder (-Firmly Planted)
+  ratings_emoji: 💥
+  tags: ['pvp']
+  overview: >
+    Same as our initial set of rolls, pivoting around `Vorpal` if you
+    love shredding supers in PvP, which we can all agree is Destiny's
+    National Pasttime.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: []
+    perks2: [Vorpal]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 766323545
+  name: Champion Shredder
+  ratings_emoji: 🏆💥
+  tags: ['pve']
+  overview: >
+    Whenever SMGs are up on the Artifact, you'll want Vorpal to help shred
+    through Champions. FTTC might seem like a strange choice for an SMG
+    but the rate of fire is so fast, you'd be surprised how often it you
+    end up getting it to proc. I won't be relaxing either Vorpal or FTTC
+    on these rolls because just one of either would mean that it's not
+    worth using this over something else in the Energy slot.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Fourth Time's the Charm]
+    perks2: [Vorpal]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 766323545
+  name: Frenzied Cell Generator
+  ratings_emoji: 😡☄️
+  tags: ['pve']
+  overview: >
+    Good for generating Warmind Cells against hordes of enemies. Best for
+    low and mid tier add clear.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Ambitious Assassin]
+    perks2: [Feeding Frenzy]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]

@@ -1,0 +1,39 @@
+-
+  weapon_id: 2582755344
+  name: Sniper MG
+  ratings_emoji: 🎯
+  tags: ['pvp']
+  overview: >
+    Any basic roll will chew up Guardians with a lot of flinch. Let's add
+    `Range` and `Stability` where we can, while seeing what `Opening Shot`
+    can do.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Ricochet Rounds]
+    perks1: []
+    perks2: [Opening Shot]
+    masterworks: [Range MW, Stability MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Polygonal Rifling, Fluted Barrel]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Light Mag, Armor-Piercing Rounds]
+-
+  weapon_id: 2582755344
+  name: Together Forever
+  ratings_emoji: 🤝♬
+  tags: ['pve']
+  overview: >
+    With other Guardians at your side, you will rip through hordes of
+    aliens no problem. We're taking any Barrel that increases Stability
+    and magazine-extended... Magazines. Extended Magazine would normally
+    be a hot mess with a base `Reload` so low, but with Field Prep it
+    only takes the reload from ~3.5s to ~4.5s (still 1s shorter than the
+    base `Reload`).
+  base_perks:
+    barrels: [Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Appended Mag, Extended Mag]
+    perks1: [Field Prep]
+    perks2: [Firing Line]
+    masterworks: [Stability MW, Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Polygonal Rifling, Fluted Barrel]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Light Mag, Armor-Piercing Rounds]

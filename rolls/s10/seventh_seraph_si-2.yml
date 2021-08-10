@@ -1,0 +1,90 @@
+-
+  weapon_id: 3937866388
+  name: Full Auto Super Shredder
+  ratings_emoji: 🎯
+  tags: ['pvp']
+  overview: >
+    These rolls aren't super tight on the Barrel and Magazine front
+    because they aren't going to dramatically alter the value of the
+    overall roll. Vorpal is really the key here. Without Vorpal, you're
+    better off using the better-rolled Anonymous Autumn as mentioned
+    above. Otherwise we're going for +Range and +Stability wherever we
+    can get it.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Full Auto Trigger System]
+    perks2: [Vorpal]
+    masterworks: [Stability MW, Range MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Corkscrew Rifling, Hammer-Forged Rifling]
+    magazines: [Accurized Rounds, Steady Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 3937866388
+  name: Sparks Flying
+  ratings_emoji: 🎇
+  tags: ['pve']
+  overview: >
+    The SI-2 is the only sidearm in the game that can roll with both
+    Demolitionist and Dragonfly. That's exciting because Demolitionist
+    counts the Dragonfly collateral kills towards getting your grenade
+    back. Don't forget the `Dragonfly Spec` mod from Ada-1!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Demolitionist]
+    perks2: [Dragonfly]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 3937866388
+  name: Champion Slayer
+  ratings_emoji: 🏆
+  tags: ['pve']
+  overview: >
+    When sidearms are up in the seasonal artifact, this is a solid choice!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Full Auto Trigger System]
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 3937866388
+  name: Champion Slayer (- Full Auto)
+  ratings_emoji: 🏆
+  tags: ['pve']
+  overview: >
+    When sidearms are up in the seasonal artifact, this is a solid choice!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: []
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 3937866388
+  name: You're Trapped In Here With Me
+  ratings_emoji: 🏢
+  tags: ['pve']
+  overview: >
+    Like Grave Robber and Swashbuckler, these two perks play super well
+    off each other. If you love sidearms, considering adding this to your
+    collection. You'll do some serious damage during Seraph Tower events.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Threat Detector]
+    perks2: [Surrounded]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]

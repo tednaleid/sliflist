@@ -1,0 +1,87 @@
+-
+  weapon_id: 3037520408
+  name: Drewsky's "Planted Range"
+  ratings_emoji: 🏔🌱
+  tags: ['pvp']
+  overview: >
+    *"Timed Payload?! That's supposed to be positively horrible. Doesn't it
+    lower your TTK?"* Well, it causes double the flinch and the explosion
+    has no range falloff. On a 180 RPM Hand Cannon, Timed Payload
+    shouldn't lower the TTK (Drewsky didn't have one on hand to verify the
+    math) as you would be getting the kill on the last bullet and not on
+    the last 17 damage from Timed Payload.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Timed Payload]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 3037520408
+  name: Ticking Timebomb
+  ratings_emoji: ⏰
+  tags: ['pvp']
+  overview: >
+    Similar to Drewsky's roll above, but without `Firmly Planted`.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: []
+    perks2: [Timed Payload]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 3037520408
+  name: Super Shredder
+  ratings_emoji: 💥
+  tags: ['pvp']
+  overview: >
+    Similar to Drewsky's roll above, but without `Firmly Planted`.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: []
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 3037520408
+  name: Butter and Citrus Bar Shredder
+  ratings_emoji: 🧈🍊
+  tags: ['pve']
+  overview: >
+    This is designed for dumping rounds into tough enemies in high(er)-end PvE
+    content.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Fourth Time's the Charm]
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Alloy Magazine, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 3037520408
+  name: Warmind Cell Generator
+  ratings_emoji: ☄️
+  tags: ['pve']
+  overview: >
+    You'll do solid work with in lower/middle tier PvE content (e.g.
+    your daily bounty grinds, Vanguard Strike playlist).
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Alloy Magazine]
+    perks1: [Threat Detector, Ambitious Assassin]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Alloy Magazine, Tactical Mag, Flared Magwell]
