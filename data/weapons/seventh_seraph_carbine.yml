@@ -1,0 +1,16 @@
+name: Seventh Seraph Carbine
+item_id: 1561006927
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Seventh Seraph Carbine (SSC) is a 450 RPM "Precision Frame" Kinetic
+  Auto Rifle. Let's start with a quick comparison to randomly-rolled 450s,
+  over on
+  [light.gg](https://www.light.gg/db/items/compare/?h=BdCxNP;mJ1-6;Bqp0Wx;Fju9i;DmTiv3).
+  In general the 450s are fairly the same stat-wise, with a material
+  deviation in Aim Assist for the SSC; easily addressable with an Aim Assist
+  mod. 

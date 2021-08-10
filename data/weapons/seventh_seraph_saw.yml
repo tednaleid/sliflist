@@ -1,0 +1,14 @@
+name: Seventh Seraph SAW
+item_id: 2582755344
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Drewsky has a great review of the
+  [Bane of Sorrow](https://www.youtube.com/watch?v=G7hqmrV1pk0), another
+  360 RPM "High-Impact Frame" Machine Gun. From the review, it hits for
+  48 crit / 38 body (TTK 0.5s / 0.83s). It's got terrific range and flinches
+  like crazy.

@@ -1,0 +1,17 @@
+name: Seventh Seraph VY-7
+item_id: 766323545
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 4, c: 1}
+  perks2:      {t: 4, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The VY-7 is a 600 RPM Energy "Precision Frame" SMG. Here's how it compares
+  to all other randomly-rolled 600 RPM SMGs on
+  [light.gg](https://www.light.gg/db/items/compare/?h=trStZ;CYr9QP;CQZu7f;B9hF8b;).
+  It's competitive base-stat-wise but there's a reason you've probably never
+  been killed by any of these weapons (or any SMG for that matter) since the
+  first year of Destiny 2. In Season 10 with the recent Adaptive Auto Rifle
+  buff, Auto Rifles outclass SMGs and failing ARs, both sidearms and
+  shotguns are going to frustrate the hell out of you.

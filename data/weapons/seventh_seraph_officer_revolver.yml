@@ -1,0 +1,16 @@
+name: Seventh Seraph Officer Revolver
+item_id: 3037520408
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Officer Revolver is a 180 RPM Kinetic Hand Cannon. See how it compares
+  to other 180 RPM Hand Cannons over on
+  [light.gg](https://www.light.gg/db/items/compare/?h=C1DOIY;xtxS0;DzBRNi)
+  Let's start off with Mercules and Kyt from the latest Massive Breakdown
+  podcast. Turns out they
+  [aren't super hot](https://soundcloud.com/destinymassivebreakdowns/episode-156-seventh-seraph-weapons-breakdown#t=33:44)
+  on the Officer's Revolver.
