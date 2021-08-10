@@ -1,0 +1,69 @@
+-
+  weapon_id: 4292849692
+  name: Magnetic Bullets
+  ratings_emoji: 🧲
+  tags: ['pvp']
+  overview: >
+    One of the rare weapons that can roll with both `Moving Target` and
+    `Opening Shot` at the same time. The 110s have a punishing kick so
+    after that, we're going for `Stability`.
+  base_perks:
+    barrels: [Steadyhand HCS]
+    magazines: [Steady Rounds]
+    perks1: [Moving Target]
+    perks2: [Opening Shot]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 4292849692
+  name: Fast Action
+  ratings_emoji: ⏩
+  tags: ['pvp']
+  overview: >
+    The 110s have low Handling because they're supposed to embody the
+    "Cannon" part of "Hand Cannon". Adding Snapshot to the mix can make
+    all the difference in how a 110 feels.
+  base_perks:
+    barrels: [Steadyhand HCS]
+    magazines: [Steady Rounds]
+    perks1: [Snapshot]
+    perks2: [Opening Shot]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 4292849692
+  name: Gunslinger
+  ratings_emoji: 🤠
+  tags: ['pve']
+  overview: >
+    Fast reload and as much `Range` as we can get. 
+  base_perks:
+    barrels: [Sureshot HCS]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw]
+    perks2: [Kill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Sureshot HCS, Crossfire HCS, Hitmark HCS, Truesight HCS]
+    magazines: []
+-
+  weapon_id: 4292849692
+  name: Ammo Waster
+  ratings_emoji: 🗑
+  tags: ['pve']
+  overview: >
+    Replacing our need for `Outlaw` with `Drop Mag`, then as much `Range`
+    as we can get.
+  base_perks:
+    barrels: [Sureshot HCS]
+    magazines: [Drop Mag]
+    perks1: []
+    perks2: [Kill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Sureshot HCS, Crossfire HCS, Hitmark HCS, Truesight HCS]
+    magazines: []

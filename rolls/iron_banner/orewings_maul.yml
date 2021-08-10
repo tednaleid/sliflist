@@ -1,0 +1,33 @@
+-
+  weapon_id: 2108920981
+  name: Blinded by the Light
+  ratings_emoji: 🙈
+  tags: ['pve']
+  overview: >
+    Blindling Grenades are absolutely clutch in top-tier PvE content.
+  base_perks:
+    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    magazines: [Blinding Grenades]
+    perks1: [Quickdraw]
+    perks2: [Auto-Loading Holster]
+    masterworks: [Velocity MW]
+  extended_perks:
+    barrels: []
+    magazines: []
+-
+  weapon_id: 2108920981
+  name: Welcome to the Boomtown
+  ratings_emoji: 💥
+  tags: ['pve']
+  overview: >
+    Maximize direct damage on larger enemies with Spike Grenades, reload
+    perks and masterwork as you're relying on this weapon and not others.
+  base_perks:
+    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    magazines: [Spike Grenades]
+    perks1: [Field Prep]
+    perks2: [Auto-Loading Holster, Demolitionist]
+    masterworks: [Reload MW]
+  extended_perks:
+    barrels: []
+    magazines: []

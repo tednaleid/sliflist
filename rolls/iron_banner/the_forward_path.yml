@@ -1,0 +1,94 @@
+-
+  weapon_id: 1690783811
+  name: Chasing Stability
+  ratings_emoji: 🏃‍♂️
+  tags: ['pvp']
+  overview: >
+    `Tap the Trigger` starts you off stable and `Dynamic Sway Reduction`
+    keeps you stable. `Iron Grip` is a crazy boost to `Stability`.
+  base_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA]
+    magazines: [Steady Rounds]
+    perks1: [Dynamic Sway Reduction]
+    perks2: [Tap the Trigger, Iron Grip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA, Cleanshot IS, Hitmark IS]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 1690783811
+  name: Knock 'em Down
+  ratings_emoji: 🎳
+  tags: ['pvp']
+  overview: >
+    Don't underestimate the effect of MKC. Here's how it plays out:
+
+    * Base: 9 shots (8C, 1B) - 0.8s TTK // 14B 1.3s
+
+    * MKCx1: 7 shots (7C, 0B) - 0.6s TTK // 12B 1.1s
+
+
+    That's a pretty solid little boost; definitely spicy in sixes.
+  base_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA]
+    magazines: [Steady Rounds]
+    perks1: [Dynamic Sway Reduction]
+    perks2: [Multikill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA, Cleanshot IS, Hitmark IS]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 1690783811
+  name: CoolGuy's Hybrid AR/SMG
+  ratings_emoji: 😎
+  tags: ['pvp']
+  overview: >
+    Since damage falloff happens at 20m, you want these super zoomed out
+    scopes and all the `Stability` and `Handling` we can get. We're only
+    going to accept low-zoom scopes because you can only use this as close
+    range and long-zoom scope won't have any use (and works against you).
+  base_perks:
+    barrels: [Cleanshot IS, Hitmark IS]
+    magazines: [Steady Rounds]
+    perks1: [Dynamic Sway Reduction]
+    perks2: [Iron Gaze]
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA, Cleanshot IS, Hitmark IS]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 1690783811
+  name: Robbin' and Bucklin'
+  ratings_emoji: 🦹‍♂️
+  tags: ['pve']
+  overview: >
+    Classic combo here. Grave Robber creates ammo to reload the mag and
+    that melee kill will activate Swashbuckler x5.
+  base_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA]
+    magazines: [Accurized Rounds]
+    perks1: [Grave Robber]
+    perks2: [Swashbuckler]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA, Cleanshot IS, Hitmark IS]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Extended Mag]
+-
+  weapon_id: 1690783811
+  name: Ragin', Clippin' and Bucklin'
+  ratings_emoji: 😡
+  tags: ['pve']
+  overview: >
+    While Feeding Frenzy was slightly nerfed, it's still a terrific perk,
+    activating (and stackin) on any kill. With two kills, you're at Outlaw
+    level and with three kills you're beyond Outlaw.
+  base_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA]
+    magazines: [Accurized Rounds]
+    perks1: [Feeding Frenzy]
+    perks2: [Multikill Clip, Swashbuckler]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Red Dot Micro, Red Dot 2 MOA, Cleanshot IS, Hitmark IS]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Extended Mag]

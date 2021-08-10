@@ -1,0 +1,71 @@
+-
+  weapon_id: 3169616514
+  name: Snappy Opener
+  ratings_emoji: 🤞
+  tags: ['pvp']
+  overview: >
+    This series of rolls is based around Snapshot and Accuracy-increasing
+    final-column perks. After that, we're looking for as much `Range` and
+    `Handling` as we can get.
+  base_perks:
+    barrels: [Fluted Barrel]
+    magazines: [Accurized Rounds]
+    perks1: [Snapshot]
+    perks2: [Opening Shot]
+    masterworks: [Range MW, Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []
+-
+  weapon_id: 3169616514
+  name: Mobile Opener
+  ratings_emoji: 🏃‍♂️
+  tags: ['pvp']
+  overview: >
+    Same as the above set of rolls, but with `Moving Target` instead of
+    `Opening Shot`.
+  base_perks:
+    barrels: [Fluted Barrel]
+    magazines: [Accurized Rounds]
+    perks1: [Snapshot]
+    perks2: [Moving Target]
+    masterworks: [Range MW, Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []
+-
+  weapon_id: 3169616514
+  name: Drewsky's Planted Opener
+  ratings_emoji: 🌱
+  tags: ['pvp']
+  overview: >
+    As suggested by Drewsky in his
+    [Bite of the Fox Has a Unique "God Roll" to Farm For](https://www.youtube.com/watch?v=3GLfGLa-oYg)
+    video, here's a similar set of rolls based on `Firmly Planted`.
+  base_perks:
+    barrels: [Fluted Barrel]
+    magazines: [Accurized Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Opening Shot]
+    masterworks: [Range MW, Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []
+-
+  weapon_id: 3169616514
+  name: Planted Dissonance
+  ratings_emoji: 🤔
+  tags: ['pvp']
+  overview: >
+    Similar to the above set of `Firmly Planted`-based rolls, but this
+    time with `Moving Target` in the final slot. Oddly, you get the
+    `Accuracy` benefit of `Moving Target` without actually moving.
+  base_perks:
+    barrels: [Fluted Barrel]
+    magazines: [Accurized Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Moving Target]
+    masterworks: [Range MW, Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []

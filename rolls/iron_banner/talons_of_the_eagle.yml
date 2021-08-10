@@ -1,0 +1,55 @@
+-
+  weapon_id: 1982711279
+  name: Planting Bombs
+  ratings_emoji: 🌿
+  tags: ['pvp']
+  overview: >
+    `Firmly Planted` is terrific on long-range weapons like Pulse and
+    Scout Rifles where you can post up in cover and peek shoot from a
+    distance. There's also not much else terrific in that slot. Zen
+    Moment is good, but Firmly Planted outclasses it.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Explosive Payload]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling, Arrowhead Brake]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 1982711279
+  name: Raining Fire
+  ratings_emoji: 🌧
+  tags: ['pvp']
+  overview: >
+    We're going to repeat the same set of rolls that we have above, minus
+    `Firmly Planted` which is a pretty big playstyle preference that some
+    folks are not super keen on. It's not a make-or-break here, so we're
+    also going to feature rolls without it.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Zen Moment]
+    perks2: [Explosive Payload]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling, Arrowhead Brake]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 1982711279
+  name: Gunslinger
+  ratings_emoji: 🤠
+  tags: ['pve']
+  overview: >
+    `Outlaw` + `Rampage`, same as it ever was! Going for the classic DPS
+    combo with as much `Range` as we can get.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw]
+    perks2: [Rampage]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []

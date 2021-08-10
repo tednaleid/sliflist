@@ -1,0 +1,97 @@
+-
+  weapon_id: 2220884262
+  name: Locked On
+  ratings_emoji: 🔒
+  tags: ['pvp']
+  overview: >
+    Moving Target and Iron Gaze are going to bump Target Acquisition
+    immensely. You give up a few meters of damage falloff, and in return
+    significantly increased accuracy.
+  base_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS]
+    magazines: [Ricochet Rounds]
+    perks1: [Moving Target]
+    perks2: [Iron Gaze]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS]
+    magazines: [Ricochet Rounds, Flared Magwell]
+-
+  weapon_id: 2220884262
+  name: Demon of Sixes Street
+  ratings_emoji: 👹
+  tags: ['pvp']
+  overview: >
+    This is primarily a roll for sixes where TSH can shine as a cleanup
+    weapon with a higher chance of chaining kills. Keep in mind that a
+    `Resilience` of `5` cancels out the Swashbuckler two-tap from full
+    health but in sixes that's not always what you're dealing with. If you
+    can pair this with a ranged melee (Swashbuckler x 5) you'llI
+    wouldn't suggest this roll for Comp or Trials.
+  base_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS]
+    magazines: [Ricochet Rounds]
+    perks1: [Outlaw]
+    perks2: [Swashbuckler]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS]
+    magazines: [Ricochet Rounds, Flared Magwell]
+-
+  weapon_id: 2220884262
+  name: Float Like a Butterfly
+  ratings_emoji: 🦋
+  tags: ['pvp']
+  overview: >
+    If you pair a Quickdraw TSH with a breach-load GL with a Quick Access
+    Sling mod, you have a super powerful combination. Pairing it with Le
+    Monarque has a similar effect: massive damage with an opening shot from
+    your Energy weapon and a single shot from TSH to clean up. With
+    Quickdraw and Snapshot, this Aggressive Frame can feel like a
+    Lightweight.
+  base_perks:
+    barrels: [Fastdraw HCS, Steadyhand HCS]
+    magazines: [Ricochet Rounds]
+    perks1: [Quickdraw]
+    perks2: [Snapshot]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Fastdraw HCS, Steadyhand HCS, Truesight HCS]
+    magazines: [Ricochet Rounds, Flared Magwell]
+-
+  weapon_id: 2220884262
+  name: Workhorse
+  ratings_emoji: 🐴
+  tags: ['pvp']
+  overview: >
+    Many phenomenal perks in column three and column four. As Fallout
+    mentions in his review, you'd be kinda happy to get any of them.
+  base_perks:
+    barrels: [Fastdraw HCS, Steadyhand HCS]
+    magazines: [Ricochet Rounds]
+    perks1: [Killing Wind, Quickdraw, Moving Target]
+    perks2: [Wellspring, Snapshot, Iron Grip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Fastdraw HCS, Steadyhand HCS, Truesight HCS]
+    magazines: [Ricochet Rounds, Flared Magwell]
+-
+  weapon_id: 2220884262
+  name: Rapid Reload
+  ratings_emoji: ♻️
+  tags: ['pve']
+  overview: >
+    Without Outlaw, you're going to have to rely on Transversives,
+    Marksman's Dodge, etc. to reload effectively in PvE. Without it,
+    you're looking at a lot of downtime in situations where there are
+    better alternatives. This is the case with Outlaw-based Duke rolls
+    and people absolutely loved that sooo 🤷‍♂️
+  base_perks:
+    barrels: [Hitmark HCS, Truesight HCS]
+    magazines: [High-Caliber Rounds, Armor-Piercing Rounds]
+    perks1: [Outlaw]
+    perks2: [Swashbuckler]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: []
+    magazines: [High-Caliber Rounds, Armor-Piercing Rounds, Light Mag, Ricochet Rounds]
