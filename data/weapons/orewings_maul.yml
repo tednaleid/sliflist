@@ -1,0 +1,30 @@
+name: Orewing's Maul
+item_id: 2108920981
+drop_id: ib
+traits:
+  barrels:     {t: 7, c: 2}
+  magazines:   {t: 6, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  Orewing's is almost identical to the
+  [Truthteller](#truthteller---pvp)
+  in every way, save for a much less excellent perk pool. Truthteller has
+  more interesting combinations, but if you're swimming in GL's from Iron
+  Banner and really want to keep one, read on.
+
+
+  [Destiny Fun Police](https://www.youtube.com/watch?v=gXhfIXnPTT4)
+  (aka DFP) first popularized these back in Year 1 of Destiny 2 when he
+  used the Fighting Lion to great affect.
+
+
+  Like Truthteller, Orewing's is part of the "Lightweight Frame" grenade
+  launchers (breach-loaded, single shot). Lightweight grenade launchers all
+  have a "remote detonation" ability where they detonate when you release
+  the trigger (or you get a direct hit). These weapons have a very high
+  skill ceiling, allowing banked shots and shots that explode next to
+  enemies in cover. In PvP, these weapons excel at starting engagements
+  rather than finishing them. We want Orewing's to soften our enemies up,
+  even if we don't get a direct hit.

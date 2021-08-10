@@ -1,0 +1,15 @@
+name: Swarm of the Raven
+item_id: 1972985595
+drop_id: ib
+traits:
+  barrels:     {t: 7, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 4, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  For a moment in time, Swarm of the Raven was a legit DPS option. It's a
+  Void Grenade Launcher and the buff from Tractor Cannon made it a beast.
+  It's not super hot anymore, but why not secure yourself a good one just
+  in case? Chances are without even trying you're going to get a pretty
+  decent roll. Enjoy!

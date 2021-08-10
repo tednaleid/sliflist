@@ -1,0 +1,14 @@
+name: Fool's Remedy
+item_id: 65611680
+drop_id: ib
+traits:
+  barrels:     {t: 6, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Fool's Remedy is "SUROS Rapid-Fire" (i.e. fully automatic) 450 RPM Sidearm
+  that has been re-issued in Season 11's Iron Banner. The Remedy is the only
+  SUROS-RF sidearm in the game apart from `Dead Man Walking` whose power cap
+  is the current Season (11).

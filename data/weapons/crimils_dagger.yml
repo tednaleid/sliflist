@@ -1,0 +1,15 @@
+name: Crimil's Dagger
+item_id: 4292849692
+drop_id: ib
+traits:
+  barrels:     {t: 6, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 7, c: 1}
+  perks2:      {t: 7, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >  
+  Crimil's is a 110 RPM Kinetic, Aggressive Frame Hand Cannon that has been
+  re-issued in Season 11 with a higher power cap. It features the same perk
+  pool its always had and since 110s haven't been touched over the years
+  dince Destiny 2's launch, it's going to be a pretty limited set of perks
+  we're interested in.

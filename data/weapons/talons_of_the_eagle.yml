@@ -1,0 +1,16 @@
+name: Talons of the Eagle
+item_id: 1982711279
+drop_id: ib
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1} 
+overview: >
+  Talons of the Eagle is a 150 RPM "High-Impact Frame" Kinetic Scout Rifle.
+  It originally appeared wayyy back in Season 4 (aka Forsaken). It's been
+  recently re-issued in the first Season 11 Iron Banner. As part of this
+  re-issue, the perk pool is unchanged, so we have years' worth of knowledge
+  about how these work and years' worth of confusion as to why Scout Rifles
+  can roll with `Threat Detector` and `Hip-Fire Grip`.

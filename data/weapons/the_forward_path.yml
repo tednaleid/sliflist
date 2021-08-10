@@ -1,0 +1,13 @@
+name: The Forward Path
+item_id: 1690783811
+drop_id: ib
+traits:
+  barrels:     {t: 6, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Forward Path is a 600 RPM (Adaptive Frame) Kinetic Auto Rifle, brought
+  back to us in Season 11 Iron Banner. It was in the first batch of IB weapons
+  that featured the new Iron Gaze and Iron Grip perks. 

@@ -1,0 +1,15 @@
+name: The Steady Hand
+item_id: 2220884262
+drop_id: ib
+traits:
+  barrels:     {t: 6, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Steady Hand (TSH) is a 120 RPM "Aggressive Frame" Kinetic Hand Cannon,
+  re-issued in Year 4 with random rolls. Prior to Season 12 in November 2020,
+  Aggressive Frames were bumped from 110 RPM to 120 RPM as part of a
+  [large scale Hand Cannon rework](https://www.bungie.net/en/News/Article/49676).
+  The general consensus thus far is that TSH is terrific.
