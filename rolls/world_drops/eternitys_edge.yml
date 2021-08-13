@@ -1,0 +1,21 @@
+- 
+  weapon_id: 2782325301
+  name: Forever and a Day
+  ratings_emoji: 🗡
+  tags: ['pve']
+  overview: >
+    With Surrounded and Relentless you'll be slicing for what seems like
+    forever. C/o
+    [this analysis](https://www.reddit.com/r/DestinyTheGame/comments/a2mjez/sword_awareness_1_jagged_edge_vs_honed_edge/),
+    Jagged Edge is the clear choice for the first column, but you'll want to
+    make sure your reserves are increased in armor. Infinite Guard is locked on
+    this weapon, so you're stuck with it :)
+  base_perks: 
+    barrels: [Jagged Edge]
+    magazines: [Infinite Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Surrouned]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge]
+    magazines: [Infinite Guard]
