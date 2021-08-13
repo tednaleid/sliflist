@@ -1,0 +1,23 @@
+- 
+  weapon_id: 4230993599
+  name: Sustained DPS
+  ratings_emoji: 🗡
+  tags: ['pve']
+  overview: >
+    With Whirlwind and Relentless you'll be slicing for what seems like
+          forever. C/o
+          [this analysis](https://www.reddit.com/r/DestinyTheGame/comments/a2mjez/sword_awareness_1_jagged_edge_vs_honed_edge/),
+          Jagged Edge is the clear choice for the first column, but you'll want
+          to make sure your reserves are increased in armor. Heavy Guard
+          sacrifices Charge Rate and massive increased all the other important
+          sword stats, but that's fine because Charge Rate is such a compressed
+          stat you won't notice the difference.
+  base_perks: 
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Whirlwind Blade]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]

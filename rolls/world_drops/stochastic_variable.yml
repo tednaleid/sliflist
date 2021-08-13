@@ -1,0 +1,36 @@
+- 
+  weapon_id: 2272470786
+  name: Recluse 2.0 - Ehroar's Pick
+  ratings_emoji: 🕷
+  tags: ['pve']
+  overview: >
+    With `Feeding Frenzy` and `Multikill Clip` you're turning an already
+    terrific weapon into a Recluse-like machine.
+  base_perks: 
+    barrels: [Hammer-Forged Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Feeding Frenzy]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore, Chambered Compensator, Corkscrew Rifling, Arrowhead Brake, Fluted Barrel, Extended Barrel]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Flared Magwell, Light Mag, Appended Mag, Alloy Magazine]
+- 
+  weapon_id: 2272470786
+  name: Recluse 1.5 - Ehroar's Pick, Slightly Less Great
+  ratings_emoji: 🕷
+  tags: ['pve']
+  overview: >
+    But still great! While `Feeding Frenzy` is the winner in Column 3,
+    `Ambitious Assassin` and `Surplus` will also put in work. This is
+    the same roll as the above with those just two swapped in, in lieu
+    of `Feeding Frenzy`.
+  base_perks: 
+    barrels: [Hammer-Forged Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Surplus, Ambitious Assassin]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore, Chambered Compensator, Corkscrew Rifling, Arrowhead Brake, Fluted Barrel, Extended Barrel]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Flared Magwell, Light Mag, Appended Mag, Alloy Magazine]

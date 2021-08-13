@@ -1,0 +1,35 @@
+- 
+  weapon_id: 2742838701
+  name: Promises Made and Kept
+  ratings_emoji: 🙏
+  tags: ['pvp']
+  overview: >
+    140s crave Stability. They won't be helped as much by Range as they
+    are by what Stability gives you: an AA cone that resets more quickly
+    than it would otherwise and less kick to correct for.
+  base_perks: 
+    barrels: [Steadyhand HCS]
+    magazines: [Ricochet Rounds]
+    perks1: [Opening Shot, Snapshot]
+    perks2: [Rangefinder]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS, Hitmark HCS]
+    magazines: [Ricochet Rounds, Flared Magwell]
+- 
+  weapon_id: 2742838701
+  name: Trustworthy
+  ratings_emoji: 🤝
+  tags: ['pve']
+  overview: >
+    Relying on old reliable perk pairings, this will do work for you
+    in low to mid tier PvE content.
+  base_perks: 
+    barrels: [Sureshot HCS]
+    magazines: [High-Caliber Rounds]
+    perks1: [Overflow, Triple Tap]
+    perks2: [Swashbuckler]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS, Hitmark HCS]
+    magazines: [High-Caliber Rounds, Armor-Piercing Rounds, Light Mag, Ricochet Rounds]

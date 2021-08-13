@@ -1,0 +1,36 @@
+- 
+  weapon_id: 525750263
+  name: Mercules Collector's Edition (Feat. Rampage)
+  ratings_emoji: 💪
+  tags: ['pvp']
+  overview: >
+    Let's call this the "Mercules" roll, since listening
+    to the podcast linked above informed its creation. All Stability, all
+    day, with better Aim Assistance and mobility from `Moving Target`.
+  base_perks: 
+    barrels: [Chambered Compensator]
+    magazines: [Steady Rounds]
+    perks1: [Moving Target, Zen Moment]
+    perks2: [Rampage]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Fluted Barrel, Polygonal Rifling, Corkscrew Rifling, Smallbore]
+    magazines: [Tactical Mag, Steady Rounds, Flared Magwell]
+- 
+  weapon_id: 525750263
+  name: Mercules Collector's Edition (Feat. Opening/Snapshot)
+  ratings_emoji: 💪
+  tags: ['pvp']
+  overview: >
+    Let's call this the "Mercules" roll, since listening
+    to the podcast linked above informed its creation. All Stability, all
+    day, with better Aim Assistance and mobility from `Moving Target`.
+  base_perks: 
+    barrels: [Chambered Compensator]
+    magazines: [Steady Rounds]
+    perks1: [Moving Target, Zen Moment]
+    perks2: [Opening Shot, Snapshot]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Fluted Barrel, Polygonal Rifling, Corkscrew Rifling, Smallbore]
+    magazines: [Tactical Mag, Steady Rounds, Flared Magwell]

@@ -1,0 +1,20 @@
+- 
+  weapon_id: 3055192515
+  name: Shieldbreaker
+  ratings_emoji: 🛡
+  tags: ['pvp']
+  overview: >
+    If you're able to OHK, terrific! If not, chances are you're at least
+    breaking shields and with a quick swap to a primary, you
+    have an interesting combo. Typically I would go for more Stability but
+    you're getting all of that from Firmly Planted so we can opt for
+    Range perks where we can.
+  base_perks: 
+    barrels: [Torch HS3]
+    magazines: [Projection Fuse]
+    perks1: [Firmly Planted]
+    perks2: [Disruption Break]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Torch HS3, Flash HS5]
+    magazines: [Projection Fuse, Particle Repeater]
