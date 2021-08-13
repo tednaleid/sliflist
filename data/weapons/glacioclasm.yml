@@ -1,0 +1,14 @@
+name: Glacioclasm
+item_id: 1030895163
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 6, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  The Glacioclasm is a High-Impact Frame Fusion Rifle released for the first
+  time in The Dawning, 2020 (Y4 S12). Implicit in the High-Impact frames are
+  that you gain accuracy while crouched: "more accurate when stationary and
+  aiming down sights".

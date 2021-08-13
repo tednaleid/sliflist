@@ -1,0 +1,16 @@
+name: Timelines' Vertex
+item_id: 3055192515
+drop_id: world
+traits:
+  barrels:     {t: 8, c: 2}
+  magazines:   {t: 6, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  This Timelines' Vertex is the randomly-rolled successor to the Future 
+  War Cult version of the same name from days gone by. While it uses a
+  reskinned version of the Erentil, it is unfortunately not also a High-
+  Impact Frame. Fusions had a pretty nasty nerf in S11, discussed in
+  [roll comments](#hollow-words---pvp) on the
+  Hollow Words.

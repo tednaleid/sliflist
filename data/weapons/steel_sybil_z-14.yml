@@ -1,0 +1,14 @@
+name: Steel Sybil Z-14
+item_id: 4230993599
+drop_id: world
+traits:
+  barrels:     {t: 5, c: 2}
+  magazines:   {t: 5, c: 2}
+  perks1:      {t: 2, c: 1}
+  perks2:      {t: 3, c: 1}
+  masterworks: {t: 1, c: 1}
+overview: >
+  The Steel Sybil is a re-issue of the Crucible sword from the launch of
+  Forsaken back in Season 4. The perks are the same as they've always been
+  so unfortunately this Season (Season 11) will be about (re?)chasing your
+  best roll from the past nearly two years. Whomp whomp.

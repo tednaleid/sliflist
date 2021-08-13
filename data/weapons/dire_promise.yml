@@ -1,0 +1,15 @@
+name: Dire Promise
+item_id: 2742838701
+drop_id: world
+traits:
+  barrels:     {t: 6, c: 1}
+  magazines:   {t: 8, c: 1}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Dire Promise is a 140 RPM Hand Cannon that was re-issued all the way back
+  in Season 10 and much has changed. Sunsetting was introduced and then rolled
+  back, 150 RPM HCs were collapsed into the 140 RPM frames and 110 RPMs were
+  upgraded to 120 RPM, turning them into absolute PvP monsters. 140s are middle-
+  of-the-pack but still pack a decent punch.

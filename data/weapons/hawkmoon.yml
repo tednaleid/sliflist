@@ -1,0 +1,14 @@
+name: Hawkmoon
+item_id: 3856705927
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 1}
+  magazines:   {t: 1, c: 1}
+  perks1:      {t: 9, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 1, c: 1}
+overview: >
+  Hawkmoon is a 140 RPM Exotic Hand Cannon, re-issued from Destiny 1 featuring
+  random rolls! The base stats are terrific and it's hard to argue that any
+  single roll is "bad" per se, but there are certainly some rolls that are more
+  desireable than others from a min/max'ers perspective.

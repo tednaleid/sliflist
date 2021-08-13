@@ -1,0 +1,13 @@
+name: Truthteller
+item_id: 1946491241
+drop_id: world
+traits:
+  barrels:     {t: 7, c: 2}
+  magazines:   {t: 6, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  If you're a member of the [Fighting Lion Club](https://www.fightinglion.club/)
+  or are looking for a replacement once your Mountaintop can no longer be infused,
+  give Truthteller a try.

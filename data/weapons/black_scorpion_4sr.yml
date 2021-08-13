@@ -1,0 +1,11 @@
+name: Black Scorpion-4sr
+item_id: 525750263
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 7, c: 1}
+  perks2:      {t: 7, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  No general overview as only PvP rolls featured for this one!

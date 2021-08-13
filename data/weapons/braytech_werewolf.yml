@@ -1,0 +1,16 @@
+name: BrayTech Werewolf
+item_id: 528834068
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The BrayTech Werewolf is a 450 RPM "Precision Frame" Kinetic Auto Rifle
+  first introduced in Season 8. It's now available in the 2020
+  [Festival of the Lost](https://www.bungie.net/7/en/Seasons/Events/FestivalOfTheLost)
+  event, with random rolls. The only competitive AR archetype right now are
+  the 600s, so you're gambling on an eventual sandbox change for this to be
+  more effective in PvP.

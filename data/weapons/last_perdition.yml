@@ -1,0 +1,16 @@
+name: Last Perdition
+item_id: 188882152
+drop_ud: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 7, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  A randomly-rolled 390RPM Adaptive Pulse Rifle; here we go! If you like
+  Bygones in the primary slot, Last Perdition is right up your alley. It
+  was brought back in Season of the Drifter with random rolls, and it
+  unfortunately kept a pretty baseline set of perks. There's so much magic
+  happening in the Energy slot now that we're so deep into Destiny 2 that
+  we're going to have a pretty high bar for rolls here.

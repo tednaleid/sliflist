@@ -1,0 +1,17 @@
+name: Night Watch
+item_id: 3504336176
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 2}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Night Watch is a 200 RPM Scout Rifle that dropped during Season of the
+  Drifter (S6). It has been re-issued in Season of Arrivals (S11) and is
+  the only 200 RPM Scout Rifle in the game that is currently available.
+  [CoolGuy's review (5/2019)](https://www.youtube.com/watch?v=H1KGJ7WU9es)
+  remains a great source of info for Night Watch. It's a bit over a year
+  old, but the sandbox hasn't changed materially around 200 RPM Scouts (for
+  better or worse) or the perks he talks through.

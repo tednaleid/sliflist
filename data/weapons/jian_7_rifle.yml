@@ -1,0 +1,19 @@
+name: Jian 7 Rifle
+item_id: 1162247618
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  This Jian 7 is the randomly-rolled successor to the New Monarchy Pulse
+  of the same name from days gone by. It's a 390RPM Adaptive Pulse Rifle
+  which is mostly the same as the Last Perdition which also rolls in this
+  slot. The most important difference is that the Jian's base recoil is
+  `80` which means that with a Counterbalance mod, it will be effectively
+  perfectly vertical at `95`. Contrast with the Last Perdition whose base
+  Recoil is `63` (
+  [detailed comparison](https://www.light.gg/db/items/compare/?h=BFRn3C;LQhzo)
+  on light.gg)

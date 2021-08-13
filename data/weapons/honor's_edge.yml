@@ -1,0 +1,14 @@
+name: Honor's Edge
+item_id: 2857348871
+drop_id: world
+traits:
+  barrels:     {t: 5, c: 2}
+  magazines:   {t: 5, c: 2}
+  perks1:      {t: 3, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 1, c: 1}
+overview: >
+  Honor's Edge (HE) is available in the World Drops loot pool in Season 11,
+  originally being re-issued back in Season 10. The main difference between
+  HE and SS14 is that HE can roll with `Surrounded` and `Flash Counter`,
+  two both amazing perks.

@@ -1,0 +1,15 @@
+name: The Number
+item_id: 2492081469
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Number is a 450 RPM Precision Frame, Arc Energy Auto Rifle, offered as a
+  random roll beginning in Season 14. It initially appeared years ago in the
+  "Faction Rallies" events as part of the Future War Cult weapon pool. It
+  [compares closely](https://www.light.gg/db/items/compare/?h=CUiiU9;Cc8zza;)
+  to the Shadow Price, a Nightfall-only reward offerd in Season 13.

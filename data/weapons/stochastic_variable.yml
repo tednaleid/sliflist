@@ -1,0 +1,15 @@
+name: Stochastic Variable
+item_id: 2272470786
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 9, c: 3}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Stochastic Variable is a 900 RPM SMG initially introduced as part of
+  the Faction Rallies event and was part of the Future War Cult loot pool.
+  It was reintroduced with random rolls in S14 and has access to some of the
+  new perks introduced with Beyond Light, but none of the S14-specific new
+  perks (e.g. `Danger Zone`).

@@ -1,0 +1,18 @@
+name: Stars in Shadow
+item_id: 2050789284
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 12, c: 1}
+  perks2:      {t: 12, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Stars in Shadow is a 340 RPM "High-Impact Frame" Energy Pulse Rifle
+  introduced in Destiny 2 Year 4 (Beyond Light). See
+  [how it compares](https://www.light.gg/db/items/compare/?h=B6PI-k;BIfK-Z;BFN60K;)
+  to the existing High-Impacts that lit up in Season 11. It's a Crucible
+  drop and if you're an avid PvP player, you'll be swimming in these rolls
+  in no time. It's a solid Pulse Rifle with good base stats, a clean sight
+  and a great feel. I'm sure you'll see more coverage in the coming weeks
+  as people settle in to Beyond Light and Season 12.

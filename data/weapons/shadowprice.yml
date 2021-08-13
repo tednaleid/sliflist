@@ -1,0 +1,17 @@
+name: Shadow Price
+item_id: 2633186522
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Shadow Price is a 450 RPM Precision Frame, Arc Energy Auto Rifle, offered
+  as a Nightfall-exclusive reward beginning in Season 13. It's the only 450 RPM
+  Auto Rifle dropping apart from the Kinetic Seventh Seraph Carbine;
+  [compare them](https://www.light.gg/db/items/compare/?h=Cc8zza;BdCxNP)
+  over on light.gg. Shadow Price has by far the better perk pool (One for All,
+  Surplus, Feeding Frenzy...) whereas the Carbine can create Warmind Cells,
+  which alone is a reason to use it.

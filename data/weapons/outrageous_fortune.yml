@@ -1,0 +1,13 @@
+name: Outrageous Fortune
+item_id: 4146702548
+drop_id: world
+traits:
+  barrels:     {t: 7, c: 2}
+  magazines:   {t: 9, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 4, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  The Outrageous Fortune Grenade Launcher is a Season 11 re-issue of
+  it Season 4 counterpart. Grenade Launchers haven't been meta PvE DPS for
+  some time, so why record wishlist rolls for this?

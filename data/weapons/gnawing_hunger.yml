@@ -1,0 +1,15 @@
+name: Gnawing Hunger
+item_id: 821154603
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Gnawing Hunger is a 600 RPM "Adaptive Frame" Energy Auto Rifle first
+  introduced in Season 6. It has been reissued in Season 11, meaning it will be
+  capable of going up to the Season 14 power level cap. Adaptives were buffed
+  Season 10 and unless something changes, will remain very strong through Season
+  11.
