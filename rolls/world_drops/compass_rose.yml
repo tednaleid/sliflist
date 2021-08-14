@@ -1,0 +1,75 @@
+- 
+  weapon_id: 2591111628
+  name: Magnetic North
+  ratings_emoji: 🧲
+  tags: ['pvp']
+  overview: >
+    Classic "SnapDraw" shotgun roll. Compass Rose can roll with a few Range-
+    increasing barrels in addition to just Full Choke and Rifled, so our
+    odds of picking up these rolls is a bit better.
+  base_perks: 
+    barrels: [Rifled Barrel, Full Choke]
+    magazines: [Accurized Rounds]
+    perks1: [Quickdraw]
+    perks2: [Snapshot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+- 
+  weapon_id: 2591111628
+  name: Directional Insanity
+  ratings_emoji: 🧭
+  tags: ['pve']
+  overview: >
+    This is for champions or bosses. With Surplus or Field Prep, you'll be able
+    to make the most out of Vorpal. Currently with the damage bonus slugs
+    received a few seasons back, this is still beat out by FILO, but it's a
+    solid alternative if you pick one up.
+  base_perks: 
+    barrels: [Rifled Barrel, Full Choke]
+    magazines: [Assault Mag]
+    perks1: [Surplus, Field Prep]
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+- 
+  weapon_id: 2591111628
+  name: North Star
+  ratings_emoji: 🌠
+  tags: ['pve']
+  overview: >
+    Surplus and Wellspring are just so perfectly suited for one another that
+    I'm compelled to create rolls that capture them when available. With two
+    abilities down, I was able to get both of them back after five or six
+    red bar kills. This would be a good workhorse roll, suitable if you
+    feel like bringing a shotgun into many of the VoG or DSC encounters.
+  base_perks: 
+    barrels: [Rifled Barrel, Full Choke]
+    magazines: [Assault Mag]
+    perks1: [Surplus]
+    perks2: [Wellspring]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+- 
+  weapon_id: 2591111628
+  name: All Thorns
+  ratings_emoji: 💐
+  tags: ['pve']
+  overview: >
+    If Trench Barrel ever makes a comeback, pairing with Surplus and
+    the Reload buff from Trench Barrel should make an interesting
+    pairing.
+  base_perks: 
+    barrels: [Rifled Barrel, Full Choke]
+    magazines: [Assault Mag]
+    perks1: [Surplus, Field Prep]
+    perks2: [Trench Barrel]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]    
