@@ -10,5 +10,10 @@
 # Guard
 tmp/
 
+# Static site generator
+hugo_site/node_modules
+hugo_site/public
+hugo_site/resources
+
 # Development wishlist
 wishlist.dev.txt
