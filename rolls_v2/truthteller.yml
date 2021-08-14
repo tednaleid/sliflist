@@ -1,0 +1,65 @@
+- 
+  weapon_id: 1946491241
+  name: Shieldbreaker
+  ratings_emoji: 🛡
+  tags: ['pvp']
+  overview: >
+    Break their shields with Disruption Break and clean them up with a
+    kinetic. We're looking for velocity and blast radius here.
+  base_perks: 
+    barrels: [Quick Launch]
+    magazines: [Spike Grenades]
+    perks1: [Auto-Loading Holster]
+    perks2: [Disruption Break]
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    magazines: [Spike Grenades, Proximity Grenades, High-Velocity Rounds]
+- 
+  weapon_id: 1946491241
+  name: Blinded by Science (Feat. Disruption Break)
+  ratings_emoji: 🧪
+  tags: ['pve']
+  overview: >
+    Open up an engagement on a group of enemies by suppressing them all with blindness
+  base_perks: 
+    barrels: [Quick Launch]
+    magazines: [Blinding Grenades]
+    perks1: [Auto-Loading Holster]
+    perks2: [Disruption Break]
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    magazines: [Blinding Grenades]
+- 
+  weapon_id: 1946491241
+  name: Blinded by Science (Baseline)
+  ratings_emoji: 🧪
+  tags: ['pve']
+  overview: >
+    Open up an engagement on a group of enemies by suppressing them all with blindness
+  base_perks: 
+    barrels: [Quick Launch]
+    magazines: [Blinding Grenades]
+    perks1: [Auto-Loading Holster]
+    perks2: []
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    magazines: [Blinding Grenades]    
+- 
+  weapon_id: 1946491241
+  name: Welcome to the Boomtown
+  ratings_emoji: 💥
+  tags: ['pve']
+  overview: >
+    Maximize direct damage on larger enemies with Spike Grenades.
+  base_perks: 
+    barrels: [Quick Launch]
+    magazines: [Spike Grenades]
+    perks1: [Field Prep]
+    perks2: []
+    masterworks: [Reload MW]
+  extended_perks:
+    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    magazines: [Spike Grenades]
