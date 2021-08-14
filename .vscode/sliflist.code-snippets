@@ -1,0 +1,21 @@
+// https://code.visualstudio.com/docs/editor/userdefinedsnippets
+{
+  "Roll Template": {
+    "scope": "yaml",
+    "prefix": ["rollt"],
+    "body":[
+      "-", 
+      "  weapon_id: ",
+      "  name: ",
+      "  ratings_emoji: ",
+      "  tags: ['pv?']",
+      "  overview: >",
+      "    TODO",
+      "  base_perks:",
+      "    PASTE HERE",
+      "  extended_perks:",
+      "    PASTE HERE"
+    ],
+    "description": "Template for weapon rolls (./rolls/*.yml)"
+  }
+}
