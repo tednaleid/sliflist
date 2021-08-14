@@ -17,7 +17,8 @@ describe AsherMir do
       {
         'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
         'magazines'   => [Perk.from_name('Steady Rounds'), Perk.from_name('Accurized Rounds')],
-      }
+      },
+      []
     )
   }
 

@@ -25,6 +25,20 @@ describe Roll do
     }
   }
 
+  let(:data_hash_custom_variants) {
+    extended_perks.merge!({
+      'perks1' => ['Tunnel Vision', 'Feeding Frenzy'],
+      'perks2' => ['Kill Clip', 'Rampage']
+    })
+    data_hash.merge({
+      'custom_variants' => [
+        '{emoji}{emoji}{emoji} CE (+perks1)',
+        '{emoji}{emoji} (*barrels, *magazines, +perks2)',
+        '{emoji} (*perks1, *perks2)'
+      ]
+    })
+  }
+
   subject { Roll.from_hash(data_hash) }
 
   describe '#weapon_id' do
@@ -91,6 +105,50 @@ describe Roll do
       end
     end
 
+    context 'when using custom variants' do
+      let(:roll) { Roll.from_hash(data_hash_custom_variants) }
+      let(:variants) { roll.variants }
+
+      it 'returns the count' do
+        expect(variants.length).to eq(3)
+      end
+
+      it 'returns variant names' do
+        expect(variants[0].name).to eq('[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️🏃‍♂️ CE (+perks1)')
+        expect(variants[1].name).to eq('[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️ (*barrels, *magazines, +perks2)')
+        expect(variants[2].name).to eq('[pve,pvp] "Chasing Stability" 🏃‍♂️ (*perks1, *perks2)')
+      end
+
+      it 'configures the variants' do
+        # 🏃‍♂️🏃‍♂️🏃‍♂️ CE (+perks1)
+        expect(variants[0].perks).to include({
+          'barrels'     => [Perk.from_name('Arrowhead Brake')],
+          'magazines'   => [Perk.from_name('Steady Rounds')],
+          'perks1'      => [Perk.from_name('Tunnel Vision'), Perk.from_name('Feeding Frenzy')],
+          'perks2'      => [Perk.from_name('Kill Clip')],
+          'masterworks' => [Perk.from_name('Range MW')]
+        })
+
+        # 🏃‍♂️🏃‍♂️ (*barrels, *magazines, +perks2)
+        expect(variants[1].perks).to include({
+          'barrels'     => [],
+          'magazines'   => [],
+          'perks1'      => [Perk.from_name('Tunnel Vision')],
+          'perks2'      => [Perk.from_name('Kill Clip'), Perk.from_name('Rampage')],
+          'masterworks' => [Perk.from_name('Range MW')]
+        })
+
+        # 🏃‍♂️ (*perks1, *perks2)
+        expect(variants[2].perks).to include({
+          'barrels'     => [Perk.from_name('Arrowhead Brake')],
+          'magazines'   => [Perk.from_name('Steady Rounds')],
+          'perks1'      => [],
+          'perks2'      => [],
+          'masterworks' => [Perk.from_name('Range MW')]
+        })
+      end
+    end
+
     context 'when extended perks are properly specified' do
       let(:variants) { subject.variants }
 
@@ -126,7 +184,7 @@ describe Roll do
           'masterworks' => [Perk.from_name('Range MW')]
         })
   
-        # 🏃‍♂️🏃‍♂️🏃‍♂️🌟 CE (+barrels)
+        # 🏃‍♂️🏃‍♂️🏃‍♂️ CE (+barrels)
         expect(variants[1].perks).to include({
           'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
           'magazines'   => [Perk.from_name('Steady Rounds')],
@@ -134,8 +192,17 @@ describe Roll do
           'perks2'      => [Perk.from_name('Kill Clip')],
           'masterworks' => [Perk.from_name('Range MW')]
         })
+
+        # 🏃‍♂️🏃‍♂️🏃‍♂️ CE (+magazines)
+        expect(variants[2].perks).to include({
+          'barrels'     => [Perk.from_name('Arrowhead Brake')],
+          'magazines'   => [Perk.from_name('Steady Rounds'), Perk.from_name('Accurized Rounds')],
+          'perks1'      => [Perk.from_name('Tunnel Vision')],
+          'perks2'      => [Perk.from_name('Kill Clip')],
+          'masterworks' => [Perk.from_name('Range MW')]
+        })
   
-        # 🏃‍♂️🏃‍♂️🏃‍♂️🌟 CE (*masterworks)
+        # 🏃‍♂️🏃‍♂️🏃‍♂️ CE (*masterworks)
         expect(variants[3].perks).to include({
           'barrels'     => [Perk.from_name('Arrowhead Brake')],
           'magazines'   => [Perk.from_name('Steady Rounds')],
@@ -143,11 +210,47 @@ describe Roll do
           'perks2'      => [Perk.from_name('Kill Clip')],
           'masterworks' => []
         })
-  
+
+        # 🏃‍♂️🏃‍♂️ (+barrels, +magazines)
+        expect(variants[4].perks).to include({
+          'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
+          'magazines'   => [Perk.from_name('Steady Rounds'), Perk.from_name('Accurized Rounds')],
+          'perks1'      => [Perk.from_name('Tunnel Vision')],
+          'perks2'      => [Perk.from_name('Kill Clip')],
+          'masterworks' => [Perk.from_name('Range MW')]
+        })
+
+        # 🏃‍♂️🏃‍♂️ (+barrels, *masterworks)
+        expect(variants[5].perks).to include({
+          'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
+          'magazines'   => [Perk.from_name('Steady Rounds')],
+          'perks1'      => [Perk.from_name('Tunnel Vision')],
+          'perks2'      => [Perk.from_name('Kill Clip')],
+          'masterworks' => []
+        })
+
+        # 🏃‍♂️🏃‍♂️ (+magazines, *masterworks)
+        expect(variants[6].perks).to include({
+          'barrels'     => [Perk.from_name('Arrowhead Brake')],
+          'magazines'   => [Perk.from_name('Steady Rounds'), Perk.from_name('Accurized Rounds')],
+          'perks1'      => [Perk.from_name('Tunnel Vision')],
+          'perks2'      => [Perk.from_name('Kill Clip')],
+          'masterworks' => []
+        })
+
         # 🏃‍♂️🏃‍♂️ (+barrels, +magazines, *masterworks)
         expect(variants[7].perks).to include({
           'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
           'magazines'   => [Perk.from_name('Steady Rounds'), Perk.from_name('Accurized Rounds')],
+          'perks1'      => [Perk.from_name('Tunnel Vision')],
+          'perks2'      => [Perk.from_name('Kill Clip')],
+          'masterworks' => []
+        })
+
+        # 🏃‍♂️ (*barrels, *magazines, *masterworks)
+        expect(variants[8].perks).to include({
+          'barrels'     => [],
+          'magazines'   => [],
           'perks1'      => [Perk.from_name('Tunnel Vision')],
           'perks2'      => [Perk.from_name('Kill Clip')],
           'masterworks' => []

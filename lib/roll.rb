@@ -20,7 +20,7 @@ class Roll
     '{emoji} (*barrels, *magazines, *masterworks)',
   ]
 
-  def initialize(weapon_id, name, emoji, tags, overview, base_perks, extended_perks)
+  def initialize(weapon_id, name, emoji, tags, overview, base_perks, extended_perks, custom_variants)
     @weapon_id = weapon_id
     @name = name
     @ratings_emoji = emoji
@@ -28,17 +28,22 @@ class Roll
     @overview = overview
     @base_perks = base_perks
     @extended_perks = extended_perks
+    @custom_variants = custom_variants
   end
 
   def variants
-    STANDARD_VARIANT_PATTERNS.map do |pattern|
+    variant_source = @custom_variants.empty? ? STANDARD_VARIANT_PATTERNS : @custom_variants
+    
+    variant_source.map do |pattern|
       name = "[#{tags.join(',')}] \"#{@name}\" #{pattern.gsub('{emoji}', @ratings_emoji)}"
 
       # Deep copy our baseline set of perks
       perks = Marshal.load(Marshal.dump(@base_perks))
 
       pattern.scan(/\.*\+(\w+)/) do |addition|
-        raise "A variant was specified with an extended (+) perk ('#{addition[0]}'), but that perk wasn't specified under 'extended_perks'. Weapon ID: #{@weapon_id}, Roll Name: #{@name}, Variant Name: #{name}" unless @extended_perks[addition[0]]
+        if !@extended_perks[addition[0]]
+          raise "A variant was specified with an extended (+) perk ('#{addition[0]}'), but that perk wasn't specified under 'extended_perks'. Weapon ID: #{@weapon_id}, Roll Name: #{@name}, Variant Name: #{name}"
+        end
         perks[addition[0]] = @extended_perks[addition[0]]
       end
 
@@ -61,6 +66,8 @@ class Roll
       extended_perks[perk_slot_name] = desired_perk_names.map{|n| Perk.from_name(n)}
     end
 
+    custom_variants = data_hash['custom_variants'] ? data_hash['custom_variants'] : []
+
     Roll.new(
       data_hash['weapon_id'],
       data_hash['name'],
@@ -68,7 +75,8 @@ class Roll
       data_hash['tags'],
       data_hash['overview'],
       base_perks,
-      extended_perks
+      extended_perks,
+      custom_variants
     )
   end
 
