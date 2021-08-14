@@ -22,9 +22,8 @@
   ratings_emoji: 💪
   tags: ['pvp']
   overview: >
-    Let's call this the "Mercules" roll, since listening
-    to the podcast linked above informed its creation. All Stability, all
-    day, with better Aim Assistance and mobility from `Moving Target`.
+    Same as the other rolls, but we're swapping out Rampage for some pre-kill
+    options.
   base_perks: 
     barrels: [Chambered Compensator]
     magazines: [Steady Rounds]
