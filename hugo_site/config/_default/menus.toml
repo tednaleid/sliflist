@@ -26,3 +26,6 @@
   url = "https://github.com/rslifka/sliflist"
   post = "v0.1.0"
   weight = 20
+
+[[footer]]
+  name = "© 2021 Rob Slifka"
