@@ -7,10 +7,10 @@ titleAddition = "A Destiny 2 DIM Wishlist"
 description = "Sliflist is a Destiny 2 DIM wishlist of curated weapon rolls"
 
 ## Open Graph
-images = ["doks.png"]
-ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+# images = ["doks.png"]
+# ogLocale = "en_US"
+# domainTLD = "rslifka.github.io"
+# titleHome = "Sliflist"
 
 ## Twitter Cards
 # twitterSite = "@getdoks"
@@ -25,12 +25,12 @@ schemaAuthor = "Rob Slifka"
 # schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
 schemaAuthorGitHub = "https://github.com/rslifka"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
-schemaLogoWidth = 512
-schemaLogoHeight = 512
-schemaImage = "doks.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
+# schemaLogo = "logo-doks.png"
+# schemaLogoWidth = 512
+# schemaLogoHeight = 512
+# schemaImage = "doks.png"
+# schemaImageWidth = 1280
+# schemaImageHeight = 640
 # schemaTwitter = "https://twitter.com/getdoks"
 # schemaLinkedIn = ""
 schemaGitHub = "https://github.com/rslifka/sliflist"
