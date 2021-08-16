@@ -7,6 +7,10 @@ class Ada1
     raise "Weapon w/ID '#{weapon_id}' not found in ./data/weapons/*.yml"
   end
 
+  def self.reboot
+    @@WEAPON_STORE = {}
+  end
+
   private
 
   def self.weapon_store

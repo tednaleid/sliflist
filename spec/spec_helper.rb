@@ -14,6 +14,7 @@ RSpec.configure do |config|
     FakeFS do
       # Some of our services memoize and need to be cleared out between spes
       Banshee44.reboot
+      Ada1.reboot
 
       # Many of our specs require various Perk and Drop Source lookups, so we'll
       # copy these into our clean room before every example.
