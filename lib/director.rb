@@ -47,7 +47,7 @@ TOML
     end
     results << TOML_PREAMBLE
 
-    File.write('./hugo_site/config/menus.toml', results.string)
+    File.write('./hugo_site/config/_default/menus.toml', results.string)
   end
 
   def self.create_content_directories

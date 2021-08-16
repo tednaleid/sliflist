@@ -59,14 +59,14 @@ describe Director do
         FileUtils.cp('./fixtures/weapons/hung_jury_adept.yml', 'data/weapons')
         FileUtils.cp('./fixtures/weapons/the_number.yml', 'data/weapons')
 
-        FileUtils.mkdir_p('hugo_site/config')
+        FileUtils.mkdir_p('hugo_site/config/_default')
       end
 
       Director.write_hugo_site
     end
 
     it 'updates menus.toml' do
-      expect(File.read('./hugo_site/config/menus.toml')).to eq(menus_toml_gold)
+      expect(File.read('./hugo_site/config/_default/menus.toml')).to eq(menus_toml_gold)
     end
 
     it 'creates the docs directories for each drop source' do
