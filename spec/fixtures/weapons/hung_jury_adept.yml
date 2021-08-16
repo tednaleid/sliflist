@@ -1,0 +1,13 @@
+name: Hung Jury (Adept)
+item_id: 681067419
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Adept Hung Jury is available from Grandmaster Nightfalls. It's the same
+  as the Hung Jury, with the exception that it can take Adept mods and gains
+  `+2` to all attributes when Masterworked.

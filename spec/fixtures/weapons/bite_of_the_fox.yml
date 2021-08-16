@@ -1,0 +1,14 @@
+name: Bite of the Fox
+item_id: 3169616514
+drop_id: ib
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Bite of the Fox is a Kinetic-slot, Aggressive Frame sniper. It's been in
+  the Iron Banner loot pool since Season 4 and has been re-issued in Season
+  11. This means if you *had* a BOTF, it will hit the level cap this season,
+  so you'll want to get a new roll to take you past Season 11.
