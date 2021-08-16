@@ -1,0 +1,15 @@
+- 
+  weapon_id: 1119734784
+  name: Chasing Stability
+  ratings_emoji: 🏃‍♂️
+  tags: ['pve','pvp']
+  overview: Big time Stability roll
+  base_perks: 
+    barrels: [Arrowhead Brake]
+    magazines: [Steady Rounds]
+    perks1: [Tunnel Vision]
+    perks2: [Kill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Polygonal Rifling]
+    magazines: [Steady Rounds, Accurized Rounds]

@@ -27,6 +27,11 @@ RSpec.configure do |config|
 
       original_filename =  File.expand_path('../../data/drop_sources.yml', __FILE__)
       FakeFS::FileSystem.clone(original_filename, './data/drop_sources.yml')
+
+      # Bring in all of our fixtures, so that tests can pull them out of the
+      # stubbed filesystem without having to handle cloning themselves
+      original_filename =  File.expand_path('../fixtures', __FILE__)
+      FakeFS::FileSystem.clone(original_filename, './fixtures')
     end
   end
 end

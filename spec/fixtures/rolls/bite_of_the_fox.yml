@@ -1,0 +1,18 @@
+-
+  weapon_id: 3169616514
+  name: Snappy Opener
+  ratings_emoji: 🤞
+  tags: ['pvp']
+  overview: >
+    This series of rolls is based around Snapshot and Accuracy-increasing
+    final-column perks. After that, we're looking for as much `Range` and
+    `Handling` as we can get.
+  base_perks:
+    barrels: [Fluted Barrel]
+    magazines: [Accurized Rounds]
+    perks1: [Snapshot]
+    perks2: [Opening Shot]
+    masterworks: [Range MW, Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []

@@ -1,0 +1,16 @@
+-
+  weapon_id: 681067419
+  name: TrueVanguard's Choice - The Three-Tapper
+  ratings_emoji: 🛡
+  tags: ['pvp']
+  overview: >
+    With `Box Breathing` you can three-tap!
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Moving Target, Rapid Hit, Heating Up]
+    perks2: [Box Breathing]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Corkscrew Rifling]
+    magazines: [Steady Rounds, Flared Magwell, Tactical Mag]
