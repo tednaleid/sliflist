@@ -51,14 +51,19 @@ describe Director do
 
         FileUtils.mkdir_p('hugo_site/config')
       end
+
+      Director.write_hugo_site
     end
 
     it 'updates menus.toml' do
-      Director.write_hugo_site
       expect(File.read('./hugo_site/config/menus.toml')).to eq(menus_toml_gold)
     end
 
-    it 'creates the docs directories for each drop source'
+    it 'creates the docs directories for each drop source' do
+      expect(Dir.exist?('./hugo_site/content/docs/14')).to be true
+      expect(Dir.exist?('./hugo_site/content/docs/ib')).to be true
+      expect(Dir.exist?('./hugo_site/content/docs/world')).to be true
+    end
 
     it 'creates index pages for each drop source'
 
