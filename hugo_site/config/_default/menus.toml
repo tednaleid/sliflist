@@ -1,18 +1,6 @@
-[[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
-
-[[docs]]
-  name = "Help"
-  weight = 5
-  identifier = "help"
-  url = "/docs/help/"
-
 [[main]]
   name = "Rolls"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/welcome/introduction/"
   weight = 10
 
 [[social]]
