@@ -26,6 +26,7 @@ TOML
   def self.write_hugo_site
     write_menus_toml
     create_content_directories
+    create_content_indices
   end
 
   private
@@ -55,6 +56,21 @@ TOML
     
     drop_sources.each do |ds|
       FileUtils.mkdir_p("./hugo_site/content/docs/#{ds.source_id}")
+    end
+  end
+
+  def self.create_content_indices
+    weapon_ids = Banshee44.roll_store.map{|r| r.weapon_id}.uniq
+    drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
+      
+    drop_sources.each do |ds|
+      contents = <<-TXT
+---
+title: "#{ds.name}"
+draft: false
+---
+TXT
+      File.write("./hugo_site/content/docs/#{ds.source_id}/_index.md", contents)
     end
   end
 

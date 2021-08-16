@@ -33,6 +33,16 @@ describe Director do
       gold_data
     }
 
+    let(:indices_gold) {
+      gold_data = {}
+      FakeFS.deactivate!
+      gold_data['14'] = File.read(File.expand_path("../../data/director_spec/14_index.md", __FILE__))
+      gold_data['ib'] = File.read(File.expand_path("../../data/director_spec/ib_index.md", __FILE__))
+      gold_data['world'] = File.read(File.expand_path("../../data/director_spec/world_index.md", __FILE__))
+      FakeFS.activate!
+      gold_data
+    }
+
     before(:example) do
       FakeFS do
         FileUtils.mkdir_p('rolls/iron_banner')
@@ -65,7 +75,15 @@ describe Director do
       expect(Dir.exist?('./hugo_site/content/docs/world')).to be true
     end
 
-    it 'creates index pages for each drop source'
+    it 'creates index pages for each drop source' do
+      expect(File.exist?('./hugo_site/content/docs/14/_index.md')).to be true
+      expect(File.exist?('./hugo_site/content/docs/ib/_index.md')).to be true
+      expect(File.exist?('./hugo_site/content/docs/world/_index.md')).to be true
+
+      expect(File.read('./hugo_site/content/docs/14/_index.md')).to eq(indices_gold['14'])
+      expect(File.read('./hugo_site/content/docs/ib/_index.md')).to eq(indices_gold['ib'])
+      expect(File.read('./hugo_site/content/docs/world/_index.md')).to eq(indices_gold['world'])
+    end
 
     it 'creates roll files for each weapon'
   end
