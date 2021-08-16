@@ -1,19 +1,19 @@
 
 [[docs]]
   name = "S14 - Season of the Splicer"
-  weight = 0
+  weight = 1
   identifier = "14"
   url = "/docs/14/"
 
 [[docs]]
   name = "Open World"
-  weight = 1
+  weight = 2
   identifier = "world"
   url = "/docs/world/"
 
 [[docs]]
   name = "Iron Banner"
-  weight = 2
+  weight = 3
   identifier = "ib"
   url = "/docs/ib/"
 

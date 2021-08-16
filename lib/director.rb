@@ -41,7 +41,7 @@ TOML
       results.puts
       results.puts("[[docs]]")
       results.puts("  name = \"#{s.name}\"")
-      results.puts("  weight = #{i}")
+      results.puts("  weight = #{i+1}")
       results.puts("  identifier = \"#{s.source_id}\"")
       results.puts("  url = \"/docs/#{s.source_id}/\"")
     end
