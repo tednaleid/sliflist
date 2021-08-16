@@ -8,6 +8,11 @@ class DropSource
     @source_id = source_id
   end
 
+  def ==(other_obj)
+    return @name == other_obj.name && 
+      @source_id == other_obj.source_id 
+  end
+
   def self.from_id(source_id)
     raise "Drop Source w/ID '#{source_id}' not found in drop_sources.yml" unless get_source_store()[source_id]
     get_source_store()[source_id]
