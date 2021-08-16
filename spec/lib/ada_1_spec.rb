@@ -40,25 +40,18 @@ YML
     end
   end
 
-  describe '.weapon_store' do
-    let(:store) { Ada1.weapon_store }
-
-    it 'provides access to the proper number of weapons' do
-      expect(store.length).to eq(2)
-    end 
-
-    it 'provides the proper weapons' do
-      store_sorted = Ada1.weapon_store.sort_by{|w| w.name}
-      rendition = store_sorted[0]
-      hawkmoon = store_sorted[1]
-
-      expect(hawkmoon.name).to eq('Hawkmoon')
-      expect(hawkmoon.item_id).to eq(3856705927)
-
-      expect(rendition.name).to eq('Extraordinary Rendition')
-      expect(rendition.item_id).to eq(1097616550)
-    end  
-
+  describe '.from_id' do
+    context 'when the ID is found' do
+      it 'returns the weapon' do
+        expect(Ada1.weapon_from_id(1097616550)).to be_a(Weapon)
+        expect(Ada1.weapon_from_id(3856705927)).to be_a(Weapon)
+      end
+    end
+    context 'when the ID is not found' do
+      it 'errors out' do
+        expect { Ada1.weapon_from_id(-1) }.to raise_error("Weapon w/ID '-1' not found in ./data/weapons/*.yml")
+      end
+    end
   end
 
 end

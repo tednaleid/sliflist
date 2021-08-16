@@ -1,13 +1,21 @@
 class Ada1
 
-  def self.weapon_store
-    @@WEAPON_STORE ||= populate_weapon_store
+  @@WEAPON_STORE = {}
+
+  def self.weapon_from_id(weapon_id)
+    return weapon_store[weapon_id] if weapon_store[weapon_id]
+    raise "Weapon w/ID '#{weapon_id}' not found in ./data/weapons/*.yml"
   end
 
   private
 
-  def self.populate_weapon_store
-    Dir['./data/weapons/*.yml'].map{|fn| Weapon.from_hash(YAML.load_file(fn))}
+  def self.weapon_store
+    return @@WEAPON_STORE unless @@WEAPON_STORE.empty?
+    Dir['./data/weapons/*.yml'].each do |fn|
+      w = Weapon.from_hash(YAML.load_file(fn))
+      @@WEAPON_STORE[w.item_id] = w
+    end
+    @@WEAPON_STORE
   end
 
 end
