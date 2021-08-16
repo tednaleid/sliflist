@@ -15,6 +15,9 @@ describe Director do
     before(:example) do
       FileUtils.mkdir_p('rolls/s14')
       FileUtils.cp('./fixtures/rolls/chroma_rush.yml', 'rolls/s14')
+
+      FileUtils.mkdir_p('data/weapons')
+      FileUtils.cp('./fixtures/weapons/chroma_rush.yml', 'data/weapons')
     end
 
     it 'writes a wishlist' do

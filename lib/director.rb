@@ -38,7 +38,7 @@ TOML
   private
 
   def self.write_menus_toml
-    weapon_ids = Banshee44.roll_store.map{|r| r.weapon_id}.uniq
+    weapon_ids = Banshee44.roll_store.map{|r| r.weapon.item_id}.uniq
     drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
     sorted_sources = DropSource.source_ordering.select{|ds| drop_sources.include?(ds)}
     
@@ -57,7 +57,7 @@ TOML
   end
 
   def self.create_content_directories
-    weapon_ids = Banshee44.roll_store.map{|r| r.weapon_id}.uniq
+    weapon_ids = Banshee44.roll_store.map{|r| r.weapon.item_id}.uniq
     drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
     
     drop_sources.each do |ds|
@@ -66,7 +66,7 @@ TOML
   end
 
   def self.create_content_indices
-    weapon_ids = Banshee44.roll_store.map{|r| r.weapon_id}.uniq
+    weapon_ids = Banshee44.roll_store.map{|r| r.weapon.item_id}.uniq
     drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
       
     drop_sources.each do |ds|

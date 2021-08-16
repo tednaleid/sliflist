@@ -50,7 +50,7 @@ class AsherMir
   def write_roll(output, perk_ids, roll, row)
     if (row == perk_ids.length-1)
       perk_ids[row].each do |p|
-        output.puts("dimwishlist:item=#{@roll.weapon_id}&perks=#{(roll+[p]).join(',')}")
+        output.puts("dimwishlist:item=#{@roll.weapon.item_id}&perks=#{(roll+[p]).join(',')}")
       end
       return
     end

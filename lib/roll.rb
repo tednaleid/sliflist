@@ -1,6 +1,6 @@
 class Roll
 
-  attr_reader :weapon_id
+  attr_reader :weapon
   attr_reader :name
   attr_reader :ratings_emoji
   attr_reader :tags
@@ -20,8 +20,8 @@ class Roll
     '{emoji} (*barrels, *magazines, *masterworks)',
   ]
 
-  def initialize(weapon_id, name, emoji, tags, overview, base_perks, extended_perks, custom_variants)
-    @weapon_id = weapon_id
+  def initialize(weapon, name, emoji, tags, overview, base_perks, extended_perks, custom_variants)
+    @weapon = weapon
     @name = name
     @ratings_emoji = emoji
     @tags = tags
@@ -42,7 +42,7 @@ class Roll
 
       pattern.scan(/\.*\+(\w+)/) do |addition|
         if !@extended_perks[addition[0]]
-          raise "A variant was specified with an extended (+) perk ('#{addition[0]}'), but that perk wasn't specified under 'extended_perks'. Weapon ID: #{@weapon_id}, Roll Name: #{@name}, Variant Name: #{name}"
+          raise "A variant was specified with an extended (+) perk ('#{addition[0]}'), but that perk wasn't specified under 'extended_perks'. Weapon ID: #{@weapon.item_id}, Roll Name: #{@name}, Variant Name: #{name}"
         end
         perks[addition[0]] = @extended_perks[addition[0]]
       end
@@ -51,7 +51,7 @@ class Roll
         perks[wildcard[0]] = []
       end
 
-      Variant.new(@weapon_id, name, perks)
+      Variant.new(@weapon.item_id, name, perks)
     end
   end
 
@@ -69,7 +69,7 @@ class Roll
     custom_variants = data_hash['custom_variants'] ? data_hash['custom_variants'] : []
 
     Roll.new(
-      data_hash['weapon_id'],
+      Ada1.weapon_from_id(data_hash['weapon_id']),
       data_hash['name'],
       data_hash['ratings_emoji'],
       data_hash['tags'],

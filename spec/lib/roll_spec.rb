@@ -1,5 +1,11 @@
 describe Roll do
 
+  before do
+    FileUtils.mkdir_p('data/weapons')
+    FileUtils.cp('./fixtures/weapons/chroma_rush.yml', 'data/weapons')
+    FileUtils.cp('./fixtures/weapons/the_number.yml', 'data/weapons')
+  end
+
   let(:extended_perks) {
     {
       'barrels'     => ['Arrowhead Brake', 'Polygonal Rifling'],
@@ -43,7 +49,7 @@ describe Roll do
 
   describe '#weapon_id' do
     it 'returns the weapon_id' do
-      expect(subject.weapon_id).to eq(1119734784)
+      expect(subject.weapon.item_id).to eq(1119734784)
     end
   end
 

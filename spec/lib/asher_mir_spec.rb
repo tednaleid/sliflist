@@ -1,32 +1,16 @@
 describe AsherMir do
 
-  let(:roll) {
-    Roll.new(
-      1119734784,
-      'Chasing Stability',
-      '🏃‍♂️',
-      ['pve','pvp'],
-      'Big time Stability roll',
-      {
-        'barrels'     => [Perk.from_name('Arrowhead Brake')],
-        'magazines'   => [Perk.from_name('Steady Rounds')],
-        'perks1'      => [Perk.from_name('Tunnel Vision')],
-        'perks2'      => [Perk.from_name('Kill Clip')],
-        'masterworks' => [Perk.from_name('Range MW')]
-      },
-      {
-        'barrels'     => [Perk.from_name('Arrowhead Brake'), Perk.from_name('Polygonal Rifling')],
-        'magazines'   => [Perk.from_name('Steady Rounds'), Perk.from_name('Accurized Rounds')],
-      },
-      []
-    )
-  }
+  before do
+    FileUtils.mkdir_p('rolls/s14')
+    FileUtils.cp('./fixtures/rolls/chroma_rush.yml', 'rolls/s14')
+
+    FileUtils.mkdir_p('data/weapons')
+    FileUtils.cp('./fixtures/weapons/chroma_rush.yml', 'data/weapons')
+  end
+
+  let(:roll) { Banshee44.roll_store[0] }
 
   subject { AsherMir.new(roll) }
-
-  before(:example) do
-    allow(Banshee44).to receive(:roll_store).and_return([roll])
-  end
 
   let(:variant_gold_data) {
     FakeFS.deactivate!
