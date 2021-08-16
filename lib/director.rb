@@ -4,7 +4,7 @@ class Director
 
 [[main]]
   name = "Rolls"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/welcome/introduction/"
   weight = 10
 
 [[social]]
