@@ -1,0 +1,12 @@
+name: Compass Rose
+item_id: 2591111628
+drop_id: world
+traits:
+  barrels:     {t: 6, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >  
+  Compass Rose is a Precision Frame, Solar shotgun. It was available only
+  during the Season 14 Solstice event.
