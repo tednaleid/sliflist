@@ -1,5 +1,6 @@
 name: Seventh Seraph Officer Revolver
 item_id: 3037520408
+drop_id: world
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 8, c: 2}

@@ -1,5 +1,6 @@
 name: Seventh Seraph SAW
 item_id: 2582755344
+drop_id: world
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 8, c: 2}

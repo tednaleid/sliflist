@@ -1,6 +1,6 @@
 name: Last Perdition
 item_id: 188882152
-drop_ud: world
+drop_id: world
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 8, c: 2}

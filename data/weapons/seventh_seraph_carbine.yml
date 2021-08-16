@@ -1,5 +1,6 @@
 name: Seventh Seraph Carbine
 item_id: 1561006927
+drop_id: world
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 8, c: 2}
