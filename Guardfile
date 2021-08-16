@@ -7,6 +7,8 @@ directories %w(lib rolls spec) \
 guard :rspec, cmd: 'bundle exec rspec' do
   watch(%r{^spec/.+_spec\.rb$}) { 'spec' }
   watch(%r{^lib/(.+)\.rb$})     { 'spec' }
+  watch(%r{^spec/data})         { 'spec' }
+  watch(%r{^spec/fixtures})     { 'spec' }
   watch('spec/spec_helper.rb')  { 'spec' }
 end
 
