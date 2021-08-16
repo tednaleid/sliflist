@@ -2,6 +2,12 @@ class Director
 
   TOML_PREAMBLE = <<-TOML
 
+[[docs]]
+  name = "Welcome"
+  weight = 1
+  identifier = "welcome"
+  url = "/docs/welcome/"
+
 [[main]]
   name = "Rolls"
   url = "/docs/welcome/introduction/"
@@ -41,7 +47,7 @@ TOML
       results.puts
       results.puts("[[docs]]")
       results.puts("  name = \"#{s.name}\"")
-      results.puts("  weight = #{i+1}")
+      results.puts("  weight = #{i+2}")
       results.puts("  identifier = \"#{s.source_id}\"")
       results.puts("  url = \"/docs/#{s.source_id}/\"")
     end
