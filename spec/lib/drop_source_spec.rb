@@ -17,7 +17,7 @@ describe DropSource do
   describe '.from_id' do
     context 'when the drop source exists' do
       it 'retrieves the drop source' do
-        expect(DropSource.from_id(14).name).to eq('Season of the Splicer')
+        expect(DropSource.from_id(14).name).to eq('S14 - Season of the Splicer')
         expect(DropSource.from_id('vog').name).to eq('Raid - Vault of Glass')
       end
     end
