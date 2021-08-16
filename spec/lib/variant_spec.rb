@@ -1,8 +1,16 @@
 describe Variant do
 
+  before do
+    FileUtils.mkdir_p('rolls/s14')
+    FileUtils.cp('./fixtures/rolls/chroma_rush.yml', 'rolls/s14')
+
+    FileUtils.mkdir_p('data/weapons')
+    FileUtils.cp('./fixtures/weapons/chroma_rush.yml', 'data/weapons')
+  end
+
   subject {
     Variant.new(
-      'TEST_WEAPON_ID',
+      Ada1.weapon_from_id(1119734784),
       'TEST_NAME',
       {
         'barrels' => [Perk.from_name('Arrowhead Brake')],
@@ -14,9 +22,10 @@ describe Variant do
     )
   }
 
-  describe '#weapon_id' do
+  describe '#weapon' do
     it 'returns the name' do
-      expect(subject.weapon_id).to eq('TEST_WEAPON_ID')
+      expect(subject.weapon).to be_a(Weapon)
+      expect(subject.weapon.item_id).to eq(1119734784)
     end
   end
 

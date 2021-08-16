@@ -51,7 +51,7 @@ class Roll
         perks[wildcard[0]] = []
       end
 
-      Variant.new(@weapon.item_id, name, perks)
+      Variant.new(@weapon, name, perks)
     end
   end
 

@@ -164,7 +164,7 @@ describe Roll do
   
       it 'sets the weapon IDs' do
         variants.each do |v|
-          expect(v.weapon_id).to eq(1119734784)
+          expect(v.weapon.item_id).to eq(1119734784)
         end
       end
   
