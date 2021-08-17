@@ -33,6 +33,7 @@ TOML
     write_menus_toml
     create_content_directories
     create_content_indices
+    write_weapon_rolls
   end
 
   private
@@ -77,6 +78,24 @@ draft: false
 ---
 TXT
       File.write("./hugo_site/content/docs/#{ds.source_id}/_index.md", contents)
+    end
+  end
+
+  def self.write_weapon_rolls
+    Banshee44.roll_store.each do |roll|
+      result = StringIO.new
+      result.puts <<-TXT
+---
+title: "#{roll.weapon.name}"
+draft: false
+menu:
+  docs:
+    parent: "#{roll.weapon.drop_source.source_id}"
+toc: true
+---
+TXT
+      filename = roll.weapon.name.downcase.gsub(/[\ '-]/, '_').gsub(/[\(\)]/,'')
+      File.write("./hugo_site/content/docs/#{roll.weapon.drop_source.source_id}/#{filename}.md", result.string)
     end
   end
 

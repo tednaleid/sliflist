@@ -88,7 +88,12 @@ describe Director do
       expect(File.read('./hugo_site/content/docs/world/_index.md')).to eq(indices_gold['world'])
     end
 
-    it 'creates roll files for each weapon'
+    it 'creates roll files for each weapon' do
+      expect(File.exist?('./hugo_site/content/docs/14/chroma_rush.md')).to be true
+      expect(File.exist?('./hugo_site/content/docs/ib/bite_of_the_fox.md')).to be true
+      expect(File.exist?('./hugo_site/content/docs/world/hung_jury_adept.md')).to be true
+      expect(File.exist?('./hugo_site/content/docs/world/the_number.md')).to be true
+    end
   end
 
 end

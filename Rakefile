@@ -13,4 +13,10 @@ task :generate_wishlist, [:environment] do |t, args|
   puts '[Director] Done'
 end
 
+task :generate_website do
+  puts '[Director] Generating website...'
+  Director.write_hugo_site
+  puts '[Director] Done'
+end
+
 task :default => :spec
