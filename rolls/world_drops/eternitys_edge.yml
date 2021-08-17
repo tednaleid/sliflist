@@ -19,3 +19,6 @@
   extended_perks:
     barrels: [Jagged Edge]
     magazines: [Infinite Guard]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector’s Edition"
+    - "{emoji}{emoji} (*barrels)"

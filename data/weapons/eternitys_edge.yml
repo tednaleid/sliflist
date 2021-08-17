@@ -1,0 +1,12 @@
+name: Eternity's Edge
+item_id: 2782325301
+drop_id: world
+traits:
+  barrels:     {t: 5, c: 1}
+  magazines:   {t: 1, c: 1}
+  perks1:      {t: 4, c: 1}
+  perks2:      {t: 4, c: 1}
+  masterworks: {t: 1, c: 1}
+overview: >
+  Eternity's Edge is a Solar sword that was reissued as a Vortex Frame in
+  Season 14.
