@@ -1,0 +1,81 @@
+- 
+  weapon_id: 3856705927
+  name: Drewsky's No. 1 Choice
+  ratings_emoji: 🌕
+  tags: ['pvp']
+  overview: >
+    The effect to which Combat Grip straights out recoil will surprise
+    you. [Have a look!](https://youtu.be/K4nBwU6opJk?t=386) All around
+    Range and Stability benefits from the combo of Smallbore Rangefinder
+    make this a terrific roll.
+  base_perks: 
+    barrels: [Smallbore]
+    magazines: [Alloy Magazine]
+    perks1: [Rangefinder]
+    perks2: [Combat Grip]
+    masterworks: []
+  extended_perks:
+    barrels: [Smallbore, Corkscrew Rifling]
+    perks1: [Rangefinder, Opening Shot, Eye of the Storm]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (+perks1)"
+    - "{emoji}{emoji} (+barrels, +perks1)"
+-
+  weapon_id: 3856705927
+  name: Drewsky's Alternate Route
+  ratings_emoji: 🌓
+  tags: ['pvp']
+  overview: >
+    Same as the above roll except significanly less `Handling`. "It's a
+    half step behind the best roll."
+  base_perks:
+    barrels: [Extended Barrel]
+    magazines: [Alloy Magazine]
+    perks1: [Rangefinder]
+    perks2: [Heavy Grip]
+    masterworks: []
+  extended_perks:
+    perks1: [Rangefinder, Opening Shot, Eye of the Storm]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+perks1)"
+-
+  weapon_id: 3856705927
+  name: CammyCakes' Pick
+  ratings_emoji: 🧁
+  tags: ['pvp']
+  overview: >
+    The catalyst does nothing for Stability, so you want as much as you
+    can get. This roll will out-range any 140 RPM Hand Cannon currently
+    in the game.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Alloy Magazine]
+    perks1: [Eye of the Storm]
+    perks2: [Heavy Grip]
+    masterworks: []
+  extended_perks: {}
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+-
+  weapon_id: 3856705927
+  name: Fallout's Pick
+  ratings_emoji: 💣
+  tags: ['pvp']
+  overview: >
+    Pretty straightforward set of suggestions here. Avoid Moving Target
+    because you can get the same bonus from just throwing a Hand Cannon
+    AA mod on your helmet.
+  base_perks:
+    barrels: [Smallbore]
+    magazines: [Alloy Magazine]
+    perks1: [Rangefinder, Eye of the Storm, Killing Wind, Opening Shot]
+    perks2: [Smooth Grip, Heavy Grip]
+    masterworks: []
+  extended_perks:
+    barrels: [Smallbore, Hammer-Forged Rifling, Polygonal Rifling]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
