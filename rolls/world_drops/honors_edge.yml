@@ -1,0 +1,44 @@
+-
+  weapon_id: 2857348871
+  name: Lawnmower Man
+  ratings_emoji: 🚜
+  tags: ['pve']
+  overview: >
+    With Surrounded up, you'll be mowing through hordes of adds in no
+    time.
+    C/o
+    [this analysis](https://www.reddit.com/r/DestinyTheGame/comments/a2mjez/sword_awareness_1_jagged_edge_vs_honed_edge/),
+    Jagged Edge is the clear choice for the first column, but you'll want
+    to make sure your reserves are increased in armor.
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Surrounded]
+    masterworks: [Impact MW]
+  extended_perks: {}
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji} (*magazines)"
+    - "{emoji} (*barrels, *magazines)"
+-
+  weapon_id: 2857348871
+  name: Perfect Parry
+  ratings_emoji: ⚔️
+  tags: ['pve']
+  overview: >
+    `Flash Counter` is akin to parrying in many games, where a perfectly
+    timed block will stagger your attacker. Same set of rolls as above,
+    but with `Flash Counter` in the final column.
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Burst Guard, Enduring Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Flash Counter]
+    masterworks: [Impact MW]
+  extended_perks:
+    magazines: [Burst Guard, Enduring Guard, Heavy Guard, Balanced Guard]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji} CE (+magazines)"
+    - "{emoji} CE (*barrels, *magazines)"

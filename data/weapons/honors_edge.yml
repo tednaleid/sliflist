@@ -1,0 +1,34 @@
+name: Honor's Edge
+item_id: 2857348871
+drop_id: world
+traits:
+  barrels:     {t: 5, c: 2}
+  magazines:   {t: 5, c: 2}
+  perks1:      {t: 3, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 1, c: 1}
+overview: >
+  Honor's Edge (HE) is available in the World Drops loot pool in Season 11,
+  originally being re-issued back in Season 10. The main difference between
+  HE and SS14 is that HE can roll with `Surrounded` and `Flash Counter`,
+  two both amazing perks.
+
+
+  * `Surrounded` + `Surrounded Spec` ends up giving you a massive 35%
+  damage increase and since a Sword is in-your-face there's a high chance
+  you'll proc this regularly.
+
+  * `Flash Counter` not only disorients but 
+  [applies a 20% debuff](https://youtu.be/b9HcFqLdlyQ?t=1477)!
+  This means
+  *all incoming damange* is upped by 20%. You can imagine how helpful this
+  would be in Public Events (like the S11 Contact event), to debuff the
+  boss with up to eleven other Guardians attacking. The debuff lasts for
+  five seconds, so you'll need to periodically switch to blocking for this
+  to take effect. Given that every boss in the game stomps, this is a great
+  way to take out your anti-stomp rage 😡
+
+
+  Fortunately the perk set is very small and chances are you'll get the
+  roll you're after relatively quickly? When you do, rejoice! That roll
+  will keep you all the way through Season 13.
