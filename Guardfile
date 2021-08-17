@@ -1,7 +1,7 @@
 clearing :on
 interactor :off
 
-directories %w(lib rolls spec) \
+directories %w(data lib rolls spec) \
  .select{|d| Dir.exist?(d) ? d : UI.warning("Directory #{d} does not exist")}
 
 guard :rspec, cmd: 'bundle exec rspec' do
@@ -13,5 +13,11 @@ guard :rspec, cmd: 'bundle exec rspec' do
 end
 
 guard :rake, :task => 'generate_wishlist', :task_args => ['development'] do
+  watch(%r{^data/(.+)\.yml$})
+  watch(%r{^rolls/(.+)\.yml$})
+end
+
+guard :rake, :task => 'generate_website' do
+  watch(%r{^data/(.+)\.yml$})
   watch(%r{^rolls/(.+)\.yml$})
 end
