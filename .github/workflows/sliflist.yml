@@ -42,12 +42,12 @@ jobs:
         working-directory: ./hugo_site
         run: npm test
 
+      - name: Create wishlist site content
+        run: bundle exec rake generate_website
+
       - name: Build production website
         working-directory: ./hugo_site
         run: npm run build
-
-      - name: Create wishlist site content
-        run: bundle exec rake generate_website
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
