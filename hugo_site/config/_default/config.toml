@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://rslifka.github.io/sliflist/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
