@@ -1,4 +1,4 @@
-baseurl = "https://rslifka.github.io/sliflist/"
+baseurl = "localhost:1313"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
