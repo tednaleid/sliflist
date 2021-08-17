@@ -35,14 +35,15 @@ class Roll
     variant_source = @custom_variants.empty? ? STANDARD_VARIANT_PATTERNS : @custom_variants
     
     variant_source.map do |pattern|
-      name = "[#{tags.join(',')}] \"#{@name}\" #{pattern.gsub('{emoji}', @ratings_emoji)}"
+      base_name = pattern.gsub('{emoji}', @ratings_emoji)
+      wishlist_txt_name = "[#{tags.join(',')}] \"#{@name}\" #{base_name}"
 
       # Deep copy our baseline set of perks
       perks = Marshal.load(Marshal.dump(@base_perks))
 
       pattern.scan(/\.*\+(\w+)/) do |addition|
         if !@extended_perks[addition[0]]
-          raise "A variant was specified with an extended (+) perk ('#{addition[0]}'), but that perk wasn't specified under 'extended_perks'. Weapon ID: #{@weapon.item_id}, Roll Name: #{@name}, Variant Name: #{name}"
+          raise "A variant was specified with an extended (+) perk ('#{addition[0]}'), but that perk wasn't specified under 'extended_perks'. Weapon ID: #{@weapon.item_id}, Roll Name: #{@name}, Variant Name: #{wishlist_txt_name}"
         end
         perks[addition[0]] = @extended_perks[addition[0]]
       end
@@ -51,7 +52,7 @@ class Roll
         perks[wildcard[0]] = []
       end
 
-      Variant.new(@weapon, name, perks)
+      Variant.new(@weapon, wishlist_txt_name, base_name, perks)
     end
   end
 

@@ -12,6 +12,7 @@ describe Variant do
     Variant.new(
       Ada1.weapon_from_id(681067419),
       'TEST_NAME',
+      'BASE_NAME',
       {
         'barrels' => [Perk.from_name('Polygonal Rifling')],
         'magazines' => [Perk.from_name('Steady Rounds')],
@@ -30,8 +31,14 @@ describe Variant do
   end
 
   describe '#name' do
-    it 'returns the name' do
+    it 'returns the used in the wishlist.txt' do
       expect(subject.name).to eq('TEST_NAME')
+    end
+  end
+
+  describe '#base_name' do
+    it 'returns the most basic part of the name' do
+      expect(subject.base_name).to eq('BASE_NAME')
     end
   end
 

@@ -1,12 +1,14 @@
 class Variant
 
   attr_reader :weapon
+  attr_reader :base_name
   attr_reader :name
   attr_reader :perks
 
-  def initialize(weapon, name, perks)
+  def initialize(weapon, wishlist_txt_name, base_name, perks)
     @weapon = weapon
-    @name = name
+    @name = wishlist_txt_name
+    @base_name = base_name
     @perks = perks
   end
 
