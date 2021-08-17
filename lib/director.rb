@@ -72,7 +72,7 @@ TOML
     drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
     
     drop_sources.each do |ds|
-      puts "  > Creating ./hugo_site/content/docs/#{ds.source_id}"
+      puts "  > ./hugo_site/content/docs/#{ds.source_id}"
       FileUtils.mkdir_p("./hugo_site/content/docs/#{ds.source_id}")
     end
   end
@@ -89,7 +89,7 @@ title: "#{ds.name}"
 draft: false
 ---
 TXT
-      puts "  > Creating /hugo_site/content/docs/#{ds.source_id}/_index.md"
+      puts "  > /hugo_site/content/docs/#{ds.source_id}/_index.md"
       File.write("./hugo_site/content/docs/#{ds.source_id}/_index.md", contents)
     end
   end
@@ -148,7 +148,7 @@ TXT
       end
       
       filename = w.name.downcase.gsub(/[\ -]/, '_').gsub(/['\(\)]/,'')
-      puts "  > Writing ./hugo_site/content/docs/#{w.drop_source.source_id}/#{filename}.md"
+      puts "  > ./hugo_site/content/docs/#{w.drop_source.source_id}/#{filename}.md"
       File.write("./hugo_site/content/docs/#{w.drop_source.source_id}/#{filename}.md", result.string)
     end
   end

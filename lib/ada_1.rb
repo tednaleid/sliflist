@@ -15,7 +15,9 @@ class Ada1
 
   def self.weapon_store
     return @@WEAPON_STORE unless @@WEAPON_STORE.empty?
-    Dir['./data/weapons/*.yml'].each do |fn|
+    puts '[Ada1] Loading weapon database'
+    Dir['./data/weapons/*.yml'].sort.each do |fn|
+      puts "  > #{fn}"
       w = Weapon.from_hash(YAML.load_file(fn))
       @@WEAPON_STORE[w.item_id] = w
     end
