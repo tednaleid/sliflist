@@ -1,5 +1,13 @@
 class Director
 
+  NICE_PERK_NAMES = {
+    'barrels' => 'Barrels',
+    'magazines' => 'Magazines',
+    'perks1' => 'Perks 1',
+    'perks2' => 'Perks 2',
+    'masterworks' => 'Masterworks'
+  }
+
   TOML_PREAMBLE = <<-TOML
 
 [[docs]]
@@ -82,20 +90,59 @@ TXT
   end
 
   def self.write_weapon_rolls
-    Banshee44.roll_store.each do |roll|
+    Banshee44.roll_store_by_weapon_id.each do |weapon_id, rolls|
+      w = Ada1.weapon_from_id(weapon_id)
+
       result = StringIO.new
       result.puts <<-TXT
 ---
-title: "#{roll.weapon.name}"
+title: "#{w.name}"
 draft: false
 menu:
   docs:
-    parent: "#{roll.weapon.drop_source.source_id}"
+    parent: "#{w.drop_source.source_id}"
 toc: true
 ---
+
+#{w.overview}
+
 TXT
-      filename = roll.weapon.name.downcase.gsub(/[\ '-]/, '_').gsub(/[\(\)]/,'')
-      File.write("./hugo_site/content/docs/#{roll.weapon.drop_source.source_id}/#{filename}.md", result.string)
+
+      rolls.each do |roll|
+        result.puts("## #{roll.ratings_emoji} #{roll.name} (#{roll.tags.join(',')})")
+        result.puts
+        result.puts(roll.overview)
+        result.puts
+        result.puts('**Collector\'s Edition Perks**')
+        %w(barrels magazines perks1 perks2 masterworks).each do |perk_slot_name|
+          perk_list = if roll.base_perks[perk_slot_name].empty?
+            'Anything goes!'
+          else
+            roll.base_perks[perk_slot_name].map{|p|p.name}.join(', ')
+          end
+          result.puts("* **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
+        end
+        result.puts
+        result.puts('**Extended Perks** (referred to with a \'+\' below)')
+        %w(barrels magazines perks1 perks2 masterworks).each do |perk_slot_name|
+          next unless roll.extended_perks[perk_slot_name]     
+          perk_list = if roll.extended_perks[perk_slot_name].empty?
+            'Anything goes!'
+          else
+            roll.extended_perks[perk_slot_name].map{|p|p.name}.join(', ')
+          end
+          result.puts("* **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
+        end
+        result.puts
+        result.puts('| Variant | Chance | 1 in ? |')
+        result.puts('|:-|-:|-:|')
+        roll.variants.each do |v|
+          result.puts("| %s | %0.2f%% | %d |" % [v.base_name, v.probability(), v.average_rolls_required])
+        end
+      end
+      
+      filename = w.name.downcase.gsub(/[\ '-]/, '_').gsub(/[\(\)]/,'')
+      File.write("./hugo_site/content/docs/#{w.drop_source.source_id}/#{filename}.md", result.string)
     end
   end
 
