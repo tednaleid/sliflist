@@ -44,4 +44,28 @@ describe Banshee44 do
 
   end
 
+  describe '.roll_store_by_weapon_id' do
+    let(:grouped_store) { Banshee44.roll_store_by_weapon_id }
+
+    it 'provides access to the right weapons' do
+      expect(grouped_store.length).to eq(2)
+      expect(grouped_store).to have_key(1119734784)
+      expect(grouped_store).to have_key(2492081469)
+    end
+
+    it 'stores the right rolls with each weapon' do
+      expect(grouped_store[1119734784].length).to eq(1)
+      expect(grouped_store[1119734784][0]).to be_a(Roll)
+      expect(grouped_store[1119734784][0].name).to eq('Chasing Stability')
+
+      expect(grouped_store[2492081469].length).to eq(3)
+      expect(grouped_store[2492081469][0]).to be_a(Roll)
+      expect(grouped_store[2492081469][0].name).to eq('Sheikh\'s Choice')
+      expect(grouped_store[2492081469][1]).to be_a(Roll)
+      expect(grouped_store[2492081469][1].name).to eq('Feedback Loop')
+      expect(grouped_store[2492081469][2]).to be_a(Roll)
+      expect(grouped_store[2492081469][2].name).to eq('One-for-All is the Loneliest')
+    end
+  end
+
 end

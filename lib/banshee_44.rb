@@ -4,6 +4,12 @@ class Banshee44
     @@ROLL_STORE ||= populate_store
   end
 
+  # This is useful for generate the roll Markdown pages, since we need all the
+  # rolls for a particular weapon.
+  def self.roll_store_by_weapon_id
+    roll_store.group_by{ |r| r.weapon.item_id }
+  end
+
   def self.reboot
     @@ROLL_STORE = nil
   end
