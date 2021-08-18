@@ -16,6 +16,8 @@ describe Weapon do
     'overview' => 'TEST_OVERVIEW',
     'drop_id'  => 'vog',
     'traits'   => perk_slots,
+    'pvp_comments' => 'TEST_PVP_COMMENT',
+    'pve_comments' => 'TEST_PVE_COMMENT'
   }}
 
   subject { Weapon.from_hash(data_hash) }
@@ -41,6 +43,72 @@ describe Weapon do
   describe '#overview' do
     it 'returns the overview' do
       expect(subject.overview).to eq('TEST_OVERVIEW')
+    end
+  end
+
+  describe '#has_pvp_comments?' do
+
+    context 'when comments exist' do
+
+      context 'when not empty' do
+        it 'returns true' do
+          expect(subject.has_pvp_comments?).to be true
+        end
+      end
+
+      context 'when empty' do
+        let(:w) {
+          data_hash.merge!({'pvp_comments' => ''})
+          Weapon.from_hash(data_hash)
+        }
+        it 'returns false' do
+          expect(w.has_pvp_comments?).to be false
+        end
+      end
+
+    end
+
+    context 'when comments do not exist' do
+      let(:w) {
+        data_hash.delete('pvp_comments')
+        Weapon.from_hash(data_hash)
+      }
+      it 'returns false' do
+        expect(w.has_pvp_comments?).to be false
+      end
+    end
+  end
+
+  describe '#has_pve_comments?' do
+
+    context 'when comments exist' do
+
+      context 'when not empty' do
+        it 'returns true' do
+          expect(subject.has_pve_comments?).to be true
+        end
+      end
+
+      context 'when empty' do
+        let(:w) {
+          data_hash.merge!({'pve_comments' => ''})
+          Weapon.from_hash(data_hash)
+        }
+        it 'returns false' do
+          expect(w.has_pve_comments?).to be false
+        end
+      end
+
+    end
+
+    context 'when comments do not exist' do
+      let(:w) {
+        data_hash.delete('pve_comments')
+        Weapon.from_hash(data_hash)
+      }
+      it 'returns false' do
+        expect(w.has_pve_comments?).to be false
+      end
     end
   end
 
