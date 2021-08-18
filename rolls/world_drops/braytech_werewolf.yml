@@ -36,38 +36,6 @@
     magazines: [Ricochet Rounds, Flared Magwell]
 - 
   weapon_id: 528834068
-  name: Tappy Wolf
-  ratings_emoji: 👉
-  tags: ['pvp']
-  overview: >
-    Same set of rolls as above, but taking anything in the third column.
-  base_perks: 
-    barrels: [Arrowhead Brake]
-    magazines: [Ricochet Rounds]
-    perks1: []
-    perks2: [Tap the Trigger]
-    masterworks: [Stability MW]
-  extended_perks:
-    barrels: [Arrowhead Brake, Chambered Compensator, Corkscrew Rifling, Fluted Barrel, Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
-    magazines: [Ricochet Rounds, Flared Magwell]
-- 
-  weapon_id: 528834068
-  name: Stay On Target Wolf
-  ratings_emoji: 🎯
-  tags: ['pvp']
-  overview: >
-    Same set of rolls as above, but taking anything in the final column.
-  base_perks: 
-    barrels: [Arrowhead Brake]
-    magazines: [Ricochet Rounds]
-    perks1: [Dynamic Sway Reduction]
-    perks2: []
-    masterworks: [Stability MW]
-  extended_perks:
-    barrels: [Arrowhead Brake, Chambered Compensator, Corkscrew Rifling, Fluted Barrel, Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
-    magazines: [Ricochet Rounds, Flared Magwell]
-- 
-  weapon_id: 528834068
   name: Curated; from Collections
   ratings_emoji: 🌟
   tags: ['pve']
