@@ -1,0 +1,111 @@
+-
+  weapon_id: 2496242052
+  name: Rain Fire
+  ratings_emoji: ☂️
+  tags: ['pve']
+  overview: >
+    First we start with a super high default `Blast Radius` of `95`. Then
+    we sprinkle on some `Cluster Bomb` action and you've already got a
+    great chance of splashing down on packs of Guardians. Add in high
+    `Velocity` and improved `Handling` and you've got a snappy air raid
+    in your grasp.
+  base_perks:
+    barrels: [Quick Launch, Smart Drift Control]
+    magazines: [High-Velocity Rounds]
+    perks1: [Impulse Amplifier]
+    perks2: [Cluster Bomb]
+    masterworks: [Handling MW]
+  extended_perks: {}
+  custom_variants:
+    - "☂️☂️☂️🌟 Collector's Edition"
+    - "☂️☂️☂️ (*barrels)"
+    - "☂️☂️☂️ (*magazines)"
+    - "☂️☂️☂️ (*masterworks)"
+    - "☂️☂️ (*barrels, *magazines)"
+    - "☂️☂️ (*barrels, *masterworks)"
+    - "☂️☂️ (*magazines, *masterworks)"
+    - "☂️ (*barrels, *magazines, *masterworks)"
+-
+  weapon_id: 2496242052
+  name: One-Guardian Show
+  ratings_emoji: 📺
+  tags: ['pve']
+  overview: >
+    With `Lasting Impression` it's possible to stick a rocket, switch
+    to another weapon and debuff the stickee (e.g. Divinity). With Auto-
+    Loading Holster, by the time you switch back to Code Duello, it
+    should be reloaded. Rinse and repeat! Be forewarned however, this is
+    a super niche roll and not at all a run-and-gun RL. It's more for
+    grins on what type of "chess" you can play with an RL in Destiny.
+  base_perks:
+    barrels: [Quick Launch, Smart Drift Control, Countermass]
+    magazines: [Impact Casing]
+    perks1: [Auto-Loading Holster]
+    perks2: [Lasting Impression]
+    masterworks: [Reload MW, Handling MW]
+  extended_perks: {}
+  custom_variants:
+    - "📺📺📺🌟 Collector's Edition"
+    - "📺📺📺 CE (*barrels)"
+    - "📺📺📺 CE (*masterworks)"
+    - "📺📺📺 CE (*barrels, *masterworks)"
+    - "📺📺 CE (*magazines)"
+    - "📺📺 CE (*magazines, *barrels)"
+    - "📺📺 CE (*magazines, *masterworks)"
+    - "📺 CE (*barrels, *magazines, *masterworks)"
+-
+  weapon_id: 2496242052
+  name: Eternal Sunshine
+  ratings_emoji: ☀️
+  tags: ['pve']
+  overview: >
+    This goes great with Warmind-cell builds for constantly clearing
+    adds. Via Rustopholis above, note that Field Prep only checks to see
+    if you're crouched at the *start* of the reload animation, not
+    throughout.
+  base_perks:
+    barrels: [Quick Launch, Smart Drift Control, Countermass]
+    magazines: [Alloy Casing]
+    perks1: [Field Prep, Impulse Amplifier]
+    perks2: [Frenzy]
+    masterworks: [Handling MW]
+  extended_perks: {}
+  custom_variants:
+    - "☀️☀️☀️🌟 Collector's Edition"
+    - "☀️☀️☀️ CE (*barrels)"
+    - "☀️☀️☀ CE (*magazines)"
+    - "☀️☀️☀️ CE (*masterworks)"
+    - "☀️☀️ (*barrels, *magazines)"
+    - "☀️☀️ (*barrels, *masterworks)"
+    - "☀️☀️ (*magazines, *masterworks)"
+    - "☀️ (*barrels, *magazines, *masterworks)"
+-
+  weapon_id: 2496242052
+  name: Last Stand
+  ratings_emoji: 🚩
+  tags: ['pve']
+  overview: >
+    This is your standard "stand behind cover / in a well and chuck
+    rockets at the boss" roll. Whether or not you value `Frenzy` over
+    `Lasting Impression` will depend on the encounter. The barrels and
+    masterworks are mostly focused on adding Handling and are gravy
+    (but solid if you get them!).
+  base_perks:
+    barrels: [Quick Launch, Smart Drift Control, Countermass]
+    magazines: [Impact Casing]
+    perks1: [Field Prep]
+    perks2: [Lasting Impression, Frenzy]
+    masterworks: [Handling MW]
+  extended_perks: {}
+  custom_variants:
+    - "🚩🚩🚩🌟 Collector's Edition"
+    - "🚩🚩🚩 CE (*barrels)"
+    - "🚩🚩🚩 CE (*magazines)"
+    - "🚩🚩🚩 CE (*masterworks)"
+    - "🚩🚩🚩 CE (*barrels, *masterworks)"
+    - "🚩🚩 CE (*magazines)"
+    - "🚩🚩 CE (*magazines, *barrels)"
+    - "🚩🚩 CE (*magazines, *masterworks)"
+    - "🚩🚩 CE (*perks1)"
+    - "🚩🚩 CE (*perks1, *barrels)"
+    - "🚩🚩 CE (*perks1, *masterworks)"
