@@ -1,0 +1,146 @@
+syntax_version: 2
+name: False Promises
+item_id: 3143732432
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 7, c: 1}
+  perks2:      {t: 7, c: 2}
+  masterworks: {t: 4, c: 1}
+overview: >
+  False Promises is a 360 RPM Kinetic Auto Rifle introduced in Season 11.
+  The High-Impacts are notable by their extremely long `Range` and extremely
+  poor `Stability` and False Promises is no exception. On console, False
+  Promises is pretty tough to control. Even with vertical `Recoil`, there's
+  still a lot of bounce in the reticle because the `Stability` is so low.
+activities:
+  - 
+    name: PvP
+    overview: >
+      I'm recommending, nay requiring `Dynamic Sway Reduction` for any False
+      Promises roll I'd consider using in PvP, because of its marked affect on
+      `Stability` and `Accuracy`. Here's what
+      [Bungie had to say](https://www.bungie.net/en/News/Article/49126)
+      about DSR prior to S11:
+      
+
+      > **Dynamic Sway Reduction**: Adds 10 Stability over time in addition to accuracy (this is way more powerful than it sounds).
+      Reduced reticle movement from Stability should now tell players this is working.
+
+
+      Here's a couple of videos examining Stability, including the effects of
+      DSR. These were recorded before the aforementioned buff, so some of these
+      may be a little out of date depending on which part of the content you're
+      referring to.
+
+      * [Dynamic Sway Reduction on Auto Rifles & Zoom Effect | Destiny 2 Season of the Worthy](https://www.youtube.com/watch?v=S71_munFJYE)
+
+      * [Stability In Depth | Stat Review and Guide - The Heart of Destiny 2](https://www.youtube.com/watch?v=DmQEFdjwzcw&feature=youtu.be)
+
+
+      All of the following rolls feature Eye of the Storm, Rampage and
+      Swashbuckler. Think about this from a "forgiveness" perspective. If you
+      want more forgiveness during your first exchange, choose Eye of the Storm.
+      If you want more foregiveness during follow-on encounters, choose Rampage
+      or Swashbuckler.
+
+
+      **Closing Remarks**: S11 continues the S10 600 RPM Auto Rifle meta. If
+      you're planning on using an AR, I'd suggest any of the 600s kicking
+      around, notably the Gnawing Hunger since it's so easily farmable via the
+      Recaster. Alternatively, wait until The Summoner is up as the three-win
+      reward in Trials and grab on there. As far as False Promises is concerned,
+      I'll be holding on to a good PvP roll in the hopes that the sandbox is
+      updated in S12 or beyond.
+    roll_sets:
+      - 
+        name: Stormfront 
+        overview: >
+          These 360s are primarily hampered by their ultra-low Stability, so
+          we're going to do everything we can to correct it. `EotS` is part of
+          that as it hones in progressively more as your health gets low. Be
+          sure to swap in Counterbalance mod push the `Recoil` to `100`.
+        perks:
+          base:
+            barrels: [Polygonal Rifling]
+            magazines: [Ricochet Rounds]
+            perks1: [Dynamic Sway Reduction]
+            perks2: [Eye of the Storm]
+            masterworks: [Stability MW]
+          extensions:
+            barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+            magazines: [Ricochet Rounds, Flared Magwell]
+        variants:
+          - 🌦🌦🌦🌟 Collector's Edition
+          - 🌦🌦🌦 CE (+magazines)
+          - 🌦🌦🌦 CE (+barrels)
+          - 🌦🌦🌦 (+barrels, +magazines)
+          - 🌦🌦 (+barrels, *magazines)
+          - 🌦🌦 (+barrels, *masterworks)
+          - 🌦 (*magazines, *masterworks)
+      - 
+        name: Aftershocks 
+        overview: >
+          Same as the above roll, but helps you chain kills.
+        perks:
+          base:
+            barrels: [Polygonal Rifling]
+            magazines: [Ricochet Rounds]
+            perks1: [Dynamic Sway Reduction]
+            perks2: [Rampage, Swashbuckler]
+            masterworks: [Stability MW]
+          extensions:
+            barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+            magazines: [Ricochet Rounds, Flared Magwell]
+        variants:
+          - ⚡️⚡️⚡️🌟 Collector's Edition
+          - ⚡️⚡️⚡️ CE (+magazines)
+          - ⚡️⚡️⚡️ CE (+barrels)
+          - ⚡️⚡️⚡️ (+barrels, +magazines)
+          - ⚡️⚡️ (+barrels, *magazines)
+          - ⚡️⚡️ (+barrels, *masterworks)
+          - ⚡️ (*magazines, *masterworks)          
+  - 
+    name: PvE
+    overview: >
+      In PvE you're going for as much
+      `Range` as you can get with sustained damage upkeep. I think `Unrelenting`
+      is a super interesting perk, I would just prefer to have the large damage
+      bonuses active from damage-boosting perks.
+    roll_sets:
+      -
+        name: Overflowing Rage
+        overview: >
+          All Range and all damage, focused on Overflow and Subsistence.
+        perks:
+          base:
+            barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+            magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Light Mag]
+            perks1: [Overflow, Subsistence]
+            perks2: [Rampage, Swashbuckler]
+            masterworks: [Range MW]
+        variants:
+          - 🚰🚰🚰🌟 Collector's Edition
+          - 🚰🚰🚰 CE (*barrels)
+          - 🚰🚰🚰 CE (*masterworks)
+          - 🚰🚰🚰 CE (*magazines)
+          - 🚰🚰 (*barrels, *magazines)
+          - 🚰 (*barrels, *magazines, *masterworks)
+      -
+        name: Frenzied Rage
+        overview: >
+          All Range and all damage, focused on Feeding Frenzy.
+        perks:
+          base:
+            barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+            magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Light Mag]
+            perks1: [Feeding Frenzy]
+            perks2: [Rampage, Swashbuckler]
+            masterworks: [Range MW]
+        variants:
+          - 😡😡😡🌟 Collector's Edition
+          - 😡😡😡 CE (*barrels)
+          - 😡😡😡 CE (*masterworks)
+          - 😡😡😡 CE (*magazines)
+          - 😡😡 (*barrels, *magazines)
+          - 😡 (*barrels, *magazines, *masterworks)

@@ -1,0 +1,165 @@
+syntax_version: 2
+name: Gnawing Hunger
+item_id: 821154603
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Gnawing Hunger is a 600 RPM "Adaptive Frame" Energy Auto Rifle first
+  introduced in Season 6. It has been reissued in Season 11, meaning it will be
+  capable of going up to the Season 14 power level cap. Adaptives were buffed
+  Season 10 and unless something changes, will remain very strong through Season
+  11.
+activities:
+  - 
+    name: PvP
+    overview: >
+      For grins,
+      [check out ZkMushroom](https://www.youtube.com/watch?v=qmbJdlYpD-s)
+      using the generally agreed-upon "God roll" roll with `Tap the Trigger`,
+      `Kill Clip` and a Stability Masterwork.
+
+      > "Is there a bug with this gun or is it just really good? I feel like I'm killing too fast right now... like a little bit too fast. I don't get it."
+
+
+      > "This... it feels better than Summoner and SUROS. I can't believe there's a weapon like this in the game and I didn't know about it. I've never seen something like this."
+
+
+      > "Dude what is this TTK? I don't get it! This TTK is a little too fast Bungie."
+
+      
+      I hopped in to the Tribute Hall and ran several Recoil pattern tests
+      with various Barrels, Magazines, Perks and Masterworks (Arrowhead, Steady
+      Rounds, Tap the Trigger, etc.). At base Stability and Recoil (on console
+      at least), it's pretty hard to control.
+      
+      
+      There are two ways to get Gnawing Hunger to hone in for you:
+      
+      1. **Tap the Trigger**: The most noticeable difference in bullet
+      concentration comes from TtT. If you want a laser beam, you want TtT. That
+      being said, if you *only* get TtT and no other Stability or Recoil perks,
+      it's not nearly as easy to control as it could be.
+
+      2. **Arrowhead + Counterbalance**: This combo *absolutely works* as well.
+      I was
+      able to cluster rounds around small targets just fine, without TtT. If
+      you don't get Zen Moment or Tap the Trigger in the third column, but you
+      do get Arrowhead Brake in the first column, you might find it totally
+      capable, especially if you're on PC.
+      
+
+      What you **really** want is to slam all these perks together for maximum
+      Stability and minimal Recoil, and that's what we're going to break down
+      below.
+    roll_sets:
+      -
+        name: Drifter Hungry
+        overview: >
+          Going for as much `Recoil` and `Stability` improvement as we can get.
+          `Kill Clip` is phenomenal on the Gnawing Hunger, bumping your optimal
+          TTK from `8c1b/0.80s` to `6c1b/0.60s`.
+        perks: 
+          base: 
+            barrels: [Arrowhead Brake]
+            magazines: [Steady Rounds]
+            perks1: [Tap the Trigger, Zen Moment]
+            perks2: [Kill Clip]
+            masterworks: [Stability MW]
+          extensions:
+            barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+            magazines: [Steady Rounds, Flared Magwell, Tactical Mag]
+        variants:
+          - 🧟‍♂️🧟‍♂️🧟‍♂️🌟 Collector's Edition
+          - 🧟‍♂️🧟‍♂️🧟‍♂️ CE (*masterworks)
+          - 🧟‍♂️🧟‍♂️🧟‍♂️ CE (*perks2)
+          - 🧟‍♂️🧟‍♂️🧟‍♂️ CE (+magazines)
+          - 🧟‍♂️🧟‍♂️ (+magazines, *masterworks)
+          - 🧟‍♂️🧟‍♂️ (+magazines, *perks2)
+          - 🧟‍♂️🧟‍♂️ (*magazines)
+          - 🧟‍♂️🧟‍♂️ (*magazines, *masterworks)
+          - 🧟‍♂️🧟‍♂️ (*magazines, *perks2)
+          - 🧟‍♂️🧟‍♂️ (+magazines, *perks2, *masterworks)
+          - 🧟‍♂️ (*magazines, *perks2, *masterworks)
+      -
+        name: Ramshackle Weapon
+        overview: >
+          Similar to the above roll, relying on `Zen Moment` for `Recoil`
+          improvement.
+        perks: 
+          base: 
+            barrels: [Arrowhead Brake]
+            magazines: [Steady Rounds]
+            perks1: []
+            perks2: [Kill Clip]
+            masterworks: [Stability MW]
+          extensions:
+            magazines: [Steady Rounds, Flared Magwell, Tactical Mag]
+        variants:
+          - 🛠🛠🛠🌟 Collector's Edition
+          - 🛠🛠🛠 CE (*masterworks)
+          - 🛠🛠🛠 CE (*perks2)
+          - 🛠🛠🛠 CE (+magazines)
+          - 🛠🛠 (+magazines, *masterworks)
+          - 🛠🛠 (+magazines, *perks2)
+          - 🛠🛠 (*magazines)
+  - 
+    name: PvE
+    summary: >
+      With `Subsistence` getting a buff, it is the go-to perk in column three.
+      `Overflow` is there, but only as part of the curated roll which hasn't
+      been available since Reckoning was retired.
+    roll_sets:
+      -
+        name: Bullet Hose
+        overview: >
+          As much Range as we can get from everywhere we can get it. We're
+          combining Subsistence with Swashbuckler or Rampage because those two
+          (versus the two kill clips) can be refreshed/extended without
+          reloading.
+        perks: 
+          base: 
+            barrels: [Hammer-Forged Rifling]
+            magazines: [Accurized Rounds]
+            perks1: [Subsistence]
+            perks2: [Swashbuckler, Rampage]
+            masterworks: [Range MW]
+          extensions:
+            barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling]
+        variants:
+          - 💦💦💦🌟 Collector's Edition
+          - 💦💦💦 CE (+barrels)
+          - 💦💦💦 CE (*magazines)
+          - 💦💦💦 CE (*masterworks)
+          - 💦💦 (+barrels, *magazines)
+          - 💦💦 (+barrels, *masterworks)
+          - 💦💦 (*magazines, *masterworks)
+          - 💦 (*barrels, *magazines, *masterworks)
+      -
+        name: Ranged Assassin
+        overview: >
+          As much Range as we can get from everywhere we can get it. We're
+          relying on fast-reload magazines to synergize with either of the Kill
+          Clip options.
+        perks: 
+          base: 
+            barrels: [Hammer-Forged Rifling]
+            magazines: [Drop Mag, Alloy Magazine]
+            perks1: []
+            perks2: [Multikill Clip, Kill Clip]
+            masterworks: [Range MW]
+          extensions:
+            barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling]
+        variants:
+          - 👻👻👻🌟 Collector's Edition
+          - 👻👻👻 CE (+barrels)
+          - 👻👻👻 CE (*magazines)
+          - 👻👻👻 CE (*masterworks)
+          - 👻👻 (+barrels, *magazines)
+          - 👻👻 (+barrels, *masterworks)
+          - 👻👻 (*magazines, *masterworks)
+          - 👻 (*barrels, *magazines, *masterworks)
