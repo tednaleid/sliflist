@@ -1,65 +1,92 @@
 - 
   weapon_id: 1946491241
-  name: Shieldbreaker
-  ratings_emoji: 🛡
-  tags: ['pvp']
+  name: Spike No Evil
+  ratings_emoji: 🙊
+  tags: ['pvp','pve']
   overview: >
-    Break their shields with Disruption Break and clean them up with a
-    kinetic. We're looking for velocity and blast radius here.
-  base_perks: 
+    The combination of `Spike Grenades` (extra damage on hit) and Disruption
+    Break (Kinetic debuff after shield break) makes this doubly deadly. Either
+    you finished them off with a direct hit or you quickly swap to Kinetic
+    and finish them off. There is no roll featured here that has only one or
+    the other; you don't need a wishlist for that. This is actually a terrific
+    roll for PvE as well.
+  base_perks:
     barrels: [Quick Launch]
     magazines: [Spike Grenades]
     perks1: [Auto-Loading Holster]
     perks2: [Disruption Break]
-    masterworks: [Handling MW]
+    masterworks: [Velocity MW]
   extended_perks:
-    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    barrels: [Quick Launch, Smart Drift Control, Hard Launch]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*perks1)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (+barrels, *perks1)"
+    - "{emoji}{emoji} (*perks1, *masterworks)"
+    - "{emoji} (+barrels, *perks1, *masterworks)"
+    - "{emoji} (*barrels, *perks1, *masterworks)"
+- 
+  weapon_id: 1946491241
+  name: Blinded by Science
+  ratings_emoji: 🧪
+  tags: ['pve']
+  overview: >
+    `Blinding Grenades` are so incredibly clutch in end-game activities. The
+    ability to stun lock all but the chonkiest of bois allows you to get
+    critical revives, focus down other adds, etc.
+  base_perks: 
+    barrels: [Quick Launch]
+    magazines: [Blinding Grenades]
+    perks1: [Auto-Loading Holster]
+    perks2: [Disruption Break]
+    masterworks: [Velocity MW]
+  extended_perks:
+    barrels: [Quick Launch, Hard Launch, Smart Drift Control, Linear Compensator]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*perks2)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (+barrels, *perks2)"
+    - "{emoji}{emoji} (*perks2, *masterworks)"
+    - "{emoji} (+barrels, *perks2, *masterworks)"
+    - "{emoji} (*barrels, *perks2, *masterworks)"
+- 
+  weapon_id: 1946491241
+  name: Heavy Artillery
+  ratings_emoji: 💣
+  tags: ['pve']
+  overview: >
+    `Feeding Frenzy` reloads faster the more kills you get in quick succession
+    and when that reload completes `Multikill Clip` gives you a bonus for the
+    very same kills that sped up the reload.
+  base_perks: 
+    barrels: [Quick Launch]
+    magazines: [Spike Grenades]
+    perks1: [Feeding Frenzy]
+    perks2: [Multikill Clip]
+    masterworks: [Velocity MW]
+  extended_perks:
+    barrels: [Quick Launch, Hard Launch, Smart Drift Control, Linear Compensator]
     magazines: [Spike Grenades, Proximity Grenades, High-Velocity Rounds]
 - 
   weapon_id: 1946491241
-  name: Blinded by Science (Feat. Disruption Break)
-  ratings_emoji: 🧪
+  name: Battlemage
+  ratings_emoji: 🧙
   tags: ['pve']
   overview: >
-    Open up an engagement on a group of enemies by suppressing them all with blindness
+    Classic pairing. Instance 30% damage bonus after a melee kill
+    w/`Swashbuckler`. 
   base_perks: 
     barrels: [Quick Launch]
-    magazines: [Blinding Grenades]
-    perks1: [Auto-Loading Holster]
-    perks2: [Disruption Break]
-    masterworks: [Handling MW]
+    magazines: [Proximity Grenades]
+    perks1: [Grave Robber]
+    perks2: [Swashbuckler]
+    masterworks: [Velocity MW]
   extended_perks:
-    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
-    magazines: [Blinding Grenades]
-- 
-  weapon_id: 1946491241
-  name: Blinded by Science (Baseline)
-  ratings_emoji: 🧪
-  tags: ['pve']
-  overview: >
-    Open up an engagement on a group of enemies by suppressing them all with blindness
-  base_perks: 
-    barrels: [Quick Launch]
-    magazines: [Blinding Grenades]
-    perks1: [Auto-Loading Holster]
-    perks2: []
-    masterworks: [Handling MW]
-  extended_perks:
-    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
-    magazines: [Blinding Grenades]    
-- 
-  weapon_id: 1946491241
-  name: Welcome to the Boomtown
-  ratings_emoji: 💥
-  tags: ['pve']
-  overview: >
-    Maximize direct damage on larger enemies with Spike Grenades.
-  base_perks: 
-    barrels: [Quick Launch]
-    magazines: [Spike Grenades]
-    perks1: [Field Prep]
-    perks2: []
-    masterworks: [Reload MW]
-  extended_perks:
-    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
-    magazines: [Spike Grenades]
+    barrels: [Quick Launch, Hard Launch, Smart Drift Control, Linear Compensator] 
+    magazines: [Spike Grenades, Proximity Grenades, High-Velocity Rounds]
