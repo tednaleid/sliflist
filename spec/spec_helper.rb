@@ -8,6 +8,9 @@ require 'fakefs/spec_helpers'
 require 'wishlist'
 
 RSpec.configure do |config|
+  # https://relishapp.com/rspec/rspec-core/v/3-10/docs/filtering/inclusion-filters
+  # config.filter_run_including :focus => true
+
   config.include FakeFS::SpecHelpers
 
   config.before(:example) do
