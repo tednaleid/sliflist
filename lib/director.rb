@@ -111,40 +111,47 @@ toc: true
 ---
 
 #{w.overview}
-
 TXT
 
+      # Outputs *per roll* in the order they come from Banshee44
       rolls.each do |roll|
+        
+        # Name
+        result.puts
         result.puts("## #{roll.ratings_emoji} #{roll.name} (#{roll.tags.join(',')})")
+        
+        # Overview
         result.puts
         result.puts(roll.overview)
+        
+        # Base perks
         result.puts
-        result.puts('**Collector\'s Edition Perks**')
+        result.puts('**Collector\'s Edition Roll**')
         %w(barrels magazines perks1 perks2 masterworks).each do |perk_slot_name|
-          perk_list = if roll.base_perks[perk_slot_name].empty?
-            'Anything goes!'
-          else
-            roll.base_perks[perk_slot_name].map{|p|p.name}.join(', ')
-          end
+          next unless roll.has_base_perks_for_slot?(perk_slot_name)
+          perk_list = roll.base_perks[perk_slot_name].map{|p|p.name}.join(', ')
           result.puts("* **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
         end
-        result.puts
-        result.puts('**Extended Perks** (referred to with a \'+\' below)')
-        %w(barrels magazines perks1 perks2 masterworks).each do |perk_slot_name|
-          next unless roll.extended_perks[perk_slot_name]     
-          perk_list = if roll.extended_perks[perk_slot_name].empty?
-            'Anything goes!'
-          else
-            roll.extended_perks[perk_slot_name].map{|p|p.name}.join(', ')
+
+        # Extended perks
+        if roll.has_extended_perks?
+          result.puts
+          result.puts('**Extended Perks** (referred to with a \'+\' below)')
+          %w(barrels magazines perks1 perks2 masterworks).each do |perk_slot_name|
+            next unless roll.has_extended_perks_for_slot?(perk_slot_name)
+            perk_list = roll.extended_perks[perk_slot_name].map{|p|p.name}.join(', ')
+            result.puts("* **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
           end
-          result.puts("* **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
         end
+        
+        # Variants
         result.puts
         result.puts('| Variant | Chance | 1 in ? |')
         result.puts('|:-|-:|-:|')
         roll.variants.each do |v|
           result.puts("| %s | %0.2f%% | %d |" % [v.base_name, v.probability(), v.average_rolls_required])
         end
+
       end
       
       filename = w.name.downcase.gsub(/[\ -]/, '_').gsub(/['\(\)]/,'')
