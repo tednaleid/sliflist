@@ -31,6 +31,24 @@ class Roll
     @custom_variants = custom_variants
   end
 
+  def has_base_perks_for_slot?(slot_name)
+    return false unless @base_perks.has_key?(slot_name)
+    !@base_perks[slot_name].empty?
+  end
+
+  def has_extended_perks?
+    return false if @extended_perks.empty?
+    @extended_perks.values.each do |perks|
+      return true if !perks.empty?
+    end
+    false
+  end
+
+  def has_extended_perks_for_slot?(slot_name)
+    return false unless @extended_perks.has_key?(slot_name)
+    !@extended_perks[slot_name].empty?
+  end
+
   def variants
     variant_source = @custom_variants.empty? ? STANDARD_VARIANT_PATTERNS : @custom_variants
     

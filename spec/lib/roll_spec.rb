@@ -6,6 +6,16 @@ describe Roll do
     FileUtils.cp('./fixtures/weapons/the_number.yml', 'data/weapons')
   end
 
+  let(:base_perks) {
+    {
+      'barrels'     => ['Arrowhead Brake'],
+      'magazines'   => ['Steady Rounds'],
+      'perks1'      => ['Tunnel Vision'],
+      'perks2'      => ['Kill Clip'],
+      'masterworks' => ['Range MW']
+    }
+  }
+
   let(:extended_perks) {
     {
       'barrels'     => ['Arrowhead Brake', 'Polygonal Rifling'],
@@ -20,13 +30,7 @@ describe Roll do
       'ratings_emoji' => '🏃‍♂️',
       'tags' => ['pve','pvp'],
       'overview' => 'Big time Stability roll',
-      'base_perks' => {
-        'barrels'     => ['Arrowhead Brake'],
-        'magazines'   => ['Steady Rounds'],
-        'perks1'      => ['Tunnel Vision'],
-        'perks2'      => ['Kill Clip'],
-        'masterworks' => ['Range MW']
-      },
+      'base_perks' => base_perks,
       'extended_perks' => extended_perks
     }
   }
@@ -75,6 +79,87 @@ describe Roll do
     it 'returns the overview' do
       expect(subject.tags).to match_array(['pvp','pve'])
     end
+  end
+
+  describe '#has_extended_perks?' do
+    
+    context 'when there are no extended perks specified' do
+      let(:extended_perks) { { } }
+      it 'returns false' do
+        expect(subject.has_extended_perks?).to be false
+      end
+    end
+
+    context 'when there are extended perks specified' do
+      
+      context 'when at least one extended perk has a value' do
+        it 'returns true' do
+          expect(subject.has_extended_perks?).to be true
+        end
+      end
+
+      context 'when all extended perks are empty' do
+        let(:extended_perks) { {'barrels' => [], 'magazines' => []} }
+        it 'returns false' do
+          expect(subject.has_extended_perks?).to be false
+        end
+      end
+
+    end
+  end
+
+  describe '#has_base_perks_for_slot?' do
+
+    context 'when that slot is defined' do
+
+      context 'when it has perks' do
+        it 'returns true' do
+          expect(subject.has_base_perks_for_slot?('barrels')).to be true
+        end
+      end
+
+      context 'when it does not have perks' do
+        let(:base_perks) { {'barrels' => []} }
+        it 'returns false' do
+          expect(subject.has_base_perks_for_slot?('barrels')).to be false
+        end
+      end
+
+    end
+
+    context 'when that slot is not defined' do
+      it 'returns false' do
+        expect(subject.has_base_perks_for_slot?('undefined name')).to be false
+      end
+    end
+
+  end
+
+  describe '#has_extended_perks_for_slot?' do
+  
+    context 'when that slot is defined' do
+
+      context 'when it has perks' do
+        it 'returns true' do
+          expect(subject.has_extended_perks_for_slot?('barrels')).to be true
+        end
+      end
+
+      context 'when it does not have perks' do
+        let(:extended_perks) { {'barrels' => []} }
+        it 'returns false' do
+          expect(subject.has_extended_perks_for_slot?('barrels')).to be false
+        end
+      end
+
+    end
+
+    context 'when that slot is not defined' do
+      it 'returns false' do
+        expect(subject.has_extended_perks_for_slot?('undefined name')).to be false
+      end
+    end
+
   end
 
   describe '#base_perks' do
