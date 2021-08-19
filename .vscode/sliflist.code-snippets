@@ -1,6 +1,27 @@
 // https://code.visualstudio.com/docs/editor/userdefinedsnippets
 {
+  "Weapon Template": {
+    "description": "Template for weapons (./data/*.yml)",
+    "scope": "yaml",
+    "prefix": [
+      "weapont"
+    ],
+    "body": [
+      "name: ?",
+      "item_id: ?",
+      "drop_id: ?",
+      "traits:",
+      "  ?",
+      "overview: >",
+      "  ?",
+      "pvp_comments: >",
+      "  ?",
+      "pve_comments: >",
+      "  ?"
+    ]
+  },
   "Roll Template": {
+    "description": "Template for weapon rolls (./rolls/*.yml)",
     "scope": "yaml",
     "prefix": ["rollt"],
     "body":[
@@ -15,7 +36,6 @@
       "    PASTE HERE",
       "  extended_perks:",
       "    PASTE HERE"
-    ],
-    "description": "Template for weapon rolls (./rolls/*.yml)"
+    ]
   }
 }
