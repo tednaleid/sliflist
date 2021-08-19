@@ -1,0 +1,45 @@
+name: False Promises
+item_id: 3143732432
+drop_id: 11
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 7, c: 1}
+  perks2:      {t: 7, c: 2}
+  masterworks: {t: 4, c: 1}
+overview: >
+  False Promises is a 360 RPM Kinetic Auto Rifle introduced in Season 11.
+  The High-Impacts are notable by their extremely long `Range` and extremely
+  poor `Stability` and False Promises is no exception. On console, False
+  Promises is pretty tough to control. Even with vertical `Recoil`, there's
+  still a lot of bounce in the reticle because the `Stability` is so low.
+pvp_comments: >
+  I'm recommending, nay requiring `Dynamic Sway Reduction` for any False
+  Promises roll I'd consider using in PvP, because of its marked affect on
+  `Stability` and `Accuracy`. Here's what
+  [Bungie had to say](https://www.bungie.net/en/News/Article/49126)
+  about DSR prior to S11:
+        
+
+  > **Dynamic Sway Reduction**: Adds 10 Stability over time in addition to accuracy (this is way more powerful than it sounds).
+  Reduced reticle movement from Stability should now tell players this is working.
+
+
+  Here's a couple of videos examining Stability, including the effects of
+  DSR. These were recorded before the aforementioned buff, so some of these
+  may be a little out of date depending on which part of the content you're
+  referring to.
+
+  * [Dynamic Sway Reduction on Auto Rifles & Zoom Effect | Destiny 2 Season of the Worthy](https://www.youtube.com/watch?v=S71_munFJYE)
+
+  * [Stability In Depth | Stat Review and Guide - The Heart of Destiny 2](https://www.youtube.com/watch?v=DmQEFdjwzcw&feature=youtu.be)
+
+
+  All of the following rolls feature Eye of the Storm, Rampage and
+  Swashbuckler. Think about this from a "forgiveness" perspective. If you
+  want more forgiveness during your first exchange, choose Eye of the Storm.
+  If you want more foregiveness during follow-on encounters, choose Rampage
+  or Swashbuckler.
+pve_comments: >
+  In PvE you're going for as much
+  `Range` as you can get with sustained damage upkeep.

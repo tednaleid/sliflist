@@ -1,0 +1,68 @@
+-
+  weapon_id: 3143732432
+  name: Keep Your Word
+  ratings_emoji: 🙊
+  tags: ['pvp']
+  overview: >
+    360s have high Range and low Stability. Let's use the ancillary perk slots
+    to make up for Stability and our core slots for post-engagement benefit.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Ricochet Rounds]
+    perks1: [Killing Wind]
+    perks2: [Swashbuckler, Rampage]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Fluted Barrel, Smallbore, Corkscrew Rifling, Chambered Compensator]
+    magazines: [Ricochet Rounds, Flared Magwell, High-Caliber Rounds]
+-
+  weapon_id: 3143732432
+  name: Bad Deal
+  ratings_emoji: 💸
+  tags: ['pvp']
+  overview: >
+    `Dynamic Sway` and `Eye of the Storm` will give you an edge in close-call
+    duels by increasing Stability and Accuracy as they progress.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Ricochet Rounds]
+    perks1: [Dynamic Sway Reduction]
+    perks2: [Eye of the Storm]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Fluted Barrel, Smallbore, Corkscrew Rifling, Chambered Compensator]
+    magazines: [Ricochet Rounds, Flared Magwell, High-Caliber Rounds]
+-
+  weapon_id: 3143732432
+  name: Used Cars
+  ratings_emoji: 🚗
+  tags: ['pvp']
+  overview: >
+    With the recent knowledge that `Zen Moment` reduces reticle bounce and
+    shake, it's a solid perk on a weapon that has each of those. Let's
+    pair it with `Dynamic Sway` and turn this into a laser.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Ricochet Rounds]
+    perks1: [Dynamic Sway Reduction]
+    perks2: [Zen Moment]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Fluted Barrel, Smallbore, Corkscrew Rifling, Chambered Compensator]
+    magazines: [Ricochet Rounds, Flared Magwell, High-Caliber Rounds]
+-
+  weapon_id: 3143732432
+  name: Truth in Advertising
+  ratings_emoji: 🚰
+  tags: ['pve']
+  overview: >
+    All Range and all damage.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Subsistence, Feeding Frenzy]
+    perks2: [Rampage, Swashbuckler]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling, Chambered Compensator]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Light Mag]
