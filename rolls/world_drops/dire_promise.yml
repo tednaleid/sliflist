@@ -4,14 +4,16 @@
   ratings_emoji: 🙏
   tags: ['pvp']
   overview: >
-    140s crave Stability. They won't be helped as much by Range as they
-    are by what Stability gives you: an AA cone that resets more quickly
-    than it would otherwise and less kick to correct for.
+    140s crave Stability. They won't be helped as much by Range as they are by
+    what Stability gives you: an AA cone that resets more quickly than it would
+    otherwise and less kick to correct for. We're also adding
+    `Elemental Capacitor` to the mix, because the bonuses it gives you are
+    phenomenal for nearly all elements.
   base_perks: 
     barrels: [Steadyhand HCS]
     magazines: [Ricochet Rounds]
     perks1: [Opening Shot, Snapshot]
-    perks2: [Rangefinder]
+    perks2: [Rangefinder, Elemental Capacitor]
     masterworks: [Stability MW]
   extended_perks:
     barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS, Hitmark HCS]
@@ -31,5 +33,5 @@
     perks2: [Swashbuckler]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Steadyhand HCS, Fastdraw HCS, Truesight HCS, Hitmark HCS]
+    barrels: [Sureshot HCS, Steadyhand HCS, Fastdraw HCS, Truesight HCS, Hitmark HCS]
     magazines: [High-Caliber Rounds, Armor-Piercing Rounds, Light Mag, Ricochet Rounds]
