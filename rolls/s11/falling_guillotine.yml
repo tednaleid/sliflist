@@ -1,0 +1,38 @@
+-
+  weapon_id: 614426548
+  name: Reign's End
+  ratings_emoji: 👑
+  tags: ['pve']
+  overview: >
+    Use `Whirlwind` to help build up damage before you shoot off a Heavy
+    Attack. `Jagged` has the largest `Impact` increase and `Swordmaster's` has
+    the highest `Charge Rate` increase to give you your Heavy Attack back more
+    quickly.
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Whirlwind Blade]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
+    magazines: [Swordmaster's Guard]
+-
+  weapon_id: 614426548
+  name: You Want a Revolution?
+  ratings_emoji: 🤺
+  tags: ['pve']
+  overview: >
+    `Relentless` and `Surrounded` work great together considering 100% of your
+    engagements will be at close range. `Jagged` has the largest `Impact`
+    increase and `Swordmaster's` has the highest `Charge Rate` increase to
+    give you your Heavy Attack back more quickly.
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Surrounded]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
+    magazines: [Swordmaster's Guard]
