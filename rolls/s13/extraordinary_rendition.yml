@@ -1,0 +1,71 @@
+-
+  weapon_id: 1097616550
+  name: Perfect Performance (+Surplus)
+  ratings_emoji: 🏆
+  tags: ['pvp']
+  overview: >
+    With `Chambered Compensator` your Recoil bumps to `100`, and every other
+    column is dedicated to bumping the Rendition's super low `Stability`.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Steady Rounds]      
+    perks1: [Surplus]
+    perks2: [Tap the Trigger]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 1097616550
+  name: Perfect Performance (+Zen Moment)
+  ratings_emoji: 🏆
+  tags: ['pvp']
+  overview: >
+    Same idea as the above roll, but for crazy people who don't think Surplus is a top-tier perk 😉
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Steady Rounds]      
+    perks1: [Zen Moment]
+    perks2: [Tap the Trigger]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 1097616550
+  name: The Show Must Go On
+  ratings_emoji: 🕺
+  tags: ['pve']
+  overview: >
+    The recent change to `Subsistence` to no longer penalize reserves made it
+    an S-tier perk overnight. These three perks in the final column synergize
+    super well.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Extended Mag]
+    perks1: [Subsistence]
+    perks2: [Rampage, Frenzy, One for All]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Extended Mag, Appended Mag]
+-
+  weapon_id: 1097616550
+  name: A Beautiful Rendition
+  ratings_emoji: 🖼
+  tags: ['pve']
+  overview: >
+    This is going to be immensely helpful in **high tier content** where you
+    aren't able to proc damage perks off of kills. While `Surplus` will be
+    boosting Stability, the Stability is so low and difficult to manage on
+    console that we'll continue to crave it as a backstop for when we're at
+    lower tiers of `Surplus` benefits.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Extended Mag]
+    perks1: [Surplus]
+    perks2: [One for All, Frenzy]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Extended Mag, Appended Mag]

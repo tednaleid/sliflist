@@ -1,0 +1,41 @@
+name: Extraordinary Rendition
+item_id: 1097616550
+drop_id: 13
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Extraordinary Rendition is a 750 RPM Kinetic Submachine Gun; part of the S13
+  weapon set. Both perks and stats are
+  [virtually identical](https://www.light.gg/db/items/compare/?h=BBbEym;BZzrdV)
+  to the Cold Front, available only during the 2020 Dawning, so we'll be able
+  to rely on the work we did there for these rolls 🎉🎉🎉 Ehroar covers the
+  [Extraordinary Rendition](https://www.youtube.com/watch?v=SplO6sE1Nxg)
+  in depth.
+
+
+  The cornerstone of both PvE and PvP are `Surplus`. If you end up with a
+  "PvE roll" that also happens to have super high Stability, then you've
+  got the Holy Grail. Congrats! For an explanation of these rolls, please
+  read further down towards the specific PvE and PvP sections.
+pvp_comments: >
+  EA needs a lot of help in the Stability department, which is the
+  entire focus of these two rolls. At best, you'll be able to get Stability
+  up from `17` to `52` plus the benefits coming from Surplus and Tap
+  the Trigger. This puts you way above the base Stability on the
+  vaunted Antiope-D and other Precision Frame SMGs. The Recoil is `97`
+  so YMMV on whether or not a Counterbalance mod is required (I
+  suggest an Icarus Mod otherwise).
+
+
+  You'll also notice there are no damage perks in these rolls. Neither Rampage x1
+  nor Multikill Clip x1 changes the TTK or TTK requirements materially.
+pve_comments: >
+  With `Surplus`, `One for All` and `Frenzy` in the EA perk
+  pool, we're looking at a strong contender for one of the best kinetic
+  weapons of all time (second only to the Ikelos SMG). `Surplus` improves
+  Stability and Reload and `One for All` and `Frenzy` provide a tremendous
+  damage boost and leaves your mod slot free for Minor, Major or Boss Spec.
