@@ -1,0 +1,90 @@
+-
+  weapon_id: 211938782
+  name: GuiltySpark's Aggro Slab
+  ratings_emoji: 😡
+  tags: ['pvp']
+  overview: >
+    Here's a breakdown of what we're going for:
+            
+
+    * `Elastic String`: Sacrifices accuracy to increase draw speed,
+      meaning you can pull it back and fire it faster. Aka, lowers ttk
+      for the weapon by a small fraction. With this loadout we're not
+      too concerned about accuracy as engagements will be at closer
+      ranges.
+    * `Fiberglass Arrow Shaft`: Lowers stability, which is not
+      concerning for a bow, but increases accuracy considerably. This is
+      the best type of arrow any bow can have because there are no
+      noticeable drawbacks of having it.
+    * `Killing Wind`: Adds five tiers of movement speed to your guardian
+      when the trait is active, meaning you will feel much quicker and
+      lighter, allowing you to play more aggressively.
+    * `Unrelenting`: Rewards an aggressive playstyle by granting a small
+      amount of health on top of triggering health regeneration. In the
+      Crucible, every other guardian kill will trigger this trait.
+      Triggering this trait means you'll have less downtime between
+      engagements, and you'll have some room to perform interesting
+      plays in 1v2/3 or more scenarios.
+    * `Accuracy Masterwork`: This helps conteract the reduction in
+      accuracy that Elastic string has, making the bow feel a little
+      more reliable when shooting. 
+  base_perks:
+    barrels: [Elastic String]
+    magazines: [Fiberglass Arrow Shaft]
+    perks1: [Killing Wind]
+    perks2: [Unrelenting]
+    masterworks: [Accuracy MW]
+  extended_perks:
+    barrels: [Elastic String, Polymer String]
+    magazines: [Fiberglass Arrow Shaft, Straight Fletching]
+    masterworks: [Accuracy MW, Draw Time MW]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (+magazines)"
+    - "{emoji}{emoji}{emoji} CE (+masterworks)"
+    - "{emoji}{emoji} (+barrels, +magazines, +masterworks)"
+    - "{emoji} (*barrels, *magazines, +masterworks)"
+-
+  weapon_id: 211938782
+  name: GuiltySpark's Reserved Slab
+  ratings_emoji: 🧐
+  tags: ['pvp']
+  overview: >
+    The objective of this loadout is to max it's Accuracy as high as it
+    can go, so that the player can use it at longer distances and not feel
+    forced to engage at closer ranges.
+
+      * `High Tension String`: We're going for max accuracy with this
+        loadout.
+      * `Fiberglass Arrow Shaft`: Again, the best Arrow type for any bow.
+      * `Archer's Tempo`: High Tension String gives an increase to draw
+        speed, and Archer's Tempo will act to negate its effects while
+        still lowering Draw Time to a reasonable degree.
+      * `Opening Shot`: Further increases Accuracy and bullet magnetism to
+        the head, making the bow more reliable at longer distances.
+      * `Accuracy Masterwork`: Again, going for as high of an Accuracy
+        stat as we can.
+  base_perks:
+    barrels: [High Tension String]
+    magazines: [Fiberglass Arrow Shaft]
+    perks1: [Archer's Tempo]
+    perks2: [Opening Shot]
+    masterworks: [Accuracy MW]
+  extended_perks:
+    barrels: [High Tension String, Polymer String]
+    magazines: [Fiberglass Arrow Shaft, Straight Fletching]
+    masterworks: [Accuracy MW, Draw Time MW]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (+magazines)"
+    - "{emoji}{emoji}{emoji} CE (+masterworks)"
+    - "{emoji}{emoji} (+barrels, +magazines, +masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*barrels)"
+    - "{emoji}{emoji}{emoji} CE (*magazines)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji} (*barrels, *magazines)"
+    - "{emoji}{emoji} (*barrels, *masterworks)"
+    - "{emoji}{emoji} (*magazines, *masterworks)"
+    - "{emoji} (*barrels, *magazines, *masterworks)"
