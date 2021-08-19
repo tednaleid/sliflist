@@ -17,6 +17,7 @@ hugo_site/resources
 
 # Static site generator - local development
 hugo_site/config/_default/menus.toml
+hugo_site/content/docs/11
 hugo_site/content/docs/13
 hugo_site/content/docs/14
 hugo_site/content/docs/dsc
