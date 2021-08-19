@@ -1,0 +1,21 @@
+name: Temptation's Hook
+item_id: 35794111
+drop_id: 11
+traits:
+  barrels:     {t: 5, c: 2}
+  magazines:   {t: 5, c: 2}
+  perks1:      {t: 3, c: 1}
+  perks2:      {t: 5, c: 2}
+  masterworks: {t: 1, c: 1}
+overview: >
+  Temptation's Hook is the first "Caster Frame" sword to appear in the game.
+  It's Heavy Attack swipe is replaced with a projectile that (at full sword
+  energy) grinds away when it hits an enemy. You can make great use of these
+  against enemies where peeking is helpful, for example Shriekers or keeping
+  a beefy enemy from regenerating its shield.
+
+  Courtesy of
+  [this analysis](https://www.reddit.com/r/DestinyTheGame/comments/a2mjez/sword_awareness_1_jagged_edge_vs_honed_edge/),
+  `Jagged Edge` is the clear choice for the first column, and since we want to
+  throw as many projectiles as we can, it's `Swordmaster's Guard` for the second
+  column.

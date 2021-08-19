@@ -1,0 +1,55 @@
+-
+  weapon_id: 35794111
+  name: Bolt-Caster
+  ratings_emoji: 🏹
+  tags: ['pve']
+  overview: >
+    Vorpal is a solid tool to have here. This roll won't do the most single-
+    target damage against bosses, but that's not why you have it; you have it
+    for the utility it brings. Being able to slice through adds **and** throw
+    a heavy attack at a Champion or Boss at basically unlimited range, is
+    a great tool in the kit (think Shriekers!).
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Vorpal]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
+    magazines: [Swordmaster's Guard]
+-
+  weapon_id: 35794111
+  name: Timeshare
+  ratings_emoji: 🕰
+  tags: ['pve']
+  overview: >
+    `Whirlwhind` greatly increases damage for `3s`. You can generate the buff
+    then throw the projectile.
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Whirlwind Blade]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
+    magazines: [Swordmaster's Guard]
+-
+  weapon_id: 35794111
+  name: Extended Warranty
+  ratings_emoji: 📝
+  tags: ['pve']
+  overview: >
+    Standard set of sword perks here. "Free" damage boost gained just from
+    risky(ier) CQC positioning which you likely already have by virtue of the
+    fact you're using a sword 🙃
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Swordmaster's Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Surrounded]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
+    magazines: [Swordmaster's Guard]
