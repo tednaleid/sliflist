@@ -8,9 +8,18 @@ traits:
   perks2:      {t: 6, c: 1}
   masterworks: {t: 4, c: 1}
 overview: >
-  Heritage is a kinetic "precision frame" (slug) shotgun that can drop from the 2nd
-  and 3rd encounters of the Deep Stone Crypt raid.  After the initial drop,
+  Heritage is a kinetic "precision frame" (slug) shotgun that can drop from the
+  2nd and 3rd encounters of the Deep Stone Crypt raid.  After the initial drop,
   you have a chance of getting additional rolls from the raid's secret chests.
+pvp_comments: >
+  Heritage has the highest aim assist of any slug shotgun.
+  [Drewsky](https://www.youtube.com/watch?v=XUGZIasUu9o)
+  says "this weapon is really comparable to The Chaperone."
 
-  As of Season 12, it is the only legendary kinetic slug shotgun that is
-  viable in leveled content.
+  
+  The base one hit kill range is 10.5m, you can increase that up to 11.9m with
+  Killing Wind and Slideshot active.
+pve_comments: >
+  Slug shotguns currently enable some of the highest DPS in the game, and are
+  the meta-loadout for boss DPS in a number of encounters, including the
+  final boss of the raid.
