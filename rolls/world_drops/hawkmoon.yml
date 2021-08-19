@@ -4,10 +4,10 @@
   ratings_emoji: 🌕
   tags: ['pvp']
   overview: >
-    The effect to which Combat Grip straights out recoil will surprise
-    you. [Have a look!](https://youtu.be/K4nBwU6opJk?t=386) All around
-    Range and Stability benefits from the combo of Smallbore Rangefinder
-    make this a terrific roll.
+    The effect to which Combat Grip straights out recoil will surprise you.
+    [Have a look!](https://youtu.be/K4nBwU6opJk?t=386) All around Range and
+    Stability benefits from the combo of `Smallbore` and `Rangefinder` make
+    this a terrific roll.
   base_perks: 
     barrels: [Smallbore]
     magazines: [Alloy Magazine]
@@ -28,8 +28,8 @@
   ratings_emoji: 🌓
   tags: ['pvp']
   overview: >
-    Same as the above roll except significanly less `Handling`. "It's a
-    half step behind the best roll."
+    Same as the above roll except significanly less `Handling`. "It's a half
+    step behind the best roll."
   base_perks:
     barrels: [Extended Barrel]
     magazines: [Alloy Magazine]
@@ -47,9 +47,8 @@
   ratings_emoji: 🧁
   tags: ['pvp']
   overview: >
-    The catalyst does nothing for Stability, so you want as much as you
-    can get. This roll will out-range any 140 RPM Hand Cannon currently
-    in the game.
+    The catalyst does nothing for Stability, so you want as much as you can get.
+    This roll will out-range any 140 RPM Hand Cannon currently in the game.
   base_perks:
     barrels: [Hammer-Forged Rifling]
     magazines: [Alloy Magazine]
@@ -65,9 +64,9 @@
   ratings_emoji: 💣
   tags: ['pvp']
   overview: >
-    Pretty straightforward set of suggestions here. Avoid Moving Target
-    because you can get the same bonus from just throwing a Hand Cannon
-    AA mod on your helmet.
+    Pretty straightforward set of suggestions here. Avoid Moving Target because
+    you can get the same bonus from just throwing a Hand Cannon AA mod on your
+    helmet.
   base_perks:
     barrels: [Smallbore]
     magazines: [Alloy Magazine]
