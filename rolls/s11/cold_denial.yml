@@ -19,7 +19,7 @@
     masterworks: [Stability MW]
   extended_perks:
     barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
-    magazines: [Ricochet Rounds, Flared Magwell]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell, Light Mag, Armor-Piercing Rounds]
 -
   weapon_id: 1216130969
   name: Warm Acceptance
@@ -36,7 +36,7 @@
     masterworks: [Stability MW]
   extended_perks:
     barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
-    magazines: [Ricochet Rounds, Flared Magwell]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell, Light Mag, Armor-Piercing Rounds]
 -
   weapon_id: 1216130969
   name: grief(1)
