@@ -1,39 +1,39 @@
 -
   weapon_id: 65611680
-  name: In my Sights
-  ratings_emoji: 👓
+  name: Hair of the Dog
+  ratings_emoji: 🐕
   tags: ['pvp']
   overview: >
-    Working backwards from `Iron Gaze` (+20 AA), we're going for as much
-    `Stability` as we can. We'd end choosing the rest of the roll
-    similarly if we landed `Kill Clip` or `Eye of the Storm` in the final
-    slot, so we'll combine these rolls.
+    Both `Iron Gaze` and `Iron Grip` would be amazing paired with a big
+    `Stability` increase alongside better accuracy from `Moving Target`.
   base_perks:
-    barrels: [Control SAS, Quickdot SAS, Shortspec SAS, Tactic SAS]
+    barrels: [Control SAS]
     magazines: [Ricochet Rounds]
-    perks1: [Moving Target, Pulse Monitor]
-    perks2: [Iron Gaze, Eye of the Storm, Kill Clip]
+    perks1: [Moving Target]
+    perks2: [Iron Gaze, Iron Grip, Eye of the Storm]
     masterworks: [Stability MW]
   extended_perks:
-    barrels: []
-    magazines: []
+    barrels: [Control SAS, Quickdot SAS, Shortspec SAS, Tactic SAS]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell]
 -
   weapon_id: 65611680
-  name: Sticky Fingers
-  ratings_emoji: 🧤
+  name: Hair of the Dog (+ Kill Cliip)
+  ratings_emoji: 🐶
   tags: ['pvp']
   overview: >
-    Working backwards from `Iron Grip` (+20 Stability), we can free up
-    some of our other columns for non-Stability enhancing perks.
+    Similar to the above, whereas it was about getting the kill, this
+    is about chaining kills. `Kill Clip` turns this into an absolute
+    monster with a `0.53s` optimal TTK and an insane `0.80s` body-shot
+    TTK.
   base_perks:
-    barrels: [Control SAS, Quickdot SAS, Shortspec SAS, Tactic SAS]
-    magazines: [High-Caliber Rounds, Ricochet Rounds]
-    perks1: [Moving Target, Pulse Monitor]
-    perks2: [Iron Grip]
+    barrels: [Control SAS]
+    magazines: [Ricochet Rounds]
+    perks1: [Moving Target]
+    perks2: [Kill Clip]
     masterworks: [Stability MW]
   extended_perks:
-    barrels: []
-    magazines: []
+    barrels: [Control SAS, Quickdot SAS, Shortspec SAS, Tactic SAS]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell]
 -
   weapon_id: 65611680
   name: Gunslinger's Frenzy
@@ -42,29 +42,11 @@
   overview: >
     Fast reload and as much `Range` as we can get.
   base_perks:
-    barrels: [Target SAS, Tactic SAS, Shortspec SAS]
-    magazines: [High-Caliber Rounds, Armor-Piercing Rounds, Light Mag]
+    barrels: [Target SAS]
+    magazines: [High-Caliber Rounds]
     perks1: [Feeding Frenzy]
     perks2: [Kill Clip]
     masterworks: [Range MW]
   extended_perks:
-    barrels: []
-    magazines: [High-Caliber Rounds, Armor-Piercing Rounds, Light Mag, Appended Mag, Flared Magwell, Ricochet Rounds]
--
-  weapon_id: 65611680
-  name: Running on Empty
-  ratings_emoji: ⛽️
-  tags: ['pve']
-  overview: >
-    This is a weird one... we're draining the mag to get the reload
-    boost from `Alloy Magazine` so we have to watch out for other
-    perks that might short-circuit this way of using it.
-  base_perks:
     barrels: [Target SAS, Tactic SAS, Shortspec SAS]
-    magazines: [Alloy Magazine]
-    perks1: [Feeding Frenzy, Moving Target, Hip-Fire Grip]
-    perks2: [Kill Clip]
-    masterworks: [Range MW]
-  extended_perks:
-    barrels: []
-    magazines: []
+    magazines: [High-Caliber Rounds, Armor-Piercing Rounds, Light Mag, Appended Mag, Flared Magwell, Ricochet Rounds]
