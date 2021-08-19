@@ -1,0 +1,101 @@
+-
+  weapon_id: 3616586446
+  name: Aztecross' "Hip Shooter"
+  ratings_emoji: 🕺
+  tags: ['pvp']
+  overview: >
+    To quote my friend Lenny, "This is the kind of stupid idea I am fond
+    of."
+    [Aztec's contention](https://www.youtube.com/watch?v=Vj1tNWkP9Fg)
+    is that slug shotguns struggle because of
+    high enemy mobility combined with having to zoom means a much tighter
+    field of view that makes them even harder to track. This is precisely
+    why I stop using Chaperone around 4000 Glory in Comp. Hunters with
+    high mobility (the stat and the skill to do so) and charging shotgun
+    rushers become nearly impossible to hit (for me at least!). This is a
+    series of rolls based around Hip-Fire Grip and Opening Shot. It's a
+    totally different way of playing and I love the idea of it! I doubt
+    it will become meta, but this list is all about fun, specific rolls so
+    here you go 😃
+  base_perks:
+    barrels: [Full Bore]
+    magazines: [Accurized Rounds, Assault Mag]
+    perks1: [Hip-Fire Grip]
+    perks2: [Opening Shot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+-
+  weapon_id: 3616586446
+  name: Slug Thrower
+  ratings_emoji: 🐛
+  tags: ['pvp']
+  overview: >
+    `Range`- and `Accuracy`-boosting perks surrounded by Range-boosters
+    in all the other columns. `Assault Mag` is also amazing in the second
+    column when you're getting so much additional `Range` everywhere else!
+  base_perks:
+    barrels: [Full Bore]
+    magazines: [Accurized Rounds]
+    perks1: [Slideshot]
+    perks2: [Opening Shot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+-
+  weapon_id: 3616586446
+  name: First In, Boss Down
+  ratings_emoji: 👿
+  tags: ['pve']
+  overview: >
+    Vorpal + Auto-Loading Holster gives you the greatest uptime in boss DPS phases.
+    Add in Assault Mag for slightly higher DPS with the increased rate-of-fire, and
+    Full Bore and a Range MW for the most range possible and you've got a stew
+    cooking!
+  base_perks:
+    barrels: [Full Bore]
+    magazines: [Assault Mag]
+    perks1: [Auto-Loading Holster]
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+-
+  weapon_id: 3616586446
+  name: First In, Boss Down (- Auto-Loading)
+  ratings_emoji: 👿
+  tags: ['pve']
+  overview: >
+    Normally we're pretty strict about locking in third and fourth column perks,
+    but "First In" with Vorpal is just so good that getting a great roll sans
+    `Auto-Loading Holster` is still worth taking in to a boss damage phase.
+  base_perks:
+    barrels: [Full Bore]
+    magazines: [Assault Mag]
+    perks1: []
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+-
+  weapon_id: 3616586446
+  name: First In, Never Out
+  ratings_emoji: 🥾
+  tags: ['pvp']
+  overview: >
+    All of the reloading options are interesting in their own way, so we
+    have one general set of rolls revolving around `Assault Mag` and
+    `Surrounded`.
+  base_perks:
+    barrels: [Full Bore]
+    magazines: [Assault Mag]
+    perks1: [Auto-Loading Holster, Outlaw, Pulse Monitor]
+    perks2: [Surrounded]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Bore, Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]

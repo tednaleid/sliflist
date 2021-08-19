@@ -1,0 +1,31 @@
+name: First In, Last Out
+item_id: 3616586446
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 5, c: 1}
+  perks2:      {t: 5, c: 2}
+  masterworks: {t: 4, c: 1}
+overview: >
+  "First In, Last Out" was released for the first time in Season 11 since
+  its initial drop at the launch of Destiny 2 - Season 1! It's the first
+  time we've seen this with random rolls, so it does have a contemporary
+  set of perks available (e.g. Demoiltionist and Vorpal). With the S14
+  shotgun nerf, and the mid-2020 precision damage PvE buff for Shotguns,
+  (quoted below) this one should be at the top of your list.
+pvp_comments: >
+  Slug shotguns have always been an acquired taste and nothing about the `First
+  In, Last Out` changes that. It can do great work in the right hands. Grab
+  some Range- and Accuracy-boosting perks and you'll be all set. 
+pve_comments: >
+  In the 5/21/2020 TWAB, Bungie announced a surprising buff to slug
+  shotguns:
+
+  > Slug Shotguns are underused in PvE, because they require crits to
+  maximize damage, and didn’t reward that precision with higher damage
+  per second: `Slug Shotgun PvE Damage + 30%`.
+
+
+  This rocketed slugs to the top of the boss DPS leaderboards. Definitely
+  pick one up.
