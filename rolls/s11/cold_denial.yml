@@ -1,0 +1,72 @@
+-
+  weapon_id: 1216130969
+  name: Verticality
+  ratings_emoji: 🏔
+  tags: ['pvp']
+  overview: >
+    You have to see Cold Denial with 100 `Recoil` and bumped up Stability
+    to believe it. It will require that you use a Counterbalance mod,
+    which is par for the course on Scattershot weapons (Autos, SMGs,
+    etc.). It's completely vertical and barely moves during the burst.
+    This roll even without the Stability MW, felt broken when I used it;
+    really nuts. It was recently (Spring 2021) learned that Zen Moment's
+    perk description is wrong - it affects reticle bounce/shake.
+  base_perks:
+    barrels: [Arrowhead Brake]
+    magazines: [Ricochet Rounds]
+    perks1: [Zen Moment]
+    perks2: [Headseeker, Multikill Clip, Swashbuckler]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Ricochet Rounds, Flared Magwell]
+-
+  weapon_id: 1216130969
+  name: Warm Acceptance
+  ratings_emoji: 🌆
+  tags: ['pvp']
+  overview: >
+    Similar to the above, but we're swapping in `Killing Wind`, which gives you
+    `Opening Shot`-like accuracy and great strafing speed after a kill.
+  base_perks:
+    barrels: [Arrowhead Brake]
+    magazines: [Ricochet Rounds]
+    perks1: [Killing Wind]
+    perks2: [Headseeker, Multikill Clip, Swashbuckler]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Ricochet Rounds, Flared Magwell]
+-
+  weapon_id: 1216130969
+  name: grief(1)
+  ratings_emoji: 😤
+  tags: ['pve']
+  overview: >
+    Keep chaining with `Feeding Frenzy` and `Multikill Clip`.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Feeding Frenzy]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Light Mag]
+-
+  weapon_id: 1216130969
+  name: Outright Refusal
+  ratings_emoji: ✋
+  tags: ['pve']
+  overview: >
+    Proc'ing `Grave Robber` and `Swashbuckler` means you're simultanouesly
+    granted ammo while getting a 4.5s, 30% damage boost.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Grave Robber]
+    perks2: [Swashbuckler]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Light Mag]
