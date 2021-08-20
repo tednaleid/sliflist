@@ -1,0 +1,33 @@
+name: Vision of Confluence
+item_id: 3186018373
+drop_id: vog
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Vision of Confluence is a 180 RPM Precision Frame Scout Rifle. It's
+  [one of three](https://www.light.gg/db/items/compare/?h=C95shF;D_MIu2;ClfhMg)
+  180 RPMs currently available. It drops in the Vault of Glass from the first
+  three encounters: Conflux, Oracles and the Templar. Once acquired, it will
+  also drop from either of the two secret chests and can be acquired from the
+  post-Atheon chest for `Spoils of Conquest` x 20.
+  
+  
+  The "Timelost" (or "Adept") version of this weapon drops only by completing
+  the Conflux encounter Challenge in Master mode. That weapon has a different
+  serial number in Destiny's database and is registered in this wishlist
+  separately.
+pvp_comments: >
+  While I find a good Trustee roll A-tier, Scout Rifles in general aren't
+  super meta at the moment and haven't been save for MIDA in D2Y1 (and
+  whenever Momentum Control comes along). We can definitely string together a
+  few decent rolls should you find yourself stoked to pop a Scout in Crucible
+  or Gambit.
+pve_comments: >
+  In high(er) tier content (GMs, Raids, etc.) you often play less aggressively
+  and a well-rolled Scout Rifle can help you with that. Vision features a
+  handful of great damage perks in addition to `Firefly` and `Rewind Rounds`
+  which roll only on weapons in Vault of Glass (as of S14 that is).
