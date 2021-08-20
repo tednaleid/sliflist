@@ -1,0 +1,86 @@
+-
+  weapon_id: 690668916
+  name: Partners in Time
+  ratings_emoji: ⏱
+  tags: ['pvp']
+  overview: >
+    `Tunnel Vision` and `Kill Clip` both proc on reload - they were made for
+    each other!
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Tunnel Vision]
+    perks2: [Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Corkscrew Rifling, Fluted Barrel, Arrowhead Brake]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Flared Magwell, Light Mag]
+-
+  weapon_id: 690668916
+  name: Phoenix
+  ratings_emoji: 🔥
+  tags: ['pvp']
+  overview: >
+    Firefly grants a massive buff to Reload, which will help you proc `Tunnel
+    Vision` more quickly and gives you additional uptime on `Killing Wind` if
+    you need a reload after your first kill.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Killing Wind, Tunnel Vision]
+    perks2: [Firefly]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Corkscrew Rifling, Fluted Barrel, Arrowhead Brake]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Flared Magwell, Light Mag]
+-
+  weapon_id: 690668916
+  name: Staying Power
+  ratings_emoji: 🌴
+  tags: ['pve']
+  overview: >
+    Once you're in combat long enough to proc Frenzy, Rewind Round helps
+    ensure you keep it procced by refunding ammo on hit.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Alloy Magazine]
+    perks1: [Rewind Rounds]
+    perks2: [Frenzy]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling, Full Bore]
+    magazines: [Alloy Magazine, Flared Magwell, Light Mag, Appended Mag, Armor-Piercing Rounds, High-Caliber Rounds]
+-
+  weapon_id: 690668916
+  name: Fully Charged
+  ratings_emoji: 🔋
+  tags: ['pve']
+  overview: >
+    Particularly helpful in add-heavy encounters (i.e. most raid encounters) to
+    ensure ability uptime and super recharge.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Wellspring]
+    perks2: [Thresh]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling, Full Bore]
+    magazines: [High-Caliber Rounds, Alloy Magazine, Flared Magwell, Light Mag, Appended Mag, Armor-Piercing Rounds]
+-
+  weapon_id: 690668916
+  name: Boosted
+  ratings_emoji: 📈
+  tags: ['pve']
+  overview: >
+    `Surplus` is the only reload-boosting perk in the third column to help you
+    start taking advantage of `Kill Clip` ASAP.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Alloy Magazine]
+    perks1: [Surplus]
+    perks2: [Kill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling, Full Bore]
+    magazines: [Alloy Magazine, Flared Magwell, Light Mag, Appended Mag, Armor-Piercing Rounds, High-Caliber Rounds]
