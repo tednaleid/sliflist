@@ -1,3 +1,47 @@
+-
+  weapon_id: 2272470786
+  name: Drewsky's Niche Obsession
+  ratings_emoji: 🤩
+  tags: ['pvp']
+  overview: >
+    This is the roll Drewsky 
+    [discusses in his video](https://www.youtube.com/watch?v=Gp2_eHMMMWE).
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Phase Magazine]
+    perks1: [Killing Wind]
+    perks2: [Elemental Capacitor]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Chambered Compensator, Corkscrew Rifling, Fluted Barrel]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (*barrels, *masterworks)"
+-
+  weapon_id: 2272470786
+  name: Slif's Niche Obsession
+  ratings_emoji: 🤪
+  tags: ['pvp']
+  overview: >
+    Drewsky's roll has me inspired! If double-down on Stability from Surplus, we
+    can redirect Barrels and Masterworks to Range.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Phase Magazine]
+    perks1: [Surplus]
+    perks2: [Elemental Capacitor]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (*barrels, *masterworks)"
 - 
   weapon_id: 2272470786
   name: Recluse 2.0 - Ehroar's Pick
@@ -30,6 +74,24 @@
     magazines: [High-Caliber Rounds]
     perks1: [Surplus, Ambitious Assassin]
     perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore, Chambered Compensator, Corkscrew Rifling, Arrowhead Brake, Fluted Barrel, Extended Barrel]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Armor-Piercing Rounds, Flared Magwell, Light Mag, Appended Mag, Alloy Magazine]
+-
+  weapon_id: 2272470786
+  name: Another Tool in the Toolbox
+  ratings_emoji: 🧰
+  tags: ['pve']
+  overview: >
+    I tend to use `Surplus` and `Wellspring` weapons when accomplishing bounties
+    that require ability kills. They're great for high-ability uptime but harder
+    to justify compared to the raw damage output of a damage-boosting roll.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [High-Caliber Rounds]
+    perks1: [Surplus]
+    perks2: [Wellspring]
     masterworks: [Range MW]
   extended_perks:
     barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore, Chambered Compensator, Corkscrew Rifling, Arrowhead Brake, Fluted Barrel, Extended Barrel]

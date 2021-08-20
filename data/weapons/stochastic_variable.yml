@@ -12,4 +12,60 @@ overview: >
   the Faction Rallies event and was part of the Future War Cult loot pool.
   It was reintroduced with random rolls in S14 and has access to some of the
   new perks introduced with Beyond Light, but none of the S14-specific new
-  perks (e.g. `Danger Zone`).
+  perks (e.g. `Danger Zone`). Food for thought:
+
+
+  * It's an Energy-slot SMG, which means that it competes with
+  [Shayura's Wrath](https://d2gunsmith.com/w/3682803680)
+  for your attention if you're feeling like a rocking SMG in the Crucible.
+
+  * More specifically it's an **Arc** SMG, which means it competes with the
+  Warmind-cell-generating
+  [Ikelos SMG](https://www.light.gg/db/items/2222560548/ikelos-smg-v102/)
+  if you're going to be using an SMG in PvE.
+
+
+  The Variable is in kind of a weird spot. It's a solid little SMG and it has
+  some stiff competition.
+pvp_comments: >
+  Drewsky has an in-depth analysis of why the Variable is particularly
+  interesting to him as a PvP SMG. It's a great watch, but pretty in-the-weeds
+  sandbox-wise. Here's a summary:
+
+
+  * At base, the Variable is very tough to use because of its high RPM and
+  lowest-in-game SMG Zoom of `13`. "You lose a lot of reticle friction and it's
+  a lot harder to aim with that massive amount of recoil at a target at range;
+  it's very difficult and inconsistent.""
+
+  * `Phase Magazine` to the rescue! You can turn this Lightweight 900RPM SMG
+  into an easier-to-control 600RPM while still maintaining the Lightweight
+  frame Mobility boost.
+
+  * `Killing Wind` helps with the low Range and low Zoom, and also increases
+  strafe speed.
+
+  * Elemental Capacitor now works with Stasis, giving a bonus to Recoil and
+  increasing strafe speed when ADS'ing (more than `Moving Target`!).
+
+
+  Note that Drewsky is referring to this as beneficial when using it to backup
+  a Sniper, not as his primary engagement in which case you'd want something
+  like the aforementioned Shayura's Wrath.
+pve_comments: >
+  Ehroar has a
+  [thorough PvE review](https://www.youtube.com/watch?v=DhsPiQkE3j0)
+  posted for the Variable.
+
+
+  > "Once you have Feeding Frenzy and Multikill Clip, I mean, it feels like the
+  old Recluse where it straight mows through enemies. ... Overall I think this
+  is the best SMG in the game" - Ehroar
+
+
+  **What about
+  [Phase Magazines](https://www.light.gg/db/items/830282363/phase-magazine/)?**
+  Turns out, not that great.
+
+
+  > "Overall the 900 RPM does more damage per second, and it's going to be roughly 22.1% better DPS." 
