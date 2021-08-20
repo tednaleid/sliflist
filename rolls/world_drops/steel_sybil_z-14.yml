@@ -13,4 +13,9 @@
     masterworks: [Impact MW]
   extended_perks:
     barrels: [Jagged Edge, Honed Edge, Tempered Edge]
-    magazines: [Swordmaster's Guard]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*magazines)"
+    - "{emoji}{emoji} (+barrels, *magazines)"
+    - "{emoji} (*barrels, *magazines)"   
