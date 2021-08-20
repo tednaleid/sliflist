@@ -4,7 +4,7 @@
   ratings_emoji: 😡
   tags: ['pvp']
   overview: >
-    (copied from [Whispering Slab](https://rslifka.github.io/wishlist/#whispering-slab))   
+    *Copied from the S11 - Whispering Slab roll.*
   base_perks:
     barrels: [Elastic String]
     magazines: [Fiberglass Arrow Shaft]
@@ -20,7 +20,7 @@
   ratings_emoji: 🧐
   tags: ['pvp']
   overview: >
-    (copied from [Whispering Slab](https://rslifka.github.io/wishlist/#whispering-slab))   
+    *Copied from the S11 - Whispering Slab roll.*
   base_perks:
     barrels: [High Tension String]
     magazines: [Fiberglass Arrow Shaft]
@@ -30,3 +30,4 @@
   extended_perks:
     barrels: [High Tension String, Polymer String]
     magazines: [Fiberglass Arrow Shaft, Straight Fletching]
+    
