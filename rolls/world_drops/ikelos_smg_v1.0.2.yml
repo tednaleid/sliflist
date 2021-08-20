@@ -1,0 +1,121 @@
+-
+  weapon_id: 2222560548
+  name: Rasputin's Choice; Mod Slot Free
+  ratings_emoji: 🤖
+  tags: ['pvp']
+  overview: >
+    Any time you see Dynamic Sway and Tap the Trigger available in both
+    columns, that's a tough one to pass up. TtT keeps you steady on the
+    initial burst and DSR keeps you steady afterwards. After that it's
+    all `Stability`. This roll would push Stability from 39 to 74 (?!) and
+    that's not including the additional Stability from DSR and TtT! With a
+    Recoil-fixing Barrel, the mod slot is free for you.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Steady Rounds]
+    perks1: [Dynamic Sway Reduction]
+    perks2: [Tap the Trigger]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Arrowhead Brake]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 2222560548
+  name: Rasputin's Choice; Mod Slot Used
+  ratings_emoji: 🤖
+  tags: ['pvp']
+  overview: >
+    Similar to the above roll set, except we'll need to use our mod slot
+    for `Counterbalance Stock` to fix the `Recoil` (from 90 > 100).
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Dynamic Sway Reduction]
+    perks2: [Tap the Trigger]
+    masterworks: [Stability MW]  
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 2222560548
+  name: Anna's Choice; Mod Slot Free
+  ratings_emoji: ❄️
+  tags: ['pvp']
+  overview: >
+    Similar to the above, but valuing Threat Detector for countering
+    shotgun rushers and being able to hip-fire reliably in CQC.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Steady Rounds]
+    perks1: [Threat Detector]
+    perks2: [Tap the Trigger]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Arrowhead Brake]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 2222560548
+  name: Anna's Choice; Mod Slot Used
+  ratings_emoji: ❄️
+  tags: ['pvp']
+  overview: >
+    Similar to the above, but we'll be using the mod slot for
+    Counterbalance.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Threat Detector]
+    perks2: [Tap the Trigger]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 2222560548
+  name: Seraph's Choice
+  ratings_emoji: 😇
+  tags: ['pve']
+  overview: >
+    Surrounded-based roll. Don't forget to throw on a Surrounded Spec!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Subsistence, Threat Detector]
+    perks2: [Surrounded]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Seraph Rounds, Alloy Magazine, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 2222560548
+  name: Champion Slayer
+  ratings_emoji: 🏆
+  tags: ['pve']
+  overview: >
+    Overload SMGs up in the Seasonal artifact? Stun that Champion and keep on
+    shredding.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Subsistence, Threat Detector]
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Seraph Rounds, Alloy Magazine, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 2222560548
+  name: Shaxx's Favourite - "Throw More Grenades!"
+  ratings_emoji: 💣
+  tags: ['pve']
+  overview: >
+    Why are you standing here when you could be throwing more grenades?!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Subsistence, Threat Detector]
+    perks2: [Demolitionist]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Seraph Rounds, Alloy Magazine, Tactical Mag, Flared Magwell]
