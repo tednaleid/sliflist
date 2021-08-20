@@ -1,15 +1,15 @@
 -
   id: 14
   name: S14 - Season of the Splicer
--
-  id: vog
-  name: Raid - Vault of Glass
 - 
   id: world
   name: Open World
 -
   id: ib
   name: Iron Banner
+-
+  id: vog
+  name: Raid - Vault of Glass
 - 
   id: dsc
   name: Raid - Deep Stone Crypt
