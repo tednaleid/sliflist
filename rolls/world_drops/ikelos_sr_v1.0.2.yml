@@ -1,0 +1,46 @@
+-
+  weapon_id: 1253087083
+  name: Seraph Sharpshooter
+  ratings_emoji: 🎯
+  tags: ['pvp']
+  overview: >
+    The IKELOS has `73` Aim Assist and with `Moving Target`, a `Targeting
+    Adjuster` mod and `Enhanced Sniper Targeting` on your helm, you're
+    plenty good on AA. Whatever tiny part of the `Range` stat affects
+    AA is outweighed by faster Handling contributing to faster ADS and
+    faster stow speed for cleanups.
+  base_perks:
+    barrels: [Fluted Barrel]
+    magazines: [Accurized Rounds]
+    perks1: [Moving Target]
+    perks2: [Quickdraw]
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Seraph Rounds]
+-
+  weapon_id: 1253087083
+  name: Ehroar's Pick
+  ratings_emoji: 🦁
+  tags: ['pve']
+  overview: >
+    Ehroar and Kackis both review the IKELOS 1.0.2 and land on similar
+    reccomendations which I'll capture here. Ehroar's take is a little more
+    thorough so I'm expanding the Collector's Edition with his thoughts.
+
+    * [Ikelos Sniper is Back! What is the God Roll?](https://www.youtube.com/watch?v=waOR-IuhIIc) - Ehroar
+
+    * [The Sniper Meta is BACK!? - Best New PvE Sniper](https://www.youtube.com/watch?v=AQSfa96KoO4) - Kackis
+
+        
+    The core perks are fine, so even though the Baseline is pretty easily
+    obtainable, don't let that dissuade you; it's solid!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Appended Mag]
+    perks1: [Fourth Time's the Charm, Triple Tap]
+    perks2: [High-Impact Reserves]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Appended Mag, Extended Mag]
