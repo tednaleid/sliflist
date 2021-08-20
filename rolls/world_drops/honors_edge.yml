@@ -4,23 +4,21 @@
   ratings_emoji: 🚜
   tags: ['pve']
   overview: >
-    With Surrounded up, you'll be mowing through hordes of adds in no
-    time.
-    C/o
-    [this analysis](https://www.reddit.com/r/DestinyTheGame/comments/a2mjez/sword_awareness_1_jagged_edge_vs_honed_edge/),
-    Jagged Edge is the clear choice for the first column, but you'll want
-    to make sure your reserves are increased in armor.
+    Standard set of Adaptive Frame sword perks.
   base_perks:
     barrels: [Jagged Edge]
     magazines: [Swordmaster's Guard]
     perks1: [Relentless Strikes]
     perks2: [Surrounded]
     masterworks: [Impact MW]
-  extended_perks: {}
+  extended_perks:
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
   custom_variants:
     - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
-    - "{emoji}{emoji} (*magazines)"
-    - "{emoji} (*barrels, *magazines)"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*magazines)"
+    - "{emoji}{emoji} (+barrels, *magazines)"
+    - "{emoji} (*barrels, *magazines)"    
 -
   weapon_id: 2857348871
   name: Perfect Parry
@@ -32,13 +30,15 @@
     but with `Flash Counter` in the final column.
   base_perks:
     barrels: [Jagged Edge]
-    magazines: [Burst Guard, Enduring Guard]
+    magazines: [Swordmaster's Guard]
     perks1: [Relentless Strikes]
     perks2: [Flash Counter]
     masterworks: [Impact MW]
   extended_perks:
-    magazines: [Burst Guard, Enduring Guard, Heavy Guard, Balanced Guard]
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
   custom_variants:
     - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
-    - "{emoji}{emoji} CE (+magazines)"
-    - "{emoji} CE (*barrels, *magazines)"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*magazines)"
+    - "{emoji}{emoji} (+barrels, *magazines)"
+    - "{emoji} (*barrels, *magazines)"
