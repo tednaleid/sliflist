@@ -1,0 +1,158 @@
+-
+  weapon_id: 2050789284
+  name: Vertical/Dark Side
+  ratings_emoji: 🏔🌑
+  tags: ['pvp']
+  overview: >
+    This set of rolls is all about maxing out Recoil, and keeps
+    `Arrowhead Brake` constant as our barrel. You have the option of
+    achieving `100` Recoil by slotting in a Counterbalance mod. If not,
+    go nuts with your nearly perfectly vertical `94`. `Killing Wind` is
+    S-tier and you'd be happy to get any of the final column perks.
+  base_perks:
+    barrels: [Arrowhead Brake]
+    magazines: [Steady Rounds]
+    perks1: [Killing Wind]
+    perks2: [Headseeker, Moving Target, Kill Clip, Eye of the Storm]
+    masterworks: [Stability MW]
+  extended_perks:
+    magazines: [Steady Rounds, Flared Magwell, Tactical Mag]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+magazines)"
+    - "{emoji}{emoji}{emoji} CE (*magazines)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji} (*magazines, *masterworks)"
+-
+  weapon_id: 2050789284
+  name: Dark Side
+  ratings_emoji: 🌑
+  tags: ['pvp']
+  overview: >
+    Same as above, using any Stability-boosting barrel, which we'll later
+    relax down to no barrel preference.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Steady Rounds]
+    perks1: [Killing Wind]
+    perks2: [Headseeker, Moving Target, Kill Clip, Eye of the Storm]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 2050789284
+  name: Vertical/Gardener
+  ratings_emoji: 🏔🌿
+  tags: ['pvp']
+  overview: >
+    This set of rolls pivots around `Firmly Planted`. It means that, even
+    on console we can opt for `Range`-boosting perks because `Firmly
+    Planted` gives us all the `Stability` we need.
+  base_perks:
+    barrels: [Arrowhead Brake]
+    magazines: [Accurized Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Headseeker, Moving Target, Kill Clip, Eye of the Storm]
+    masterworks: [Range MW]
+  extended_perks: {}
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*magazines)"
+    - "{emoji}{emoji} (*magazines, *masterworks)"
+-
+  weapon_id: 2050789284
+  name: The Gardener
+  ratings_emoji: 🌿
+  tags: ['pvp']
+  overview: >
+    Same as above, using any `Range`-boosting barrel. We'll winnow down
+    to drop the barrel requirement as well.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Headseeker, Moving Target, Kill Clip, Eye of the Storm]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds]
+-
+  weapon_id: 2050789284
+  name: Vertical/Hoarder
+  ratings_emoji: 🏔📦
+  tags: ['pvp']
+  overview: >
+    This set of rolls pivots around `Surplus`. It provides a roughly
+    25%, 13% and 8% boost depending on how many abilities are charged.
+    You really want to be shooting for
+    all three abilities charged at once which means either foregoing their
+    use entirely or perhaps investing in high tiers of the respective
+    stat (Strength, Discipline, or <class stat>) so that you can quickly
+    recharge a single one. The tradeoff is going around with a
+    supercharged weapon the whole match.
+  base_perks:
+    barrels: [Arrowhead Brake]
+    magazines: [Accurized Rounds]
+    perks1: [Surplus]
+    perks2: [Headseeker, Moving Target, Kill Clip, Eye of the Storm]
+    masterworks: [Range MW]
+  extended_perks: {}
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} (*magazines)"
+    - "{emoji}{emoji} (*magazines *masterworks)"
+-
+  weapon_id: 2050789284
+  name: The Hoarder
+  ratings_emoji: 📦
+  tags: ['pvp']
+  overview: >
+    Same as above, using any `Range`-boosting barrel. We'll winnow down
+    to drop the barrel requirement as well.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Surplus]
+    perks2: [Headseeker, Moving Target, Kill Clip, Eye of the Storm]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds]
+-
+  weapon_id: 2050789284
+  name: Rapid Reload
+  ratings_emoji: ♻️
+  tags: ['pve']
+  overview: >
+    All Range and all damage.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw, Feeding Frenzy]
+    perks2: [Kill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Appended Mag, Extended Mag]
+-
+  weapon_id: 2050789284
+  name: Barrier Slayer
+  ratings_emoji: 🏆
+  tags: ['pve']
+  overview: >
+    In seasons where Pulse Rifles end up with Barrier mods, Genesis
+    will proc when the shield breaks while you'll wrecking the champions
+    with Vorpal. Other shields will also proc Genesis, for example
+    "Enlightened" enemies in the Garden of Salvation raid.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Genesis]
+    perks2: [Vorpal, Disruption Break]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Alloy Magazine, Flared Magwell]
