@@ -4,12 +4,7 @@
   ratings_emoji: ⏳
   tags: ['pve']
   overview: >
-    With Surrounded and Relentless you'll be slicing for what seems like
-    forever. C/o
-    [this analysis](https://www.reddit.com/r/DestinyTheGame/comments/a2mjez/sword_awareness_1_jagged_edge_vs_honed_edge/),
-    Jagged Edge is the clear choice for the first column, but you'll want to
-    make sure your reserves are increased in armor. Infinite Guard is locked on
-    this weapon, so you're stuck with it :)
+    `Surrounded` and Vortex Frame swords were made for each other.
   base_perks: 
     barrels: [Jagged Edge]
     magazines: [Infinite Guard]
@@ -17,8 +12,29 @@
     perks2: [Surrounded]
     masterworks: [Impact MW]
   extended_perks:
-    barrels: [Jagged Edge]
-    magazines: [Infinite Guard]
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
   custom_variants:
     - "{emoji}{emoji}{emoji}🌟 Collector’s Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji} (*barrels)"
+-
+  weapon_id: 2782325301
+  name: Perfect Parry
+  ratings_emoji: ⚔️
+  tags: ['pve']
+  overview: >
+    `Flash Counter` is akin to parrying in many games, where a perfectly
+    timed block will stagger your attacker. In Destiny, it applies a 20%
+    debuff that your whole team benefits from.
+  base_perks:
+    barrels: [Jagged Edge]
+    magazines: [Infinite Guard]
+    perks1: [Relentless Strikes]
+    perks2: [Flash Counter]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Jagged Edge, Honed Edge, Tempered Edge]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector’s Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
     - "{emoji}{emoji} (*barrels)"
