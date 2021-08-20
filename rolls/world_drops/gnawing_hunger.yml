@@ -1,0 +1,72 @@
+-
+  weapon_id: 821154603
+  name: Drifter Hangry
+  ratings_emoji: 🧟‍♂️
+  tags: ['pvp']
+  overview: >
+    Going for as much `Recoil` and `Stability` improvement as we can get.
+    `Kill Clip` is phenomenal on the Gnawing Hunger, bumping your optimal
+    TTK from `8c1b/0.80s` to `6c1b/0.60s`.
+  base_perks:
+    barrels: [Arrowhead Brake]
+    magazines: [Steady Rounds]
+    perks1: [Tap the Trigger, Zen Moment]
+    perks2: [Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 821154603
+  name: Drifter Starving
+  ratings_emoji: 🍖
+  tags: ['pvp']
+  overview: >
+    Same as the above, expanding acceptable damage bonuses to `Rampage` and
+    `Multikill Clip`. They don't provide as much of a damage boost as `Kill
+    Clip` does but they're still a nice post-kill boost.
+  base_perks:
+    barrels: [Arrowhead Brake]
+    magazines: [Steady Rounds]
+    perks1: [Tap the Trigger, Zen Moment]
+    perks2: [Rampage, Multikill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Chambered Compensator, Polygonal Rifling, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 821154603
+  name: Bullet Hose
+  ratings_emoji: 💦
+  tags: ['pve']
+  overview: >
+    As much Range as we can get from everywhere we can get it. We're
+    combining Subsistence with Swashbuckler or Rampage because those two
+    (versus the two kill clips) can be refreshed/extended without
+    reloading.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Subsistence]
+    perks2: [Swashbuckler, Rampage]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Alloy Magazine, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 821154603
+  name: Eating Away
+  ratings_emoji: 🍴
+  tags: ['pve']
+  overview: >
+    Remember to slide while reloading after kills for a damage bonus. Bit of a
+    playstyle change, but worth experimenting for the benefits.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Field Prep]
+    perks2: [Kill Clip, Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Alloy Magazine, Flared Magwell, Tactical Mag]
