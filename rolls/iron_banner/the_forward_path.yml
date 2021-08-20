@@ -55,7 +55,7 @@
     perks2: [Iron Gaze]
     masterworks: [Handling MW]
   extended_perks:
-    barrels: [Red Dot Micro, Red Dot 2 MOA, Cleanshot IS, Hitmark IS]
+    barrels: [Cleanshot IS, Hitmark IS, Red Dot Micro, Red Dot 2 MOA]
     magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
 -
   weapon_id: 1690783811
