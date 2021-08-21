@@ -14,9 +14,11 @@
     masterworks: [Velocity MW]
   extended_perks:
     barrels: [Hard Launch, Quick Launch, Smart Drift Control]
+    masterworks: [Velocity MW, Reload MW, Handling MW, Stability MW]
   custom_variants:
     - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
     - "{emoji}{emoji}{emoji} CE (+barrels)"
-    - "{emoji}{emoji}{emoji} CE (*masterworks)"
-    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji}{emoji} CE (+masterworks)"
+    - "{emoji}{emoji} (+barrels, +masterworks)"
+    - "{emoji}{emoji} (*barrels, +masterworks)"
     - "{emoji} (*barrels, *masterworks)"
