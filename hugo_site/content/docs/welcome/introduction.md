@@ -8,15 +8,19 @@ weight: 1
 toc: true
 ---
 
-To the 👈 you'll find our roll catalog, organized by where or when the weapon drops. Bungie is always expanding the world loot pool, and to ease confusion, that's been extracted into a separate category. Seasons contain only the season-specific set of weapons.
+## Welcome to the Sliflist!
 
-Once viewing a roll, to the 👉 you'll find shortcuts to specific rolls or groupings (for example, PvP).
+The [homepage]({{<ref "/">}}) is a good place to start.
 
-To the 👆 you'll find the search bar, which is probably the quickest way to find what you're looking for.
+||Getting Around|
+|-|-|
+|👆|**Search Bar**: The quickest way to find what you're looking for.|
+|👈|**Roll Catalog**: Organized by where or when the weapon drops. Bungie is always expanding the world loot pool, and to ease confusion, that's been extracted into a separate category. Seasons contain only the season-specific set of weapons.|
+|👉|**Roll ToC**: Within each roll, handy links.| 
 
 ## I Have an Idea for a Roll!
 
-AMAZING, let's hear it!
+AMAZING, [learn how to contribute]({{<ref "contributing">}})!
 
 ## I Noticed a Typo, Roll Error, Etc.
 
