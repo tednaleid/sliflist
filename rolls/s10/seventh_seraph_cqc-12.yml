@@ -1,26 +1,11 @@
 -
   weapon_id: 1821724780
-  name: SnapDraw
-  ratings_emoji: 🖇
+  name: Sidling Up
+  ratings_emoji: 🤠
   tags: ['pvp']
   overview: >
-    Classic Destiny 2 shotgun roll.
-  base_perks:
-    barrels: [Full Choke, Rifled Barrel]
-    magazines: [Accurized Rounds]
-    perks1: [Quickdraw]
-    perks2: [Snapshot]
-    masterworks: [Range MW]
-  extended_perks:
-    barrels: [Full Choke, Rifled Barrel, Smallbore, Corkscrew Rifling]
-    magazines: [Accurized Rounds, Light Mag, Assault Mag]
--
-  weapon_id: 1821724780
-  name: Slideshot
-  ratings_emoji: 🎚
-  tags: ['pvp']
-  overview: >
-    Slideshot is also great!
+    Slideshot helps recover the Stability lost when sliding. Everything else is
+    classic Destiny Shotgun.
   base_perks:
     barrels: [Full Choke, Rifled Barrel]
     magazines: [Accurized Rounds]
@@ -32,36 +17,20 @@
     magazines: [Accurized Rounds, Light Mag, Assault Mag]
 -
   weapon_id: 1821724780
-  name: Super Shredder
-  ratings_emoji: 💥
-  tags: ['pvp']
-  overview: >
-    Your classic Destiny 2 shotgun roll swapping out Snapshot for Vorpal.
-  base_perks:
-    barrels: [Full Choke, Rifled Barrel]
-    magazines: [Accurized Rounds]
-    perks1: [Quickdraw, Slideshot]
-    perks2: [Vorpal]
-    masterworks: [Range MW]
-  extended_perks:
-    barrels: [Full Choke, Rifled Barrel, Smallbore, Corkscrew Rifling]
-    magazines: [Accurized Rounds, Light Mag, Assault Mag]
--
-  weapon_id: 1821724780
-  name: Punchy
-  ratings_emoji: 👊
+  name: Close Talker
+  ratings_emoji: 🗣
   tags: ['pve']
   overview: >
-    We're basing these next few rolls around Trench Barrel. Quickdraw will
-    help with swapping from the hits between Trench Barrel activations.
+    Aggressive shotgun play, sliding to reload and getting a damage buff from
+    the `Trench Barrel` melee.
   base_perks:
-    barrels: [Full Choke]
+    barrels: [Full Choke, Rifled Barrel]
     magazines: [Assault Mag]
-    perks1: [Quickdraw]
+    perks1: [Slideshot]
     perks2: [Trench Barrel]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Full Choke, Smallbore, Barrel Shroud, Corkscrew Rifling]
+    barrels: [Full Choke, Rifled Barrel, Smallbore, Corkscrew Rifling]
     magazines: [Assault Mag, Accurized Rounds, Light Mag]
 -
   weapon_id: 1821724780
@@ -72,27 +41,11 @@
     Good roll to have for Champions when Shotguns are the favoured artifact
     weapon!
   base_perks:
-    barrels: [Full Choke]
+    barrels: [Full Choke, Rifled Barrel]
     magazines: [Assault Mag]
     perks1: [Auto-Loading Holster, Slideshot]
     perks2: [Vorpal]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Full Choke, Smallbore, Barrel Shroud, Corkscrew Rifling]
-    magazines: [Assault Mag, Accurized Rounds, Light Mag]
--
-  weapon_id: 1821724780
-  name: Warmind Cell Generator
-  ratings_emoji: ☄️
-  tags: ['pve']
-  overview: >
-    Lots of reloading with plenty of handling and stability to go around.
-  base_perks:
-    barrels: [Full Choke]
-    magazines: [Assault Mag]
-    perks1: [Auto-Loading Holster, Slideshot]
-    perks2: [Snapshot]
-    masterworks: [Range MW]
-  extended_perks:
-    barrels: [Full Choke, Smallbore, Barrel Shroud, Corkscrew Rifling]
+    barrels: [Full Choke, Rifled Barrel, Smallbore, Corkscrew Rifling]
     magazines: [Assault Mag, Accurized Rounds, Light Mag]
