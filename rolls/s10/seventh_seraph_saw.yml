@@ -4,36 +4,76 @@
   ratings_emoji: 🎯
   tags: ['pvp']
   overview: >
-    Any basic roll will chew up Guardians with a lot of flinch. Let's add
-    `Range` and `Stability` where we can, while seeing what `Opening Shot`
-    can do.
+    Single-tap shots out from maximum range, like an incredibly heavy-hitting
+    Scout Rifle.
   base_perks:
     barrels: [Hammer-Forged Rifling]
-    magazines: [Ricochet Rounds]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
     perks1: []
     perks2: [Opening Shot]
-    masterworks: [Range MW, Stability MW]
+    masterworks: [Range MW]
   extended_perks:
     barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Polygonal Rifling, Fluted Barrel]
-    magazines: [Ricochet Rounds, High-Caliber Rounds, Light Mag, Armor-Piercing Rounds]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Light Mag, Armor-Piercing Rounds]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (+magazines)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji} (+barrels, +magazines)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (+magazines, *masterworks)"
+    - "{emoji} (+barrels, +magazines, *masterworks)"
+-
+  weapon_id: 2582755344
+  name: Super Shredder
+  ratings_emoji: 💥
+  tags: ['pvp']
+  overview: >
+    Put down supers!
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
+    perks1: [Zen Moment]
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Hammer-Forged Rifling, Corkscrew Rifling, Fluted Barrel]
+    magazines: [High-Caliber Rounds, Ricochet Rounds, Light Mag, Armor-Piercing Rounds]
 -
   weapon_id: 2582755344
   name: Together Forever
-  ratings_emoji: 🤝♬
+  ratings_emoji: 🤝
   tags: ['pve']
   overview: >
-    With other Guardians at your side, you will rip through hordes of
-    aliens no problem. We're taking any Barrel that increases Stability
-    and magazine-extended... Magazines. Extended Magazine would normally
-    be a hot mess with a base `Reload` so low, but with Field Prep it
-    only takes the reload from ~3.5s to ~4.5s (still 1s shorter than the
-    base `Reload`).
+    With other Guardians at your side, you will rip through hordes of aliens no
+    problem. We're taking any Barrel that increases Stability and magazine-
+    extending... Magazines. Extended Magazine would normally be a hot mess with
+    a base `Reload` so low, but with Field Prep it only takes the reload from 
+    `~3.5s` to `~4.5s` (still 1s shorter than the base `Reload`).
   base_perks:
-    barrels: [Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    barrels: [Polygonal Rifling]
     magazines: [Appended Mag, Extended Mag]
     perks1: [Field Prep]
     perks2: [Firing Line]
     masterworks: [Stability MW, Range MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Polygonal Rifling, Fluted Barrel]
-    magazines: [Ricochet Rounds, High-Caliber Rounds, Light Mag, Armor-Piercing Rounds]
+    barrels: [Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Appended Mag, Extended Mag, Ricochet Rounds, High-Caliber Rounds, Light Mag, Armor-Piercing Rounds]
+-
+  weapon_id: 2582755344
+  name: For the Big Ones
+  ratings_emoji: 👹
+  tags: ['pve']
+  overview: >
+    With the S15 25% MG PvE buff incoming, let's make sure we've got a Vorpal
+    SAW kicking around.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Appended Mag, Extended Mag]
+    perks1: [Field Prep]
+    perks2: [Vorpal]
+    masterworks: [Stability MW, Range MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Appended Mag, Extended Mag, Ricochet Rounds, High-Caliber Rounds, Light Mag, Armor-Piercing Rounds]    

@@ -8,8 +8,105 @@ traits:
   perks2:      {t: 6, c: 1}
   masterworks: {t: 4, c: 1}
 overview: >
-  Drewsky has a great review of the
-  [Bane of Sorrow](https://www.youtube.com/watch?v=G7hqmrV1pk0), another
-  360 RPM "High-Impact Frame" Machine Gun. From the review, it hits for
-  48 crit / 38 body (TTK 0.5s / 0.83s). It's got terrific range and flinches
-  like crazy.
+  The Seventh Seraph SAW is a 360 RPM, High-Impact Frame, Arc Machine Gun
+  that first appeared in Season 10. MGs haven't been bananas in PvE for some
+  time (save for the Xenopage), and so in the
+  [final TWAB of Season 14](https://www.bungie.net/en/News/Article/50572)
+  Bungie announced that they're increasing PvE damage of Machine Guns by 25%.
+
+
+  In lieu of being able to find anyone covering the SAW, I looked for coverage
+  of other 360 RPM Machine Guns. Drewsky has a great review of the
+  [Bane of Sorrow](https://www.youtube.com/watch?v=G7hqmrV1pk0) another 360 RPM
+  MG that used to drop in the Crown of Sorrow raid. The basic sandbox science
+  there informed much of these rolls.
+pvp_comments: >
+  Given Heavy ammo availability in Crucible (perhaps save for Mayhem), focus on
+  Legendary heavy weapons tends to be rather low. That being said, we can still
+  pick one up because why not? Good to have on hand in case a new game mode is
+  released or the sandbox updates.
+
+
+  The SAW hits for 48 crit / 38 body (TTK 0.5s / 0.83s). It's got terrific range
+  and flinches like crazy. It can roll with `Opening Shot` in the final column.
+  With the rate of fire being so low, you can single tap out shots and get crits
+  across the map. Try out some Machine Gun sniping and let me know how that works
+  out for you 🎯 (non-sarcastically 🙃)
+pve_comments: >
+  This is going to be a long one because I haven't found any super detailed
+  coverage of the SAW (or any other Seraph weapon save for the Hand Cannon).
+  Fortunately since a High-Impact is a High-Impact (at base), Drewsky has
+  a great review of the
+  [Bane of Sorrow](https://www.youtube.com/watch?v=G7hqmrV1pk0)
+  that's definitely worth watching! The SAW can't roll with most of the
+  perks he discussed in that video, but it's relevant to consider the points
+  he raises.
+
+
+  * Perhaps most important, it's a Seraph weapon which means it generates Warmind
+  Cells if you have Warmind mods equipped.
+
+  * As a High-Impact Frame, the SAW keeps anything it doesn't kill
+  practically stun-locked. As the difficulty of PvE content increases, this
+  becomes super important. Even if you're not doing Grandmaster Nightfalls,
+  flinching challenging adds sure makes things more straightforward.
+
+  * Its base effective `Range` is amazing. Damage falloff starts ~45m and is
+  reasonable up to ~50m (-5%). You're talking maximum damage at Scout Rifle
+  ranges. At maximum range, the sight overlaps your target because MGs
+  don't have high-zoom sights/scopes. *This is why I'm not
+  suggesting any `Range` boosting below - when I pushed the `Range` to `93`
+  falloff and floors were unchanged and the recoil/handling will make it
+  challenging to stay on target anyway.*
+
+  * It's the only Machine Gun that can roll with `Vorpal` or `Firing Line` in
+  the final column, which provide 15% and 25% damage boosts, respectively.
+  Those are substantial increases to damage without requiring a kill or reload
+  to activate. 
+
+
+  Let's step through all the perks in the final two columns:
+
+
+  * Column 3:
+    * ✅`Field Prep` is far and away the winner. It grants a whopping 25%
+    more in reserve (223 to 278), speeds up your reload time by two seconds
+    (~5.5s to ~3.5s) and increases ready and stow speed. Within 45m at
+    1,222 to 1,716 damage, that's an extra 67k - 94k damage available to you.
+
+    * ❌`Auto-Loading Holster` and `Grave Robber` are the other two reload
+    perks in this column and neither is worth giving up the reserve and
+    handling bonuses that `Field Prep` provides.
+        
+  * Column 4:
+    * ✅`Firing Line`: 20% precision damage boost when near two teammates. In
+    PvE content you're nearly always near your fireteam and especially so in
+    GMs. It has double utility in dealing with adds and on boss DPS and since
+    the SAW fires so slowly you can get those precision shots in.
+
+    * ✅`Vorpal`: 15% damage boost to bosses and Champions. It's a solid pick
+    if you don't have one with `Firing Line`.
+
+    * ❌`Mulligan`: Nope. You shouldn't be missing that many shots and the
+    opportunity cost of Mulligan is too high. "So Slif you're telling me to 
+    git gud?" At maximum effective SAW range, I was hitting at least 50% crits
+    at the base `Recoil` and no `Stability` boosts. You will too!
+
+    * ❌`Opening Shot`: This is interesting because at 360 RPM you can tap
+    out one bullet at a time, turning this in to kind of an incredibly
+    high-impact Scout Rifle. Situationally cool but you can still use the SAW
+    like this just fine without it. Arguably more of an off-meta PvP pick.
+
+    * ❌`Elemental Capacitor`: While large, the effect of any of these
+    increases pales in comparison to significantly higher damage output. You
+    can also get each of the benefits through other perks or armor mods. This
+    isn't a case in general against `Capacitor`, just on this particular
+    weapon.
+
+    * ❌`Disruption Break`: A 50% Kinetic damage bonus debuff is nothing to
+    sneeze at! This is a niche pick for when you're up against Arc shields
+    because in a Match Game activity, you won't do enough damage to break
+    non-matching shields. Myself, if I'm hopping in to a difficult PvE
+    activity I'm going to get more general, always-on use from Firing Line.
+
+  We'll surround our choice of perks with `Stability`-bumping selections.
