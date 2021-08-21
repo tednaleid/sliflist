@@ -5,28 +5,14 @@
   tags: ['pvp']
   overview: >
     Slideshot paired with either Moving Target or Rangefinder is buffing so
-    much of what this Auto Rifle needs help with: Stability and AA.
+    much of what this Auto Rifle needs help with: Stability and AA. Elemental
+    Capacitor?! Yes - it now gets a Recoil and ADS mobility bonus if you use
+    Stasis.
   base_perks:
     barrels: [Arrowhead Brake]
     magazines: [Ricochet Rounds]
     perks1: [Slideshot]
-    perks2: [Moving Target, Rangefinder]
-    masterworks: [Stability MW]
-  extended_perks:
-    barrels: [Arrowhead Brake, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel, Chambered Compensator]
-    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell]
--
-  weapon_id: 1561006927
-  name: Cavalry (-Slideshot)
-  ratings_emoji: 🐴
-  tags: ['pvp']
-  overview: >
-    Without Slideshot, you still have a super solid PvP roll.
-  base_perks:
-    barrels: [Arrowhead Brake]
-    magazines: [Ricochet Rounds]
-    perks1: [Slideshot]
-    perks2: [Moving Target, Rangefinder]
+    perks2: [Moving Target, Rangefinder, Elemental Capacitor]
     masterworks: [Stability MW]
   extended_perks:
     barrels: [Arrowhead Brake, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel, Chambered Compensator]
@@ -44,24 +30,6 @@
     barrels: [Arrowhead Brake]
     magazines: [Ricochet Rounds]
     perks1: [Slideshot]
-    perks2: [Vorpal]
-    masterworks: [Stability MW]
-  extended_perks:
-    barrels: [Arrowhead Brake, Polygonal Rifling, Smallbore, Corkscrew Rifling, Fluted Barrel, Chambered Compensator]
-    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell]
--
-  weapon_id: 1561006927
-  name: Super Shredder (-Slideshot)
-  ratings_emoji: 💥
-  tags: ['pvp']
-  overview: >
-    Shredding supers in 6s is, we can all agree, Destiny's National
-    Pastime. We're repeating the same set of relaxed rolls above, this
-    time pivoting around Vorpal in the final column.
-  base_perks:
-    barrels: [Arrowhead Brake]
-    magazines: [Ricochet Rounds]
-    perks1: []
     perks2: [Vorpal]
     masterworks: [Stability MW]
   extended_perks:
@@ -89,7 +57,7 @@
 -
   weapon_id: 1561006927
   name: Warmind Cell Generator
-  ratings_emoji: 🧈🍊
+  ratings_emoji: 🤖
   tags: ['pve']
   overview: >
     Run-of-the-mill Auto-Rifle PvE slayer perk set here. If you like the
