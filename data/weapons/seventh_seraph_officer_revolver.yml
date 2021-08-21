@@ -1,6 +1,6 @@
 name: Seventh Seraph Officer Revolver
 item_id: 3037520408
-drop_id: world
+drop_id: 10
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 8, c: 2}
@@ -8,10 +8,40 @@ traits:
   perks2:      {t: 6, c: 1}
   masterworks: {t: 4, c: 1}
 overview: >
-  The Officer Revolver is a 180 RPM Kinetic Hand Cannon. See how it compares
-  to other 180 RPM Hand Cannons over on
-  [light.gg](https://www.light.gg/db/items/compare/?h=C1DOIY;xtxS0;DzBRNi)
-  Let's start off with Mercules and Kyt from the latest Massive Breakdown
-  podcast. Turns out they
-  [aren't super hot](https://soundcloud.com/destinymassivebreakdowns/episode-156-seventh-seraph-weapons-breakdown#t=33:44)
-  on the Officer's Revolver.
+  The Officer Revolver is a 180 RPM Kinetic Hand Cannon that first appeared
+  in Season 10. By today's standards, it's perk pool feels a bit dated
+  however it maintains relevancy for two key reasons: it's a Seraph weapon
+  so it generates Warmind Cells and it's one of the rare weapons that drops
+  with `Timed Payload`, useful in both PvP and PvE.
+pvp_comments: >
+  Meta-wise, 180s are not the play however that doesn't mean you can't make
+  magic with them in PvP. They won't be your Trials/Comp first pick.
+
+
+  Let's check out
+  [Drewsky's thoughts](https://www.youtube.com/watch?v=W3kCNDYUnzM),
+  who finds the novel perks like Firmly Planted and Timed Payload
+  worth strong consideration. Notably, he had previously
+  [released a video](https://www.youtube.com/watch?v=IevtKKR_YxM)
+  wishing for more Hand Cannons to have Firmly Planted.
+
+  > **Drewsky:** *"I think this is actually a pretty competitive group of stats
+  especially compared to a lot of the other 180 RPM hand cannons. What makes it
+  special is that it has a group of pretty competitive stats; maybe not the best
+  stats but maybe the best perk pool in combination with those stats available
+  on a 180."*
+
+
+  > **Drewsky:** *"Prioritizing Range while giving the best overall stat
+  package possible."*
+
+  
+  180s tend to have quite high Stability and Aim Assist, so prioritizing Range
+  when possible sounds about right. The Officer Revolver also ships with `84`
+  Recoil which is mostly vertical, so there's no need to throw on a
+  Counterbalance mod.
+pve_comments: >
+  The Offcier Revolver is a Seraph weapon which means it can generate Warmind
+  Cells. This alone means you'll want to hold on to a decent PvE roll. Second,
+  it can roll with Vorpal which helps when Hand Cannons rotate around as
+  Seasonal Artifact Champion stunners.

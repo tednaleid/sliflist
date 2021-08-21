@@ -1,7 +1,7 @@
 -
   weapon_id: 3037520408
-  name: Drewsky's "Planted Range"
-  ratings_emoji: 🏔🌱
+  name: Drewsky's Choice
+  ratings_emoji: 🎬
   tags: ['pvp']
   overview: >
     *"Timed Payload?! That's supposed to be positively horrible. Doesn't it
@@ -17,7 +17,7 @@
     perks2: [Timed Payload]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
     magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
 -
   weapon_id: 3037520408
@@ -25,15 +25,17 @@
   ratings_emoji: ⏰
   tags: ['pvp']
   overview: >
-    Similar to Drewsky's roll above, but without `Firmly Planted`.
+    Similar to Drewsky's roll, but we're swapping in `Pulse Monitor` instead
+    of `Firmly Planted`. I find engagments with 180s to come down to the wire
+    and a fresh clip during the gunfight can make all the difference.
   base_perks:
     barrels: [Hammer-Forged Rifling]
     magazines: [Accurized Rounds]
-    perks1: []
+    perks1: [Pulse Monitor]
     perks2: [Timed Payload]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
     magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
 -
   weapon_id: 3037520408
@@ -41,15 +43,17 @@
   ratings_emoji: 💥
   tags: ['pvp']
   overview: >
-    Similar to Drewsky's roll above, but without `Firmly Planted`.
+    If you'd like a chance at beating down a super, look no further. Well,
+    look further because there are better options, but if you want to do it
+    with an Officer Revolver, this is a good option.
   base_perks:
     barrels: [Hammer-Forged Rifling]
     magazines: [Accurized Rounds]
-    perks1: []
+    perks1: [Pulse Monitor]
     perks2: [Vorpal]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
     magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
 -
   weapon_id: 3037520408
@@ -66,8 +70,24 @@
     perks2: [Vorpal]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
-    magazines: [Alloy Magazine, Tactical Mag, Flared Magwell]
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Tactical Mag, Flared Magwell, Alloy Magazine]
+-
+  weapon_id: 3037520408
+  name: Champion Stunner
+  ratings_emoji: 😱
+  tags: ['pve']
+  overview: >
+    The delayed ding from Timed Payload helps stun champions.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Fourth Time's the Charm]
+    perks2: [Timed Payload]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Tactical Mag, Flared Magwell, Alloy Magazine]
 -
   weapon_id: 3037520408
   name: Warmind Cell Generator
@@ -78,10 +98,10 @@
     your daily bounty grinds, Vanguard Strike playlist).
   base_perks:
     barrels: [Hammer-Forged Rifling]
-    magazines: [Alloy Magazine]
+    magazines: [Accurized Rounds]
     perks1: [Threat Detector, Ambitious Assassin]
     perks2: [Multikill Clip]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
-    magazines: [Alloy Magazine, Tactical Mag, Flared Magwell]
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Tactical Mag, Flared Magwell, Alloy Magazine]
