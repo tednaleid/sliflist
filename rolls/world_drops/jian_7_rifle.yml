@@ -1,0 +1,21 @@
+-
+  weapon_id: 1162247618
+  name: Make Way for the New Ruler
+  ratings_emoji: 👑
+  tags: ['pvp']
+  overview: >
+    `Firmly Planted` and `Zen Moment` will help with Stability.  If you haven't
+    given `Firmly Planted` a shot, it's right at home on Pulse Rifles who have
+    long(er) engagement ranges and are more amenable to the crouch. It's a
+    difference in playstyle that you have to work at, but you will absolutely be
+    rewarded. This perk alone is why the Jian 7 and Last Perdition have become
+    two of my most- used pulses.
+  base_perks:
+    barrels: [SLO-10 Post]
+    magazines: [Ricochet Rounds, High-Caliber Rounds]
+    perks1: [Firmly Planted, Zen Moment]
+    perks2: [Rangefinder]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [SLO-10 Post, SPO-26 Front, SLO-12 Post, SLO-21 Post]
+    magazines: [Ricochet Rounds, High-Caliber Rounds, Flared Magwell, Light Mag]
