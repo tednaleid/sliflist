@@ -1,6 +1,6 @@
 name: Seventh Seraph VY-7
 item_id: 766323545
-drop_id: world
+drop_id: 10
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 8, c: 2}

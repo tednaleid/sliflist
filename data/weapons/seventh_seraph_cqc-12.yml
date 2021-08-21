@@ -1,6 +1,6 @@
 name: Seventh Seraph CQC-12
 item_id: 1821724780
-drop_id: world
+drop_id: 10
 traits:
   barrels:     {t: 6, c: 2}
   magazines:   {t: 7, c: 2}
