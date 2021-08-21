@@ -8,16 +8,11 @@ traits:
   perks2:      {t: 5, c: 1}
   masterworks: {t: 5, c: 1}
 overview: >
-  Orewing's is almost identical to the
-  [Truthteller](#truthteller---pvp)
-  in every way, save for a much less excellent perk pool. Truthteller has
-  more interesting combinations, but if you're swimming in GL's from Iron
-  Banner and really want to keep one, read on.
-
-
-  [Destiny Fun Police](https://www.youtube.com/watch?v=gXhfIXnPTT4)
-  (aka DFP) first popularized these back in Year 1 of Destiny 2 when he
-  used the Fighting Lion to great affect.
+  Orewing's Maul is a Lightweight Frame, 90RPM Void Grenade Launcher. Orewing's is almost identical to the
+  [Truthteller]({{< ref "truthteller">}})
+  in every way, though it has a materially different (and less excellent) perk
+  pool. Truthteller has more interesting combinations, but that doesn't mean
+  Orewing's can't put in work!
 
 
   Like Truthteller, Orewing's is part of the "Lightweight Frame" grenade
@@ -25,6 +20,53 @@ overview: >
   have a "remote detonation" ability where they detonate when you release
   the trigger (or you get a direct hit). These weapons have a very high
   skill ceiling, allowing banked shots and shots that explode next to
-  enemies in cover. In PvP, these weapons excel at starting engagements
+  enemies in cover. 
+pvp_comments: >
+  [Destiny Fun Police](https://www.youtube.com/watch?v=gXhfIXnPTT4)
+  (aka DFP) first popularized these back in Year 1 of Destiny 2 when he
+  used the Fighting Lion to great affect.
+
+
+  In PvP, these weapons excel at starting engagements
   rather than finishing them. We want Orewing's to soften our enemies up,
-  even if we don't get a direct hit.
+  even if we don't get a direct hit. Remember to pair this with the `Quick
+  Access Sling` mod as it'll proc with every shot and let us more quickly
+  clean up what we've started.
+
+
+  Let's talk perks, and why you probably want a Truthteller instead ;)
+
+  * **Column 2**: In PvP, Spike is the winner. You want to maximize OHK chance
+  and this is your focus. `Blinding` and `Concussion` grenades are also in this
+  column. Blinding grenades flash your screen white and slowly subside whereas
+  Concussion grenades jerk your camera dramatically, like being hit by a tether.
+  Either Concussion or Blinding grenades are bugged because Blinding's radius is
+  massive whereas Concussion requires a near direct hit. With such a wide radius,
+  you can practically gaurantee that you'll be able to blind folks in PvP so I
+  tend to suggest `Blinding`. What about `Promixity`? The proximity detonation
+  radius is so miniscule that you may as well use `Spike` if you're that
+  accurate. Firing at enemies in the Tribute Hall and you have to give them a
+  buzz cut for `Proximity` to proc.
+
+  * **Column 3**: Only one perk in this column has utility in PvP and
+  that's `Quickdraw`.
+      
+  * **Column 4** : Only one perk in this column has utility in PvP and
+  that's Auto-Loading Holster. `Rangefinder`, `Moving Target` and `Snapshot`
+  don't help us at all, because you're always hip-firing. `Demolitionist`
+  only procs on kills and we're using these to open, not to close. If you
+  get any other perk than ALH in this slot, it will unfortunately go to
+  waste.
+
+
+  In the immortal words of
+  [@tednaleid](https://github.com/tednaleid)
+  "I'm not sure why Bungie created both of these weapons" and it's true!
+  It's hard to see why you'd run an Orewing's over a Truthteller. Heck it's
+  hard to see why you'd run an Orewing's at all given the two most important
+  slots have near zero utility in PvP.
+pve_comments: >
+  This section is the same as the
+  [Truthteller]({{< ref "truthteller">}}) writeup. The main difference is that
+  the perks on Orewing's are different and in different columns, so we don't
+  have as many options.

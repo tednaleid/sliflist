@@ -1,19 +1,63 @@
 -
   weapon_id: 2108920981
+  name: Hammer of the Gods
+  ratings_emoji: 🔨
+  tags: ['pvp','pve']
+  overview: >
+    You'll notice that we're looking to lower `Blast Radius` to ensure that we
+    concentrate as much of the damage as possible on to the direct hit (v.
+    splash). We relax `Quickdraw` in our variants because you can achieve
+    something similar with Handling MW, exotics or armor mods. Decent roll for
+    PvE too!
+  base_perks:
+    barrels: [Hard Launch]
+    magazines: [Spike Grenades]
+    perks1: [Quickdraw]
+    perks2: [Auto-Loading Holster]
+    masterworks: [Velocity MW]
+  extended_perks:
+    barrels: [Hard Launch, Quick Launch, Countermass, Smart Drift Control]
+    masterworks: [Velocity MW, Handling MW, Stability MW, Reload MW]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (+masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*perks1)"
+    - "{emoji}{emoji} (+barrels, +masterworks)"
+    - "{emoji}{emoji} (+barrels, *perks1)"
+    - "{emoji}{emoji} (*perks1, +masterworks)"
+    - "{emoji} (+barrels, *perks1, +masterworks)"
+    - "{emoji} (*barrels, *perks1, +masterworks)"
+    - "{emoji} (*barrels, *perks1, *masterworks)"
+-
+  weapon_id: 2108920981
   name: Blinded by the Light
   ratings_emoji: 🙈
   tags: ['pve']
   overview: >
-    Blindling Grenades are absolutely clutch in top-tier PvE content.
+    `Blinding Grenades` are so incredibly clutch in end-game activities. The
+    ability to stun lock all but the chonkiest of bois allows you to get
+    critical revives, focus down other adds, etc. We relax `Quickdraw` in our
+    variants because you can achieve something similar with Handling MW,
+    exotics or armor mods.
   base_perks:
-    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    barrels: [Quick Launch]
     magazines: [Blinding Grenades]
     perks1: [Quickdraw]
     perks2: [Auto-Loading Holster]
     masterworks: [Velocity MW]
   extended_perks:
-    barrels: []
-    magazines: []
+    barrels: [Quick Launch, Hard Launch, Smart Drift Control, Linear Compensator]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*perks1)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (+barrels, *perks1)"
+    - "{emoji}{emoji} (*perks1, *masterworks)"
+    - "{emoji} (+barrels, *perks1, *masterworks)"
+    - "{emoji} (*barrels, *perks1, *masterworks)"
 -
   weapon_id: 2108920981
   name: Welcome to the Boomtown
@@ -23,11 +67,20 @@
     Maximize direct damage on larger enemies with Spike Grenades, reload
     perks and masterwork as you're relying on this weapon and not others.
   base_perks:
-    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+    barrels: [Quick Launch]
     magazines: [Spike Grenades]
     perks1: [Field Prep]
-    perks2: [Auto-Loading Holster, Demolitionist]
+    perks2: [Auto-Loading Holster]
     masterworks: [Reload MW]
   extended_perks:
-    barrels: []
-    magazines: []
+    barrels: [Quick Launch, Smart Drift Control, Linear Compensator, Hard Launch]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*perks2)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (+barrels, *perks2)"
+    - "{emoji}{emoji} (*perks2, *masterworks)"
+    - "{emoji} (+barrels, *perks2, *masterworks)"
+    - "{emoji} (*barrels, *perks2, *masterworks)"
