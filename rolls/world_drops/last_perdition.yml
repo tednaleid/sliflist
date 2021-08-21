@@ -1,0 +1,85 @@
+-
+  weapon_id: 188882152
+  name: Eternal Punishment
+  ratings_emoji: 😈
+  tags: ['pvp','pve']
+  overview: >
+    Kill Clip brings you down to an optimal 1.6-burst TTK. This is a classic
+    pairing that feels terrific to execute.
+  base_perks:
+    barrels: [SPO-28 Front]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw]
+    perks2: [Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [SPO-28 Front, SLO-10 Post, SPO-26 Front, SLO-12 Post, SLO-21 Post]
+    magazines: [Accurized Rounds, Tactical Mag, Steady Rounds, Flared Magwell]
+-
+  weapon_id: 188882152
+  name: Absurdly Sticky
+  ratings_emoji: 🍭
+  tags: ['pvp']
+  overview: >
+    With `Moving Target` and `Zen Moment`, your weapon should only produce
+    yellow numbers. We'd also be thrilled to get `Firmly Planted` here!
+  base_perks:
+    barrels: [SPO-28 Front]
+    magazines: [Accurized Rounds]
+    perks1: [Moving Target]
+    perks2: [Zen Moment]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [SPO-28 Front, SLO-10 Post, SPO-26 Front, SLO-12 Post, SLO-21 Post]
+    magazines: [Accurized Rounds, Tactical Mag, Steady Rounds, Flared Magwell]
+-
+  weapon_id: 188882152
+  name: Absurdly Planted
+  ratings_emoji: 🌱
+  tags: ['pvp']
+  overview: >
+    `Firmly Planted` is criminally underrated. It's a difference in
+    playstyle that you have to work at, but you will absolutely be
+    rewarded.
+  base_perks:
+    barrels: [SPO-28 Front]
+    magazines: [Accurized Rounds]
+    perks1: [Firmly Planted]
+    perks2: [Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [SPO-28 Front, SLO-10 Post, SPO-26 Front, SLO-12 Post, SLO-21 Post]
+    magazines: [Accurized Rounds, Tactical Mag, Steady Rounds, Flared Magwell]
+-
+  weapon_id: 188882152
+  name: Bullseye
+  ratings_emoji: 🎯
+  tags: ['pvp']
+  overview: >
+    Similar to the set of rolls above, but we're narrowing our scopes
+    to create a solid low-zoom pairing with `Rangefinder`.
+  base_perks:
+    barrels: [SLO-10 Post]
+    magazines: [Accurized Rounds]
+    perks1: [Rangefinder]
+    perks2: [Zen Moment, Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [SLO-10 Post, SPO-26 Front, SLO-12 Post, SLO-21 Post]
+    magazines: [Accurized Rounds, Tactical Mag, Steady Rounds, Flared Magwell]
+-
+  weapon_id: 188882152
+  name: Warlock's Delight
+  ratings_emoji: 🧙
+  tags: ['pve']
+  overview: >
+    Are you a Warlock that could use a bit of Void damage in the Energy slot?
+  base_perks:
+    barrels: [SPO-28 Front]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw]
+    perks2: [Kill Clip, Rampage]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [SPO-28 Front, SLO-10 Post, SPO-26 Front, SLO-12 Post, SLO-21 Post]
+    magazines: [Accurized Rounds, Tactical Mag, Steady Rounds, Flared Magwell]
