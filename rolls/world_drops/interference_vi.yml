@@ -1,0 +1,41 @@
+-
+  weapon_id: 2257180473
+  name: Signal-to-Noise
+  ratings_emoji: 📡
+  tags: ['pve']
+  overview: >
+    If you want a GL for sticking 'nades on a boss or Champion, this is the roll
+    for you.
+  base_perks:
+    barrels: [Hard Launch]
+    magazines: [Spike Grenades]
+    perks1: [Field Prep, Auto-Loading Holster]
+    perks2: [Full Court]
+    masterworks: [Velocity MW]
+  extended_perks:
+    barrels: [Hard Launch, Quick Launch, Smart Drift Control]
+    masterworks: [Velocity MW, Reload MW, Handling MW, Stability MW]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (+masterworks)"
+    - "{emoji}{emoji} (+barrels, +masterworks)"
+    - "{emoji}{emoji} (*barrels, +masterworks)"
+    - "{emoji} (*barrels, *masterworks)"
+-
+  weapon_id: 2257180473
+  name: Static
+  ratings_emoji: ⚡️
+  tags: ['pve']
+  overview: >
+    Graverobber and Swashbuckler complement each other so well that any roll
+    that has them could be considered for general add clear.
+  base_perks:
+    barrels: [Hard Launch]
+    magazines: [Spike Grenades]
+    perks1: [Grave Robber]
+    perks2: [Swashbuckler]
+    masterworks: [Velocity MW]
+  extended_perks:
+    barrels: [Hard Launch, Quick Launch, Smart Drift Control]
+    magazines: [Spike Grenades, Proximity Grenades, High-Explosive Ordnance, Alloy Casing, Thermoplastic Grenades]
