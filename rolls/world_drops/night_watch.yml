@@ -1,0 +1,84 @@
+-
+  weapon_id: 3504336176
+  name: Daydreaming
+  ratings_emoji: 💭
+  tags: ['pvp']
+  overview: >
+    `Explosive Payload` is the cornerstone, with `Rapid Hit` helping us stay
+    Stable in the face of a high RPM archetype.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Rapid Hit]
+    perks2: [Explosive Payload, Multikill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 3504336176
+  name: MIDA Multi-kills
+  ratings_emoji: ☠️
+  tags: ['pvp']
+  overview: >
+    No `Explosive Payload` here means we pick up Outlaw (which won't proc if
+    explosive damage gets the last tick).
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Rapid Hit, Outlaw]
+    perks2: [Multikill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell]
+-
+  weapon_id: 3504336176
+  name: Shifts
+  ratings_emoji: 👀
+  tags: ['pve']
+  overview: >
+    With `Subsistence` no longer penalizing reserves, it's an S-tier perk. Pairs
+    perfectly with Rampage to keep the damage bonus active.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Subsistence]
+    perks2: [Rampage]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Extended Barrel]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Alloy Magazine, Flared Magwell]
+-
+  weapon_id: 3504336176
+  name: Sentry
+  ratings_emoji: 🤖
+  tags: ['pve']
+  overview: >
+    Leaning into uptime on Multikill Clip.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Rapid Hit, Outlaw]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Extended Barrel]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Alloy Magazine, Flared Magwell]
+-
+  weapon_id: 3504336176
+  name: Guard Duty
+  ratings_emoji: 💂
+  tags: ['pve']
+  overview: >
+    Leaning into uptime for Explosive Rounds. Super effective against Barrier
+    Champions.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Rapid Hit, Subsistence]
+    perks2: [Explosive Payload]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling, Extended Barrel]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Alloy Magazine, Flared Magwell]
