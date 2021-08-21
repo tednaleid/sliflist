@@ -18,25 +18,26 @@
     masterworks: [Velocity MW]
   extended_perks:
     barrels: [Quick Launch, Smart Drift Control, Hard Launch]
+    masterworks: [Velocity MW, Handling MW, Stability MW, Reload MW]
   custom_variants:
     - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
     - "{emoji}{emoji}{emoji} CE (+barrels)"
-    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (+masterworks)"
     - "{emoji}{emoji}{emoji} CE (*perks1)"
-    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (+barrels, +masterworks)"
     - "{emoji}{emoji} (+barrels, *perks1)"
-    - "{emoji}{emoji} (*perks1, *masterworks)"
+    - "{emoji}{emoji} (*perks1, +masterworks)"
     - "{emoji} (+barrels, *perks1, *masterworks)"
     - "{emoji} (*barrels, *perks1, *masterworks)"
 - 
   weapon_id: 1946491241
-  name: Blinded by Science
-  ratings_emoji: 🧪
-  tags: ['pve']
+  name: See No Evil
+  ratings_emoji: 🙈
+  tags: ['pvp','pve']
   overview: >
     `Blinding Grenades` are so incredibly clutch in end-game activities. The
     ability to stun lock all but the chonkiest of bois allows you to get
-    critical revives, focus down other adds, etc.
+    critical revives, focus down other adds, etc. They work well in PvP too!
   base_perks: 
     barrels: [Quick Launch]
     magazines: [Blinding Grenades]
@@ -55,7 +56,7 @@
     - "{emoji}{emoji} (*perks2, *masterworks)"
     - "{emoji} (+barrels, *perks2, *masterworks)"
     - "{emoji} (*barrels, *perks2, *masterworks)"
-- 
+-
   weapon_id: 1946491241
   name: Heavy Artillery
   ratings_emoji: 💣
@@ -72,21 +73,47 @@
     masterworks: [Velocity MW]
   extended_perks:
     barrels: [Quick Launch, Hard Launch, Smart Drift Control, Linear Compensator]
-    magazines: [Spike Grenades, Proximity Grenades, High-Velocity Rounds]
+    magazines: [Spike Grenades, High-Velocity Rounds]
 - 
   weapon_id: 1946491241
   name: Battlemage
   ratings_emoji: 🧙
   tags: ['pve']
   overview: >
-    Classic pairing. Instance 30% damage bonus after a melee kill
-    w/`Swashbuckler`. 
+    Classic pairing. Instant 30% damage bonus after a melee kill if you have the
+    `Swashbuckler` perk.
   base_perks: 
     barrels: [Quick Launch]
-    magazines: [Proximity Grenades]
+    magazines: [Spike Grenades]
     perks1: [Grave Robber]
     perks2: [Swashbuckler]
     masterworks: [Velocity MW]
   extended_perks:
     barrels: [Quick Launch, Hard Launch, Smart Drift Control, Linear Compensator] 
-    magazines: [Spike Grenades, Proximity Grenades, High-Velocity Rounds]
+    magazines: [Spike Grenades, High-Velocity Rounds]
+- 
+  weapon_id: 1946491241
+  name: Proclamation
+  ratings_emoji: 📣
+  tags: ['pve']
+  overview: >
+    Lobbing 'nades at a chonky boi? Here you go.
+  base_perks: 
+    barrels: [Quick Launch]
+    magazines: [Spike Grenades]
+    perks1: [Field Prep]
+    perks2: [Quickdraw]
+    masterworks: [Velocity MW]
+  extended_perks:
+    barrels: [Quick Launch, Hard Launch, Smart Drift Control, Linear Compensator] 
+    masterworks: [Velocity MW, Handling MW, Stability MW, Reload MW]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (*perks2)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (+barrels, *perks2)"
+    - "{emoji}{emoji} (*perks2, *masterworks)"
+    - "{emoji} (+barrels, *perks2, *masterworks)"
+    - "{emoji} (*barrels, *perks2, *masterworks)"
