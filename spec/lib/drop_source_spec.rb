@@ -34,8 +34,8 @@ describe DropSource do
     it 'reports the sources in the order they appear in the file' do
       source = DropSource.source_ordering
       expect(source[0].source_id).to eq(14)
-      expect(source[1].source_id).to eq('vog')
-      expect(source[2].source_id).to eq('world')
+      expect(source[1].source_id).to eq('world')
+      expect(source[2].source_id).to eq('ib')
     end
   end
 end
