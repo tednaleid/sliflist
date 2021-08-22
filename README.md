@@ -1,3 +1,4 @@
+![Build Status](https://github.com/rslifka/sliflist/actions/workflows/sliflist.yml/badge.svg)
 
 # Welcome to the Sliflist!
 
