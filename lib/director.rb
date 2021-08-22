@@ -109,10 +109,18 @@ menu:
     parent: "#{w.drop_source.source_id}"
 toc: true
 ---
-
-#{w.overview}
-
 TXT
+
+      d2g = "https://d2gunsmith.com/w/#{weapon_id}"
+      lgg = "https://www.light.gg/db/items/#{weapon_id}"
+      dtr = "https://destinytracker.com/destiny-2/db/items/#{weapon_id}"
+      result.puts
+      result.puts <<-TXT
+For complete perks, see [d2gunsmith.com](#{d2g}), [light.gg](#{lgg}) or [destinytracker.com](#{dtr}).
+TXT
+
+      result.puts
+      result.puts(w.overview)
 
       if w.has_pvp_comments?
         result.puts
