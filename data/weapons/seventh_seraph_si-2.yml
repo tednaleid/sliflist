@@ -8,11 +8,20 @@ traits:
   perks2:      {t: 6, c: 1}
   masterworks: {t: 4, c: 1}
 overview: >
-  The SI-2 is the 2020 version of the Anonymous Autumn (Kyt: *"which is the
-  best-in-class for lightweight sidearms"*) and is the only other randomly
-  rolled 360 RPM Energy sidearm. Mercules is on the same page: *"It (SI-2)
-  doesn't have great Stability or great Range. I would pick a well-rolled
-  Anonymous Autumn over this every time."* Why do they say that? It's got
-  basically the same stats as an Anonymous Autumn but has 33% less Range
-  and 20% less Stability. On the plus side the SI-2 has 7% better Handling
-  (64 > 69) 🙃
+  The SI-2 is a 360 RPM Lightweight Frame Arc Sidearm, initially appearing
+  during Season 10.
+pvp_comments: >
+  TrueVanguard, who absolutely loves the Anonymous Autumn (with over
+  14,000 kills) depicts the SI-2 as situational, relying primarily on Vorpal
+  to justify using it. Check out
+  [his thoughts](https://www.youtube.com/watch?v=cCtP2PjAEgY).
+  
+  If you are going to consider the SI-2 for PvP, a few things to keep in
+  mind. The recoil direction is 95, so no need to worry about straightening it
+  out. It doesn't have great Range and there's no escaping that. You can
+  dump all of your options into Range and you're going to extend the ADS dropoff
+  by a whopping +0.5m. I would suggest looking for high-Stability options.
+pve_comments: >
+  Like all other Seraph weapons, the SI-2 contributes to the generation
+  of Warmind cells in PvE. Since it also comes up in the Seasonal artifact as a
+  Champion-stunner, it's perhaps a good idea to keep a decent roll around.

@@ -1,0 +1,90 @@
+-
+  weapon_id: 3937866388
+  name: Ice Chips
+  ratings_emoji: 🥶
+  tags: ['pvp']
+  overview: >
+    Paired with Stasis or Void, `Elemental Capacitor` is going to do wonders for
+    this roll. Your engagements will be juuust around/within the range of
+    `Threat Detector`, which buffs Stability and Handling as well.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Threat Detector]
+    perks2: [Elemental Capacitor]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Steady Rounds, Flared Magwell, Tactical Mag, Accurized Rounds]
+-
+  weapon_id: 3937866388
+  name: Super Shredder
+  ratings_emoji: 💥
+  tags: ['pvp']
+  overview: >
+    Situational super shutdown. It's nearly as satisfying as a Chaperone
+    headshot.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Threat Detector]
+    perks2: [Vorpal]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Steady Rounds, Flared Magwell, Tactical Mag, Accurized Rounds]
+-
+  weapon_id: 3937866388
+  name: Sparks Flying
+  ratings_emoji: 🎇
+  tags: ['pve']
+  overview: >
+    The SI-2 is the only sidearm in the game that can roll with both
+    Demolitionist and Dragonfly. That's exciting because Demolitionist
+    counts the Dragonfly collateral kills towards getting your grenade
+    back. Don't forget the `Dragonfly Spec` mod!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Demolitionist]
+    perks2: [Dragonfly]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Alloy Magazine]
+-
+  weapon_id: 3937866388
+  name: Butter and Citrus Bar Shredder
+  ratings_emoji: 🧈🍊
+  tags: ['pve']
+  overview: >
+    Sidearms are all the rage in the Season 14 Artifact, and certainly
+    will be again at some point in the future. If you want to dump
+    rounds in to Champions, you don't have any other options in this
+    slot.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Demolitionist, Auto-Loading Holster, Threat Detector]
+    perks2: [Vorpal]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Alloy Magazine]
+-
+  weapon_id: 3937866388
+  name: You're Trapped In Here With Me
+  ratings_emoji: 🏢
+  tags: ['pve']
+  overview: >
+    Like Grave Robber and Swashbuckler, these two perks play super well
+    off each other.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Threat Detector]
+    perks2: [Surrounded]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Extended Barrel, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Appended Mag, Tactical Mag, Alloy Magazine]
