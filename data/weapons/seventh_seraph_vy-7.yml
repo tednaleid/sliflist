@@ -8,11 +8,44 @@ traits:
   perks2:      {t: 4, c: 1}
   masterworks: {t: 4, c: 1}
 overview: >
-  The VY-7 is a 600 RPM Energy "Precision Frame" SMG. Here's how it compares
-  to all other randomly-rolled 600 RPM SMGs on
-  [light.gg](https://www.light.gg/db/items/compare/?h=trStZ;CYr9QP;CQZu7f;B9hF8b;).
-  It's competitive base-stat-wise but there's a reason you've probably never
-  been killed by any of these weapons (or any SMG for that matter) since the
-  first year of Destiny 2. In Season 10 with the recent Adaptive Auto Rifle
-  buff, Auto Rifles outclass SMGs and failing ARs, both sidearms and
-  shotguns are going to frustrate the hell out of you.
+  The Seventh Seraph VY-7 is a 600 RPM Precision Frame Arc SMG, initially made
+  available during Season 10 (remember the bunkers?). It continues to drop as
+  part of the world loot pool.
+pvp_comments: >
+  Remember this world?
+
+  * [Antiope-D's FINAL FORM! (God Roll)](https://www.youtube.com/watch?v=zxnkTvtuXEA) - Destiny Fun Police
+
+  * [The Perfect Antiope-D does exist!](https://www.youtube.com/watch?v=M3tC-IkkFRU) - CammyCakes
+
+  * [Antiope-D and Sniping = New Meta ?](https://www.youtube.com/watch?v=yjG32gyUh_w) - ZkMushroom
+
+
+  The VY-7 is basically an Energy-slot Antiope-D as the basic stat variances are
+  immaterial in practice.
+
+
+  **"Why don't any of these rolls value `Range`?"** The difference between the base
+  range of `59` and let's say `80` (using Accurized Rounds, etc.) buys you about
+  a whopping one meter of falloff (~16 to ~17m). I don't value buffing Range all
+  that highly on the VY-7. It's not that it's *bad* per se, it's just that the
+  opportunity cost is high.
+
+
+  I would strongly suggest getting the Recoil to 100 either via a Barrel
+  perk or a `Counterbalance`. Even though its base Recoil is `91` it's still a
+  hot mess to control, esp. with its low Handling. For the rolls below I'm going
+  to assume you're rolling with a `Counterbalance` Mod installed.
+pve_comments: >
+  The VY-7 is the only SMG that's able to roll with Vorpal and you'll want
+  one of these for two reasons:
+
+        
+  * The VY-7 is a Seraph weapon and contributes to the generation of Warmind
+  Cells.
+
+  * SMGs are often eligible for certain Artifact weapon mods.
+        
+
+  ...so let's come up with some rolls that help shred Champions and generate
+  Warmind Cells (i.e. shred adds).
