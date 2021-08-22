@@ -16,7 +16,7 @@ The [homepage]({{<ref "/">}}) is a good place to start.
 |-|-|
 |👆|**Search Bar**: The quickest way to find what you're looking for.|
 |👈|**Roll Catalog**: Organized by where or when the weapon drops. Bungie is always expanding the world loot pool, and to ease confusion, that's been extracted into a separate category. Seasons contain only the season-specific set of weapons.|
-|👉|**Roll ToC**: Within each roll, handy links.| 
+|👉|**Roll ToC**: Within each roll, handy links.|
 
 ## I Have an Idea for a Roll!
 
