@@ -53,7 +53,7 @@ In some cases, like grenade launchers, you want to "lock" the second column (e.g
 
 Variants are then transformed into DIM wishlist entries and published on the website for usage in DIM. Let's look at the wishlist entries generated for the variant: `🔒🔒🔒🌟 Collector's Edition`.
 
-```
+```text
 //notes:[pvp] "Locked On" 🔒🔒🔒🌟 Collector's Edition
 dimwishlist:item=2220884262&perks=1926090094,1885400500,588594999,4152709778,1590375892
 dimwishlist:item=2220884262&perks=1926090094,1885400500,588594999,4152709778,1590375893
