@@ -2,9 +2,7 @@
 
 # Welcome to the Sliflist!
 
-You're probably looking for the [Sliflist website](https://rslifka.github.io/sliflist/)?
-
-GitHub is more for the development side of things.
+You're probably looking for the [Sliflist website](https://rslifka.github.io/sliflist/) website to check out rolls and learn more about how we come up with this stuff. GitHub is more for the development side of things.
 
 # Reference
 
@@ -14,12 +12,8 @@ We have a [bit of a wiki going](https://github.com/rslifka/sliflist/wiki) for th
 
 ## "I have an idea for a roll!"
 
-TODO
-
-Brilliant!
+That would be awesome, thank you! We've got you [covered on the website](http://rslifka.github.io/sliflist/docs/welcome/contributing/).
 
 ## "I'd like to enhance the generator"
 
 TODO
-
-Also brilliant!
