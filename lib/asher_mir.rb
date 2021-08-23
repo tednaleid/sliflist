@@ -20,7 +20,7 @@ class AsherMir
 
   def wishlist(variant)
     results = StringIO.new
-    results << "//notes:#{variant.name}"
+    results << "//notes:#{variant.name} (#{'%.3f' % variant.probability}%)"
     results << "\n"
     results << entries(variant).split("\n").sort.join("\n")
     results.string
