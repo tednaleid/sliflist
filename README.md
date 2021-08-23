@@ -10,10 +10,6 @@ We have a [bit of a wiki going](https://github.com/rslifka/sliflist/wiki) for th
 
 # Contributing
 
-## "I have an idea for a roll!"
+**"I have an idea for a roll!"** That would be awesome, thank you! We've got you [covered on the website](http://rslifka.github.io/sliflist/docs/welcome/contributing/).
 
-That would be awesome, thank you! We've got you [covered on the website](http://rslifka.github.io/sliflist/docs/welcome/contributing/).
-
-## "I'd like to enhance the generator"
-
-TODO
+**"I'd like to enhance the generator"** Perfect. You're in the right place... except not yet; need to update this section of the docs :)
