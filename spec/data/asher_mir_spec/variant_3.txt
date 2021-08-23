@@ -1,2 +1,2 @@
-//notes:[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️🏃‍♂️ CE (*masterworks)
+//notes:[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️🏃‍♂️ CE (*masterworks) (0.176%)
 dimwishlist:item=1119734784&perks=839105230,3177308360,2946784966,1015611457
