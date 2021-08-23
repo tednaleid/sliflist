@@ -1,4 +1,4 @@
-//notes:[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️🏃‍♂️🌟 Collector's Edition
+//notes:[pve,pvp] "Chasing Stability" 🏃‍♂️🏃‍♂️🏃‍♂️🌟 Collector's Edition (0.044%)
 dimwishlist:item=1119734784&perks=839105230,3177308360,2946784966,1015611457,150943600
 dimwishlist:item=1119734784&perks=839105230,3177308360,2946784966,1015611457,150943601
 dimwishlist:item=1119734784&perks=839105230,3177308360,2946784966,1015611457,150943602
