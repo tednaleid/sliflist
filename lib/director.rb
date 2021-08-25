@@ -125,12 +125,14 @@ TXT
       if w.has_pvp_comments?
         result.puts
         result.puts('## PvP Thoughts')
+        result.puts
         result.puts(w.pvp_comments)
       end
 
       if w.has_pve_comments?
         result.puts
         result.puts('## PvE Thoughts')
+        result.puts
         result.puts(w.pve_comments)
       end
 
