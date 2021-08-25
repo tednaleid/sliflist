@@ -1,6 +1,6 @@
 name: Shadow Price
 item_id: 2633186522
-drop_id: world
+drop_id: nf
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 8, c: 2}

@@ -1,6 +1,6 @@
 name: Hung Jury (Adept)
 item_id: 681067419
-drop_id: world
+drop_id: nf
 traits:
   barrels:     {t: 9, c: 2}
   magazines:   {t: 7, c: 2}
