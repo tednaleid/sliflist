@@ -5,6 +5,9 @@
   id: world
   name: Open World
 -
+  id: nf
+  name: Nightfalls (Incl. GMs)
+-
   id: ib
   name: Iron Banner
 -
