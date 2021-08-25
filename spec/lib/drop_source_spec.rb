@@ -35,7 +35,7 @@ describe DropSource do
       source = DropSource.source_ordering
       expect(source[0].source_id).to eq(14)
       expect(source[1].source_id).to eq('world')
-      expect(source[2].source_id).to eq('ib')
+      expect(source[2].source_id).to eq('nf')
     end
   end
 end
