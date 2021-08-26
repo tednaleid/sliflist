@@ -44,10 +44,10 @@ If you're interested in contributing, this is a great place to get started! It's
 |Reed's Regret|Grandmaster Nightfalls|
 |Reed's Regret (Adept)|Grandmaster Nightfalls|
 |Annual Skate|World|
+|Contingency Plan|World|
 |Legal Action II|World|
+|Punching Out|World|
 |Scathelocke|World|
+|Servant Leader|World|
 |Shepherd's Watch|World|
-|Contingency Plan|?|
-|Punching Out|?|
-|Servant Leader|?|
-|Sorrow's Verse|?|
+|Sorrow's Verse|World|
