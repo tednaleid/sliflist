@@ -149,21 +149,20 @@ TXT
         
         # Base perks
         result.puts
-        result.puts('**Collector\'s Edition Roll**')
+        result.puts('* **Collector\'s Edition Roll**')
         %w(barrels magazines perks1 perks2 masterworks).each do |perk_slot_name|
           next unless roll.has_base_perks_for_slot?(perk_slot_name)
-          perk_list = roll.base_perks[perk_slot_name].map{|p|p.name}.join(', ')
-          result.puts("* **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
+          perk_list = roll.base_perks[perk_slot_name].map{|p|"`#{p.name}`"}.join(', ')
+          result.puts("  * **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
         end
 
         # Extended perks
         if roll.has_extended_perks?
-          result.puts
-          result.puts('**Extended Perks** (referred to with a \'+\' below)')
+          result.puts('* **Extended Perks** (referred to with a \'+\' below)')
           %w(barrels magazines perks1 perks2 masterworks).each do |perk_slot_name|
             next unless roll.has_extended_perks_for_slot?(perk_slot_name)
-            perk_list = roll.extended_perks[perk_slot_name].map{|p|p.name}.join(', ')
-            result.puts("* **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
+            perk_list = roll.extended_perks[perk_slot_name].map{|p|"`#{p.name}`"}.join(', ')
+            result.puts("  * **#{NICE_PERK_NAMES[perk_slot_name]}**: #{perk_list}")
           end
         end
         
