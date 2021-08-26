@@ -47,7 +47,7 @@ TOML
   private
 
   def self.write_menus_toml
-    puts '[Director] Writing menus.toml'
+    puts '[Director] Writing menus.toml' if ENV['CI']
     weapon_ids = Banshee44.roll_store.map{|r| r.weapon.item_id}.uniq
     drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
     sorted_sources = DropSource.source_ordering.select{|ds| drop_sources.include?(ds)}
@@ -67,18 +67,18 @@ TOML
   end
 
   def self.create_content_directories
-    puts '[Director] Creating content directories'
+    puts '[Director] Creating content directories' if ENV['CI']
     weapon_ids = Banshee44.roll_store.map{|r| r.weapon.item_id}.uniq
     drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
     
     drop_sources.each do |ds|
-      puts "  > ./hugo_site/content/docs/#{ds.source_id}"
+      puts "  > ./hugo_site/content/docs/#{ds.source_id}" if ENV['CI']
       FileUtils.mkdir_p("./hugo_site/content/docs/#{ds.source_id}")
     end
   end
 
   def self.create_content_indices
-    puts '[Director] Creating content indices'
+    puts '[Director] Creating content indices' if ENV['CI']
     weapon_ids = Banshee44.roll_store.map{|r| r.weapon.item_id}.uniq
     drop_sources = weapon_ids.map{|wid| Ada1.weapon_from_id(wid)}.map{|w| w.drop_source}.uniq
       
@@ -89,13 +89,13 @@ title: "#{ds.name}"
 draft: false
 ---
 TXT
-      puts "  > /hugo_site/content/docs/#{ds.source_id}/_index.md"
+      puts "  > /hugo_site/content/docs/#{ds.source_id}/_index.md" if ENV['CI']
       File.write("./hugo_site/content/docs/#{ds.source_id}/_index.md", contents)
     end
   end
 
   def self.write_weapon_rolls
-    puts '[Director] Creating weapon \'docs\''
+    puts '[Director] Creating weapon \'docs\'' if ENV['CI']
     Banshee44.roll_store_by_weapon_id.each do |weapon_id, rolls|
       w = Ada1.weapon_from_id(weapon_id)
 
@@ -178,7 +178,7 @@ TXT
       end
       
       filename = w.name.downcase.gsub(/[\ -]/, '_').gsub(/['\(\)]/,'')
-      puts "  > ./hugo_site/content/docs/#{w.drop_source.source_id}/#{filename}.md"
+      puts "  > ./hugo_site/content/docs/#{w.drop_source.source_id}/#{filename}.md" if ENV['CI']
       File.write("./hugo_site/content/docs/#{w.drop_source.source_id}/#{filename}.md", result.string)
     end
   end
