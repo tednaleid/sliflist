@@ -56,7 +56,8 @@
     - "{emoji}{emoji}{emoji} (*barrels, *masterworks)"
     - "{emoji}{emoji} (*perks1)"
     - "{emoji}{emoji} (*perks1, *masterworks)"
-    - "{emoji}{emoji} (*perks1, +barrels, *masterworks)"
+    - "{emoji}{emoji} (+barrels, *perks1, *masterworks)"
+    - "{emoji} (*barrels, *perks1, *masterworks)"
 -
   weapon_id: 304659313
   name: Single-Target Damage - Ehroar's Pick
