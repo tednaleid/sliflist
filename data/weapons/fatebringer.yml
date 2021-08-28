@@ -1,0 +1,31 @@
+name: Fatebringer
+item_id: 2171478765
+drop_id: vog
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Fatebringer is a 140 RPM hand cannon, back in a reprised version from the
+  Vault of Glass.  In D2, it's a kinetic (in D1 it was Arc).  It drops in the
+  Vault of Glass from Templar or Gatekeeper encounters. Once acquired, it will
+  also drop from either of the two secret chests and can be acquired from the
+  post-Atheon chest for `Spoils of Conquest` x 20.
+
+  We're going with recommendations on this heavily influenced by
+  [Fallout](https://www.youtube.com/watch?v=n2bLA3wkBBE).
+
+  The "Timelost" (or "Adept") version of this weapon drops only by completing
+  the Templar encounter Challenge in Master mode. That weapon has a different
+  serial number in Destiny's database and is registered in this wishlist
+  separately.
+pvp_comments: >
+  After the 120 RPM hand cannon nerf, 140 RPM hand cannons are top-tier in the
+  crucible in season 15.
+pve_comments: >
+  Fatebringer has a very crisp feel to it, reminiscent of it's D1 incarnation.
+  There are a number of solid perks available on it and it is viable in both
+  regular and end-game content, including GMs in seasons where hand cannons
+  have champion mods.

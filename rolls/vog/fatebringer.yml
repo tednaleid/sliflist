@@ -1,0 +1,36 @@
+-
+  weapon_id: 2171478765
+  name: Fait Accompli
+  ratings_emoji: ✔️
+  tags: ['pvp']
+  overview: >
+    `Tunnel Vision` and `Kill Clip` both proc on reload - they were made for
+    each other!
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Tunnel Vision]
+    perks2: [Kill Clip]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling, Full Bore]
+    magazines: [Extended Mag, Alloy Magazine, Appended Mag, Tactical Mag]
+-
+  weapon_id: 2171478765
+  name: Do It Again
+  ratings_emoji: ♻️
+  tags: ['pve']
+  overview: >
+    `Rewind Rounds` returns approximately 40% of the hits you made with it to the magazine recursively.
+    So a Fatebringer with 10 in the magazine will go 10 -> 4 -> 1 = 15 rounds before needing to reload.
+
+    Fallout calls `Firefly`: "Spicy Outlaw" as it has a hidden reload perk.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Extended Mag]
+    perks1: [Rewind Rounds]
+    perks2: [Firefly, Frenzy]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Extended Barrel, Corkscrew Rifling, Full Bore]
+    magazines: [Extended Mag, Alloy Magazine, Appended Mag, Tactical Mag]
