@@ -17,26 +17,21 @@ pvp_comments: >
   introduced in S14. Many folks have reviewed it; here are a handful of
   selections:
 
-  > *The feel of this gun is so very Destiny... and so terribly
-  well-balanced and is yet another reminder that Bungie is the best at fun
-  gameplay, bar none.* -
-  [Ascendant Nomad](https://www.youtube.com/watch?v=Ya5a-uIbq7w)
+  
+  * [Ascendant Nomad](https://www.youtube.com/watch?v=Ya5a-uIbq7w) - *"The feel of
+  this gun is so very Destiny... and so terribly well-balanced and is yet
+  another reminder that Bungie is the best at fun gameplay, bar none.*
+  
+  * [ZkMushroom](https://www.youtube.com/watch?v=7M8xjUzDRfU) - *"This is the best
+  pulse rifle in the game. Better than Messenger, 100%. Time to do the new
+  activity to get the god roll!*"
+
+  * [DFP](https://www.youtube.com/watch?v=2Y5XZrTjSxs) - *"This thing is an
+  absolute laser beam. Terrific Aim Assist and a vertical recoil pattern. It
+  ticks all the boxes for me."*
 
 
-  > *This is the best pulse rifle in the game. Better than Messenger, 100%.
-  Time to do the new activity to get the god roll!* -
-  [ZkMushroom](https://www.youtube.com/watch?v=7M8xjUzDRfU)
-
-
-  > *This thing is an absolute laser beam. Terrific Aim Assist and a
-  vertical recoil pattern. It ticks all the boxes for me.* - 
-  [DFP](https://www.youtube.com/watch?v=2Y5XZrTjSxs)
-
-
-  **Why no Frenzy?** Frenzy has steep activation requirements and has
-  an immaterial impact on your TTKs.
-
-
-  **Why so much Multikill Clip?** At x1, MKC drops your TTK from
-  `7c2b/0.80s` to `7c0b/0.67s` and your body shot TTK from `1.40s` to a
-  much more palatable `1.13s`.
+  `Frenzy`, while great in PvE, has steep activation requirements in PvP and has
+  an immaterial impact on your TTK. Let's go with `Multikill Clip` instead: At
+  x1, MKC drops your TTK from `7c2b/0.80s` to `7c0b/0.67s` and your body shot
+  TTK from `1.40s` to a much more palatable `1.13s`.

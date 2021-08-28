@@ -20,6 +20,7 @@ pvp_comments: >
 
   There are a couple of perks that help us meet this goal:
 
+
   * `Auto Loading Holster`: be ready for that next engagement with a fully
   loaded weapon
 
@@ -36,7 +37,7 @@ pve_comments: >
   great perks to look for.
 
 
-  `Blinding Grenades` have a 10 meter radius on a 5 second suppression effect which
+  * `Blinding Grenades` have a 10 meter radius on a 5 second suppression effect which
   works on all non-Ultra/Champion mobs.  In high-level PvE content, this can be really
   useful for suppressing a large area and having an entire fireteam do damage
   without worrying about retaliation.  [Ehroar](https://youtu.be/8cA0X0yptco?t=70)
@@ -54,13 +55,12 @@ pve_comments: >
   5 meter radius (~25% of the total area impacted).
 
 
-  `Spike Grenades` can also be good if you're looking to do direct damage.  Truthteller
+  * `Spike Grenades` can also be good if you're looking to do direct damage.  Truthteller
   isn't quite at Mountaintop levels of damage, but it's probably the best thing
   we have as a replacement.   In testing, Mountaintop with Spike Grenades does 21,048
   damage.  Truthteller with Spike Grenades does 15,185, so about 28% less.
 
-
-  `Auto-loading Holster` is the best 3rd column perk for almost every situation, the
+  * `Auto-loading Holster` is the best 3rd column perk for almost every situation, the
   only possible exception is using Field Prep and crouching for faster reload if
   you're looking to spam this weapon.
 
@@ -70,12 +70,11 @@ pve_comments: >
   chains going enough to make them worth their while.
 
 
-  `Demolitionist` is the best 4th column PvE pick as it has the dual effect of increasing
+  * `Demolitionist` is the best 4th column PvE pick as it has the dual effect of increasing
   the number of grenades you get, and filling the chamber with a shell after
   throwing a grenade.
 
-
-  `Disruption Break` is also viable and for some situations would be amazing to help
+  * `Disruption Break` is also viable and for some situations would be amazing to help
   bring a tough blinded enemy down (now if Bungie would ever allow grenade launchers
   to have an Anti-Barrier mod, this would be _amazing_).
 

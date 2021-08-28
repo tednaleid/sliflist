@@ -40,7 +40,7 @@
   ratings_emoji: 🤠
   tags: ['pve']
   overview: >
-    Fast reload and as much `Range` as we can get. 
+    Fast reload and as much `Range` as we can get.
   base_perks:
     barrels: [Sureshot HCS]
     magazines: [Accurized Rounds]
