@@ -23,10 +23,39 @@
   identifier = "welcome"
   url = "/docs/welcome/"
 
+[[sandbox]]
+  name = "Welcome"
+  weight = 500
+  identifier = "welcome"
+  url = "/sandbox/welcome/"
+
+[[sandbox]]
+  name = "Weapons"
+  weight = 501
+  identifier = "weapons"
+  url = "/sandbox/weapons/"
+
+[[sandbox]]
+  name = "Perks"
+  weight = 502
+  identifier = "perks"
+  url = "/sandbox/perks/"
+
+[[sandbox]]
+  name = "Reference"
+  weight = 503
+  identifier = "reference"
+  url = "/sandbox/reference/"
+
 [[main]]
   name = "Rolls"
   url = "/docs/welcome/introduction/"
   weight = 10
+
+[[main]]
+  name = "Sandbox"
+  url = "/sandbox/welcome/introduction/"
+  weight = 11  
 
 [[social]]
   name = "GitHub"
