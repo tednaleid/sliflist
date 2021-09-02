@@ -6,7 +6,7 @@ menu:
     parent: "reference"
 ---
 
-# `Holster` Mods
+## `Holster` Mods
 
 Season 15 added `Holster` Leg Mods for all weapon types that have more than one round in the chamber by default (i.e. no tube grenade launcher, rocket launcher, or sword mods).
 
@@ -16,7 +16,7 @@ The description says:
 
 The various mods work similarly across weapon typoes, the only difference is the number of round loaded for each time the mod procs.
 
-## One `Holster` Mod
+### One `Holster` Mod
 
 If you have one Holster Mod equipped it will proc and partially load the magazine first at 4 seconds and then every 6 seconds thereafter.   
 
@@ -26,7 +26,7 @@ If you switch back to the fusion rifle before it is fully loaded, the timer will
 
 This is especially good on those weapon types that benefit from beign fully loaded (like those with the `Chain Reaction` perk).
 
-## Two `Holster` Mods
+### Two `Holster` Mods
 
 Having 2 `Holster` mods has diminishing returns.  The mod will still wait 4 seconds after stowing before the first proc.  All subsequent procs will _also_ happen after 4 seconds.  So a 6 shot fusion rifle will load the first round after 4 seconds, the second after 8 seconds, and be fully loaded after 24 seconds `(4 + 4 + 4 + 4 + 4 + 4)`
 
