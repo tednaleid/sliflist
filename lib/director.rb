@@ -35,8 +35,14 @@ class Director
   url = "/sandbox/perks/"
 
 [[sandbox]]
-  name = "Reference"
+  name = "Mods"
   weight = 503
+  identifier = "mods"
+  url = "/sandbox/mods/"
+
+[[sandbox]]
+  name = "Reference"
+  weight = 504
   identifier = "reference"
   url = "/sandbox/reference/"
 
