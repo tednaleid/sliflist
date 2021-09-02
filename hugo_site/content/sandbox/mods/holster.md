@@ -1,12 +1,10 @@
 ---
-title: "Holster Mod"
+title: "Holster"
 draft: false
 menu:
   sandbox:
-    parent: "reference"
+    parent: "mods"
 ---
-
-## `Holster` Mods
 
 Season 15 added `Holster` Leg Mods for all weapon types that have more than one round in the chamber by default (i.e. no tube grenade launcher, rocket launcher, or sword mods).
 
@@ -14,23 +12,23 @@ The description says:
 
 > Gradually reloads your stowed `<weapon_type>` over time.  Multiple copies of this perk stack to reduce the time taken to fully reload.
 
-The various mods work similarly across weapon typoes, the only difference is the number of round loaded for each time the mod procs.
+The various mods work similarly across weapon types, the only difference is the number of round loaded for each time the mod procs.
 
-### One `Holster` Mod
+## One Holster Mod
 
-If you have one Holster Mod equipped it will proc and partially load the magazine first at 4 seconds and then every 6 seconds thereafter.
+If you have one `Holster` mod equipped it will proc and partially load the magazine first at 4 seconds and then every 6 seconds thereafter.
 
-So if you have a single `Fusion Rifle Holster` mod equipped, it will reload a single shot each time the mod procs.If you empty a 6 shot fusion rifle and switch to your kinetic weapon, it will load the first round after 4 seconds, the second round after 10 seconds, and be fully loaded after 34 seconds `(4 + 6 + 6 + 6 + 6 + 6)`.
+If you have a single `Fusion Rifle Holster` mod equipped, it will reload a single shot each time the mod procs. If you empty a 6 shot fusion rifle and switch to your kinetic weapon, it will load the first round after 4 seconds, the second round after 10 seconds, and be fully loaded after 34 seconds `(4 + 6 + 6 + 6 + 6 + 6)`.
 
 If you switch back to the fusion rifle before it is fully loaded, the timer will stop and you'll need to stow it again for 4 seconds to load the next round.
 
 This is especially good on those weapon types that benefit from beign fully loaded (like those with the `Chain Reaction` perk).
 
-### Two `Holster` Mods
+## Two Holster Mods
 
-Having 2 `Holster` mods has diminishing returns.  The mod will still wait 4 seconds after stowing before the first proc.  All subsequent procs will _also_ happen after 4 seconds.  So a 6 shot fusion rifle will load the first round after 4 seconds, the second after 8 seconds, and be fully loaded after 24 seconds `(4 + 4 + 4 + 4 + 4 + 4)`
+Having two `Holster` mods has diminishing returns.  The mod will still wait 4 seconds after stowing before the first proc.  All subsequent procs will _also_ happen after 4 seconds.  So a 6 shot fusion rifle will load the first round after 4 seconds, the second after 8 seconds, and be fully loaded after 24 seconds `(4 + 4 + 4 + 4 + 4 + 4)`
 
-## Rounds Loaded For Each Weapon Type On Proc
+## Rounds Loaded For Each Weapon Type
 
 The only difference between weapon mods is the number of rounds loaded for that weapon type.  Pulse Rifles are weird in that some will load a single "burst" and some will load 2 "bursts" on each proc.  
 
