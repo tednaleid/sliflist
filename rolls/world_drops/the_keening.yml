@@ -13,8 +13,8 @@
     perks2: [Zen Moment, Snapshot, Wellspring]
     masterworks: [Range MW, Stability MW]
   extended_perks:
-    barrels: []
-    magazines: []
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [Moving Target, Killing Wind, Firmly Planted, Slideshot]
 -
   weapon_id: 409551876
   name: Chain of Twilight
@@ -29,5 +29,5 @@
     perks2: [Multikill Clip]
     masterworks: [Range MW, Stability MW]
   extended_perks:
-    barrels: []
-    magazines: []
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
