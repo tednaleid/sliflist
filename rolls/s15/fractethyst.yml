@@ -1,0 +1,33 @@
+-
+  weapon_id: 3184681056
+  name: Friendly Fire
+  ratings_emoji: 👯
+  tags: ['pvp']
+  overview: >
+    Ensemble improves the velocity of using this weapon when you're near your
+    friends.
+  base_perks:
+    barrels: [Rifled Barrel, Full Choke]
+    magazines: [Accurized Rounds]
+    perks1: [Ensemble]
+    perks2: [Opening Shot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+-
+  weapon_id: 3184681056
+  name: Cold Quarters Combat
+  ratings_emoji: 💥
+  tags: ['pvp']
+  overview: >
+    The basic god roll. Except Stasis. Fast, ranged, high accuracy.
+  base_perks:
+    barrels: [Rifled Barrel, Full Choke]
+    magazines: [Accurized Rounds]
+    perks1: [Quickdraw, Slideshot]
+    perks2: [Opening Shot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Light Mag, Assault Mag]
