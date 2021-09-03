@@ -13,8 +13,8 @@
     perks2: [Snapshot, Quickdraw]
     masterworks: [Range MW, Handling MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
-    magazines: []
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Tactical Mag, Accurized Rounds]
 -
   weapon_id: 3473290087
   name: Nail Clipper
@@ -32,8 +32,8 @@
     perks2: [Kill Clip]
     masterworks: [Handling MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
-    magazines: []
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Tactical Mag, Accurized Rounds]
 -
   weapon_id: 3473290087
   name: Warlocks love feeling empowered
@@ -52,5 +52,5 @@
     perks2: [High-Impact Reserves]
     masterworks: [Range MW, Handling MW]
   extended_perks:
-    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
-    magazines: []
+    barrels: [Fluted Barrel, Arrowhead Brake, Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: [Tactical Mag, Accurized Rounds]
