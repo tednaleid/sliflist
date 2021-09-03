@@ -9,7 +9,7 @@
   base_perks:
     barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
     magazines: [High-Caliber Rounds, Ricochet Rounds]
-    perks1: [Moving Target, Killing Wind, Firmly Planted]
+    perks1: [Moving Target, Killing Wind, Firmly Planted, Slideshot]
     perks2: [Zen Moment, Snapshot, Wellspring]
     masterworks: [Range MW, Stability MW]
   extended_perks:
@@ -25,7 +25,7 @@
   base_perks:
     barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
     magazines: [High-Caliber Rounds, Ricochet Rounds]
-    perks1: [Moving Target, Killing Wind]
+    perks1: [Moving Target, Killing Wind, Slideshot]
     perks2: [Multikill Clip]
     masterworks: [Range MW, Stability MW]
   extended_perks:
