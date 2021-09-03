@@ -1,0 +1,15 @@
+name: Vulpecula
+item_id: 1622998472
+drop_id: 15
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  ...
+pvp_comments: >
+  ...
+pve_comments: >
+  ...

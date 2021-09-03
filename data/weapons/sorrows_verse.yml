@@ -1,0 +1,15 @@
+name: Sorrow's Verse
+item_id: 2496875173
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 12, c: 1}
+  perks2:      {t: 12, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  ...
+pvp_comments: >
+  ...
+pve_comments: >
+  ...
