@@ -31,3 +31,19 @@
   extended_perks:
     barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
     magazines: [High-Caliber Rounds, Ricochet Rounds]
+-
+  weapon_id: 409551876
+  name: Close-Quarters Xenocide
+  ratings_emoji: 👹
+  tags: ['pve']
+  overview: >
+    Bread and butter rolls for PVE.
+  base_perks:
+    barrels: [Hammer-Forged Rifling, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Extended Mag, Appended Mag]
+    perks1: [Rapid Hit, Surplus]
+    perks2: [Multikill Clip, One for All, Thresh]
+    masterworks: [Range MW, Stability MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [Extended Mag, Appended Mag, High-Caliber Rounds, Ricochet Rounds]
