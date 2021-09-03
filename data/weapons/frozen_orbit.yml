@@ -1,0 +1,21 @@
+name: Frozen Orbit
+item_id: 3473290087
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 12, c: 1}
+  perks2:      {t: 12, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  Frozen Orbit is an Energy-slot, Aggressive Frame Sniper. It's been in the
+  Crucible loot pool since Season #####. It is most comparable to a Tatara
+  Gaze (sunset).
+pvp_comments: >
+  Aggressive Frame snipers are the only ones that can one-shot every super
+  in the Crucible. Every super has a different damage-resistance tier that
+  affects your ability to do that however Aggressive Frames do not care
+  about such things.
+pve_comments: >
+  Outlaw, Clown Cartridge, and Triple Tap all pair nicely with Wellspring,
+  High-Impact Reserves, and Vorpal for PvE.
