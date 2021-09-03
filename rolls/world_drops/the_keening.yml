@@ -1,0 +1,33 @@
+-
+  weapon_id: 409551876
+  name: Bread and Butter
+  ratings_emoji:  🍞
+  tags: ['pvp']
+  overview: >
+    The Keening has a giant perk pool and isn't the hottest sidearm in the
+    game, but it does have some versatile rolls.
+  base_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
+    perks1: [Moving Target, Killing Wind, Firmly Planted]
+    perks2: [Zen Moment, Snapshot, Wellspring]
+    masterworks: [Range MW, Stability MW]
+  extended_perks:
+    barrels: []
+    magazines: []
+-
+  weapon_id: 409551876
+  name: Chain of Twilight
+  ratings_emoji: 🌒
+  tags: ['pvp']
+  overview: >
+    This one focuses on chaining kills.
+  base_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
+    perks1: [Moving Target, Killing Wind]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW, Stability MW]
+  extended_perks:
+    barrels: []
+    magazines: []
