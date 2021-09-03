@@ -1,0 +1,58 @@
+-
+  weapon_id: 3473290087
+  name: CoolGuy's First Pick
+  ratings_emoji: ⏩
+  tags: ['pvp']
+  overview: >
+    Frozen Orbit has the lowest handling of any sniper, including Whisper, so
+    these rolls counteract that with Quickdraw or Snapshot. 
+  base_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake]
+    magazines: [Tactical Mag, Accurized Rounds]
+    perks1: [Moving Target, Killing Wind, Firmly Planted]
+    perks2: [Snapshot, Quickdraw]
+    masterworks: [Range MW, Handling MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []
+-
+  weapon_id: 3473290087
+  name: Nail Clipper
+  ratings_emoji: 🦶
+  tags: ['pvp']
+  overview: >
+    Toe shots! Aggressive Frame? Kill Clip? Is Tatara Gaze back? Sadly, no.
+    Kill Clip rolls in the same slot as Snapshot/Quickdraw, so we need to pick
+    some different perks to improve the supremely low handling of this sniper.
+    210 or 221 damage to the body with Kill Clip up.
+  base_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake]
+    magazines: [Tactical Mag, Accurized Rounds]
+    perks1: [Surplus, Firmly Planted, Killing Wind]
+    perks2: [Kill Clip]
+    masterworks: [Handling MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []
+-
+  weapon_id: 3473290087
+  name: Warlocks love feeling empowered
+  ratings_emoji: ⛺️
+  tags: ['pvp']
+  overview: >
+    This one's for the Warlocks. High-Impact Reserves (~+5%) brings damage to
+    167 (from 158) on the final two shots of a clip. In an Empowering Rift
+    (+20%), this is enough to body (201) a high-resilience guardian. What goes
+    well with camping in an empowering rift? No Distractions, Firmly Planted?
+    Who cares. This roll is about that tiny +5% damage boost.
+  base_perks:
+    barrels: [Fluted Barrel, Arrowhead Brake]
+    magazines: [Tactical Mag, Accurized Rounds]
+    perks1: [No Distractions, Surplus, Firmly Planted, Killing Wind]
+    perks2: [High-Impact Reserves]
+    masterworks: [Range MW, Handling MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Smallbore, Corkscrew Rifling]
+    magazines: []
+-
+
