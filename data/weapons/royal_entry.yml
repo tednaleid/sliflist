@@ -1,0 +1,15 @@
+name: Royal Entry
+item_id: 2448907086
+drop_id: world
+traits:
+  barrels:     {t: 7, c: 2}
+  magazines:   {t: 5, c: 2}
+  perks1:      {t: 9, c: 1}
+  perks2:      {t: 10, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  ?
+pvp_comments: >
+  ?
+pve_comments: >
+  ?
