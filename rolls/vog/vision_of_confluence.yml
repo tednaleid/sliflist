@@ -2,7 +2,7 @@
   weapon_id: 3186018373
   name: Partners in Time
   ratings_emoji: ⏱
-  tags: ['pvp']
+  tags: ['pvp', 'pve']
   overview: >
     `Tunnel Vision` and `Kill Clip` both proc on reload - they were made for
     each other!
@@ -19,7 +19,7 @@
   weapon_id: 3186018373
   name: Phoenix
   ratings_emoji: 🔥
-  tags: ['pvp']
+  tags: ['pvp', 'pve']
   overview: >
     Firefly grants a massive buff to Reload, which will help you proc `Tunnel
     Vision` more quickly and gives you additional uptime on `Killing Wind` if
