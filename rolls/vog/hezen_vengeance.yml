@@ -1,0 +1,64 @@
+-
+  weapon_id: 4050645223
+  name: Revengeance
+  ratings_emoji: 😤
+  tags: ['pve']
+  overview: >
+    Unparalleled large-target DPS. Overflow is super easy to proc with a Special finisher.
+  base_perks:
+    barrels: [Hard Launch]
+    magazines: [High-Velocity Rounds]
+    perks1: [Overflow]
+    perks2: [Vorpal]
+    masterworks: [Reload MW]
+  extended_perks:
+    barrels: [Hard Launch, Quick Launch, Smart Drift Control, Linear Compensator]
+    magazines: [High-Velocity Rounds, Alloy Casing, Impact Casing]
+-
+  weapon_id: 4050645223
+  name: Served Cold
+  ratings_emoji: 🧊
+  tags: ['pve']
+  overview: >
+    The reload benefit from `Impulse Amplifier` is what we're after here, to get as many rockets off onto big targets as quickly as possible.
+  base_perks:
+    barrels: [Hard Launch]
+    magazines: [High-Velocity Rounds]
+    perks1: [Impulse Amplifier]
+    perks2: [Vorpal]
+    masterworks: [Reload MW]
+  extended_perks:
+    barrels: [Hard Launch, Quick Launch, Smart Drift Control, Linear Compensator]
+    magazines: [High-Velocity Rounds, Alloy Casing, Impact Casing]
+-
+  weapon_id: 4050645223
+  name: Justified
+  ratings_emoji: 🧑‍⚖️
+  tags: ['pve']
+  overview: >
+    Often we fight dancing large targets that are far away. Tracking ensures you won't miss when peek shooting from cover.
+  base_perks:
+    barrels: [Hard Launch]
+    magazines: [High-Velocity Rounds]
+    perks1: [Tracking Module]
+    perks2: [Vorpal]
+    masterworks: [Reload MW]
+  extended_perks:
+    barrels: [Hard Launch, Quick Launch, Smart Drift Control, Linear Compensator]
+    magazines: [High-Velocity Rounds, Alloy Casing, Impact Casing]
+-
+  weapon_id: 4050645223
+  name: The One With Demolitionist
+  ratings_emoji: 🧨
+  tags: ['pve']
+  overview: >
+    It pairs well with any large-target-related dps perk in the third column. Demolitionist does have a cooldown, but an extra RL from a "free" reload is effectively a damage boost of another kind. This is more of a specialized but with so many ways to keep a grenade ready to go, worth investing in.
+  base_perks:
+    barrels: [Hard Launch]
+    magazines: [High-Velocity Rounds]
+    perks1: [Overflow, Impulse Amplifier, Tracking Module]
+    perks2: [Demolitionist]
+    masterworks: [Reload MW]
+  extended_perks:
+    barrels: [Hard Launch, Quick Launch, Smart Drift Control, Linear Compensator]
+    magazines: [High-Velocity Rounds, Alloy Casing, Impact Casing]
