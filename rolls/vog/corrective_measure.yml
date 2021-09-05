@@ -1,0 +1,112 @@
+-
+  weapon_id: 471518543
+  name: Remediation
+  ratings_emoji: 🧑‍🔧
+  tags: ['pvp']
+  overview: >
+    As much Stability as possible to get the most out of our Heavy Ammo pull.
+  base_perks:
+    barrels: [Polygonal Rifling]
+    magazines: [Steady Rounds]
+    perks1: [Dynamic Sway Reduction, Surplus]
+    perks2: [Tap the Trigger]
+    masterworks: [Stability MW]
+  extended_perks:
+    barrels: [Polygonal Rifling, Chambered Compensator, Smallbore, Corkscrew Rifling, Fluted Barrel, Hammer-Forged Rifling]
+    magazines: [Steady Rounds, Tactical Mag, Flared Magwell, Accurized Rounds]
+-
+  weapon_id: 471518543
+  name: Fire and Fury
+  ratings_emoji: 🔥
+  tags: ['pve']
+  overview: >
+    In addition to creating Warmind Cells with the `Wrath of Rasputin` mod equipped, the kills from `Firefly` count towards proc'ing `Demolitonist`.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Demolitionist]
+    perks2: [Firefly]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling, Polygonal Rifling, Chambered Compensator]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]
+-
+  weapon_id: 471518543
+  name: Fire and Fury (Extended Edition)
+  ratings_emoji: 🔥
+  tags: ['pve']
+  overview: >
+    Similar to the above, but we're looking to extend uptime.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Rewind Rounds, Subsistence]
+    perks2: [Firefly]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling, Polygonal Rifling, Chambered Compensator]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]
+-
+  weapon_id: 471518543
+  name: Punishment
+  ratings_emoji: 🧑‍⚖️
+  tags: ['pve']
+  overview: >
+    High-Impact kicks in halfway down the mag, which `Rewind Rounds` extends. While Machine Guns aren't necessarily meant for boss or champion DPS, this pairing can make it far more effective.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Rewind Rounds]
+    perks2: [High-Impact Reserves]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling, Polygonal Rifling, Chambered Compensator]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]
+-
+  weapon_id: 471518543
+  name: Punishment (Situational)
+  ratings_emoji: 🧑‍⚖️
+  tags: ['pve']
+  overview: >
+    Similar to the above, but depending on your environment could dramatically ratchet up damage.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Rewind Rounds]
+    perks2: [One for All, Adrenaline Junkie]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling, Polygonal Rifling, Chambered Compensator]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]    
+-
+  weapon_id: 471518543
+  name: Course of Action
+  ratings_emoji: 🧑‍🏫
+  tags: ['pve']
+  overview: >
+    Since it takes only a couple of shots to kill most enemies, `Subsistence` means you almost never have to reload. Since you'll be switching targets quickly, `One for All` means an extended damage boost pared with an infinite mag.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Subsistence]
+    perks2: [One for All]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling, Polygonal Rifling, Chambered Compensator]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]
+-
+  weapon_id: 471518543
+  name: Two Step Plan
+  ratings_emoji: 👟
+  tags: ['pve']
+  overview: >
+    Throw a grenade, which procs `Demolitionist` and you reload your weapon. The grenade kills enemies which procs `Adrenaline Junkie` allowing you to kill enemies faster to get your grenade back faster via `Demolitionist`. Rinse and repeat.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Demolitionist]
+    perks2: [Adrenaline Junkie]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling, Polygonal Rifling, Chambered Compensator]
+    magazines: [Accurized Rounds, Extended Mag, Appended Mag, Tactical Mag]

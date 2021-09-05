@@ -1,0 +1,31 @@
+name: Corrective Measure
+item_id: 471518543
+drop_id: vog
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 7, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  The Corrective Measure is a 450 RPM Adaptive Frame Machine Gun that drops in the Vault of Glass (Confluxes, Templar and Atheon).
+
+  > That is the reason why Corrective Measure is one of my favorite Machine Guns of all time, because it bridges the gap of two of the best builds I like to use. ... The Corrective Measure is the perfect Machine Gun and I don't think it will ever be surpassed - [Ehroar](https://www.youtube.com/watch?v=navEfNqoV_E)
+pvp_comments: >
+  Adaptive Frame MGs are solid in PvP because they mix a good amount of flinch with a good amount of damage. Corrective Measure is particulary good one because its `Recoil` is a vertical `85` with a high base `Stability`. With the right perks you can effectively max out `Stability.
+  
+  In PvP, you're picking up a small heavy ammo mag and so you want to choose perk combinations that will [make it count](https://www.youtube.com/watch?v=qy6Kh5dkTeo&t=376s). That context (for better or worse) rules out most perks so we'll have a short list of rolls 🙂
+pve_comments: >
+  From [Ehroar's review](https://www.youtube.com/watch?v=navEfNqoV_E), there's a lot to like about Corrective Measure.
+
+
+  1. "It's a 450 RPM, which is the sweet spot for PvE and PvP."
+
+  1. It has Demolitionist in the left perk slot (which is rare), meaning you can still take advantage of other great fourth column perks.
+
+  1. It's Void, so it works with Nezarac's Sin 😈
+
+  1. It can roll with `Firefly` which can create Warmind Cells when paired with the `Wrath of Rasputin` armor mod.
+
+
+  Plenty of fun rolls featured. Enjoy!
