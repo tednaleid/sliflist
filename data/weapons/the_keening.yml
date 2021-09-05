@@ -1,0 +1,15 @@
+name: The Keening
+item_id: 409551876
+drop_id: world
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 8, c: 2}
+  perks1:      {t: 12, c: 1}
+  perks2:      {t: 12, c: 1}
+  masterworks: {t: 4, c: 1}
+overview: >
+  ...
+pvp_comments: >
+  ...
+pve_comments: >
+  ...

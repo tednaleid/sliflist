@@ -1,0 +1,49 @@
+-
+  weapon_id: 409551876
+  name: Bread and Butter
+  ratings_emoji:  🍞
+  tags: ['pvp']
+  overview: >
+    The Keening has a giant perk pool and isn't the hottest sidearm in the
+    game, but it does have some versatile rolls.
+  base_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
+    perks1: [Moving Target, Killing Wind, Firmly Planted, Slideshot]
+    perks2: [Zen Moment, Snapshot, Wellspring]
+    masterworks: [Range MW, Stability MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [Moving Target, Killing Wind, Firmly Planted, Slideshot]
+-
+  weapon_id: 409551876
+  name: Chain of Twilight
+  ratings_emoji: 🌒
+  tags: ['pvp']
+  overview: >
+    This one focuses on chaining kills.
+  base_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
+    perks1: [Moving Target, Killing Wind, Slideshot]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW, Stability MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [High-Caliber Rounds, Ricochet Rounds]
+-
+  weapon_id: 409551876
+  name: Close-Quarters Xenocide
+  ratings_emoji: 👹
+  tags: ['pve']
+  overview: >
+    Bread and butter rolls for PVE.
+  base_perks:
+    barrels: [Hammer-Forged Rifling, Corkscrew Rifling, Fluted Barrel]
+    magazines: [Extended Mag, Appended Mag]
+    perks1: [Rapid Hit, Surplus]
+    perks2: [Multikill Clip, One for All, Thresh]
+    masterworks: [Range MW, Stability MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [Extended Mag, Appended Mag, High-Caliber Rounds, Ricochet Rounds]
