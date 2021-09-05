@@ -1,6 +1,6 @@
-name: Canis Major
-item_id: 2066434718
-drop_id: 15
+name: Memory Interdict
+item_id: 3165547384
+drop_id: world
 traits:
   barrels:     {t: 7, c: 2}
   magazines:   {t: 8, c: 2}
