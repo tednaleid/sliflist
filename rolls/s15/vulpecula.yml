@@ -1,0 +1,192 @@
+-
+  weapon_id: 1622998472
+  name: Caretaker
+  ratings_emoji: ☠️
+  tags: ['pvp, pve']
+  overview: >
+    Outlaw and Headstone both proc on precision kills. Great pairing to keep momentum in any game mode.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw]
+    perks2: [Headstone]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Undertaker
+  ratings_emoji: 👻
+  tags: ['pvp']
+  overview: >
+    Pairing Headstone with other perks that activate on kill.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Tunnel Vision, Killing Wind, Encore]
+    perks2: [Headstone]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Graverobber
+  ratings_emoji: 🥷
+  tags: ['pve']
+  overview: >
+    Ensemble is basically free Handling and Reload in PvE since you're always near allies (right??).
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Ensemble]
+    perks2: [Headstone]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Foxtrot
+  ratings_emoji: 🐈
+  tags: ['pvp']
+  overview: >
+    I like the idea of `Adagio` changing the Rate of Fire (tempo! hah!) but keeping the other benefits of the weapon archetype the same. You basically get a 140 RPM Hand Cannon with the behaviour of a 180 RPM, paired with perks that buff it's already great ones on kill.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Tunnel Vision, Encore, Killing Wind]
+    perks2: [Adagio]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Heart of the Pack
+  ratings_emoji: 👯
+  tags: ['pvp, pve']
+  overview: >
+    With the damage boost from Harmony you should be proc'ing Outlaw more frequently.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw]
+    perks2: [Harmony]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Heart of the Pack
+  ratings_emoji: 👯
+  tags: ['pvp']
+  overview: >
+    Harmony paired with perks that make you more deadly after a kill, to pick up a double.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Encore, Killing Wind]
+    perks2: [Harmony]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Heart of the Pack
+  ratings_emoji: 👯
+  tags: ['pve']
+  overview: >
+    Ensemble is basically free Handling and Reload in PvE since you're always near allies (right??).
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Ensemble]
+    perks2: [Harmony]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Outfoxed
+  ratings_emoji: 🦊
+  tags: ['pvp, pve']
+  overview: >
+    Classic pairing.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Outlaw]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Outfoxed
+  ratings_emoji: 🦊
+  tags: ['pvp']
+  overview: >
+    Pairing perks that create benefits from reload.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Tunnel Vision]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Outfoxed
+  ratings_emoji: 🦊
+  tags: ['pve']
+  overview: >
+    Ensemble is basically free Handling and Reload in PvE since you're always near allies (right??).
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Ensemble]
+    perks2: [Multikill Clip]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Foxtails
+  ratings_emoji: 🐿
+  tags: ['pvp']
+  overview: >
+    With Explosive Payload you'll be killing guardians with precision and collateral damage. With Encore, you get a benefit no matter what the last tick of damage is.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Encore]
+    perks2: [Explosive Payload]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
+-
+  weapon_id: 1622998472
+  name: Hunter-Gatherer
+  ratings_emoji: 🍓
+  tags: ['pvp, pve']
+  overview: >
+    Vaccuum up loot a bit easier with the damage from Explosive Payload.
+  base_perks:
+    barrels: [Hammer-Forged Rifling]
+    magazines: [Accurized Rounds]
+    perks1: [Shoot to Loot]
+    perks2: [Explosive Payload]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Hammer-Forged Rifling, Full Bore, Smallbore, Corkscrew Rifling]
+    magazines: [Accurized Rounds, Flared Magwell, Tactical Mag]
