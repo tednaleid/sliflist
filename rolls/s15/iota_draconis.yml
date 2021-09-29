@@ -1,0 +1,18 @@
+-
+  weapon_id: 3044460004
+  name: Mercules' Three-Bolt Special
+  ratings_emoji: 🔩
+  tags: ['pvp']
+  overview: >
+    Reaching for a three-bolt kill in PVP.
+  base_perks:
+    barrels: [Chambered Compensator]
+    magazines: [Liquid Coils]
+    perks1: [Under Pressure]
+    perks2: [High-Impact Reserves]
+    masterworks: [Impact MW, Range MW]
+  extended_perks:
+    barrels: []
+    magazines: []
+  custom_variants:
+    - "🔩🔩🔩🌟 Collector's Edition"

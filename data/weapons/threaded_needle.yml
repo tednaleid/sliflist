@@ -1,0 +1,11 @@
+name: Threaded Needle
+item_id: 3075224551
+drop_id: 13
+traits:
+  barrels:     {t: 9, c: 2}
+  magazines:   {t: 6, c: 2}
+  perks1:      {t: 6, c: 1}
+  perks2:      {t: 6, c: 1}
+  masterworks: {t: 5, c: 1}
+overview: >
+  Threaded Needle is a void Linear Fusion rifle available since season 13, which was only of interest to people who want to hit crits, in exchange for middling boss damage, and no particular add-clear value. Then the Particle Deconstruction mod arrived in season 15, and made it one of the best DPS options in the game. This is why your vault is always full.

@@ -1,0 +1,14 @@
+-
+  weapon_id: 3075224551
+  name: August-February Romance
+  ratings_emoji: 💍
+  tags: ['pve']
+  base_perks:
+    barrels: [Arrowhead Brake, Fluted Barrel, Corkscrew Rifling]
+    magazines: [Enhanced Battery, Liquid Coils]
+    perks1: [Rapid Hit]
+    perks2: [Vorpal Weapon]
+    masterworks: [Impact MW]
+  extended_perks:
+    barrels: [Arrowhead Brake, Fluted Barrel, Corkscrew Rifling, Hammer-Forged Rifling, Polygonal Rifling, Smallbore]
+    magazines: [Projection Fuse, Particle Repeater]
