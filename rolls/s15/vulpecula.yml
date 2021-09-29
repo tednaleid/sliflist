@@ -168,7 +168,7 @@
   base_perks:
     barrels: [Hammer-Forged Rifling]
     magazines: [Accurized Rounds]
-    perks1: [Encore]
+    perks1: [Killing Wind, Encore]
     perks2: [Explosive Payload]
     masterworks: [Range MW]
   extended_perks:
