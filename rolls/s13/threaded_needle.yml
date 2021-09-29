@@ -3,6 +3,8 @@
   name: August-February Romance
   ratings_emoji: 💍
   tags: ['pve']
+  overview: >
+    Champion/boss DPS.
   base_perks:
     barrels: [Arrowhead Brake, Fluted Barrel, Corkscrew Rifling]
     magazines: [Enhanced Battery, Liquid Coils]
