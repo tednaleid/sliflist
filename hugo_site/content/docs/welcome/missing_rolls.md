@@ -19,7 +19,6 @@ If you're interested in contributing, this is a great place to get started! It's
 |Chrysura Melo|S15|
 |Fractethyst|S15|
 |Iota Draconis|S15|
-|Vulpecula|S15|
 |Wolftone Draw|S15|
 |Darkest Before|Prophecy|
 |Judgment|Prophecy|
@@ -41,8 +40,8 @@ If you're interested in contributing, this is a great place to get started! It's
 |The Comedian (Adept)|Grandmaster Nightfalls|
 |The Hothead|Grandmaster Nightfalls|
 |The Hothead (Adept)|Grandmaster Nightfalls|
-|Reed's Regret|Grandmaster Nightfalls|
-|Reed's Regret (Adept)|Grandmaster Nightfalls|
+|Reed's Regret|Trials of Osiris|
+|Reed's Regret (Adept)|Trials of Osiris|
 |Annual Skate|World|
 |Contingency Plan|World|
 |Legal Action II|World|
