@@ -1,0 +1,17 @@
+<table style="border:none; margin:1em 0 1em 2em">
+  <tr>
+    <td style="border:none; padding:0" colspan="2">
+      <span style="font-weight:bold;">
+        {{ .Get "title" }}
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td style="border:none; padding:0.1em">
+      <img src="{{ .Get "img-src" }}" height="64" width="64">
+    </td>
+    <td style="border:none; padding:0.1em; word-wrap:break-word" width="100%">
+      <em>{{ .Get "desc" }}</em>
+    </td>
+  </tr>
+</table>
