@@ -14,8 +14,8 @@ Why bother with Wells at all? Shouldn't I just throw on some Ammo Finders and co
 
 Elemental Wells, which work by picking them up the same way you would an Orb of Power, come with two benefits. The first benefit is that you will always gain ability energy. Does the element of the well match your subclass?
 
-* **YES** - Grants energy to *all* of your abilities.
-* **NO** - Grants energy to your ability with the lowest energy.
+* **YES** - Grants ~10% energy to *all* of your abilities.
+* **NO** - Grants ~10% energy to your ability with the lowest energy.
 
 The second benefit will be whatever unique bonus that particular mod confers.
 
@@ -45,7 +45,7 @@ Words of wisdom from an experienced well-user:
 
 > *{{%element-solar%}} builds are the easiest, as usual. {{%element-stasis%}} builds are interesting, but for Warlocks, a {{%element-void%}} build should get some mileage. You can mix and match of course, but you only have five slots.*
 
-|Element|Generation and Benefits|
+|Armor Element|Generation and Benefits|
 |:-|:-|
 |{{%element-arc%}}|Melee, melee damage, finishers, wells come to you
 |{{%element-solar%}}|Explosions, grenades, and healing
@@ -58,14 +58,15 @@ Words of wisdom from an experienced well-user:
 
 **Mod**|**Armor**|**Cost**|**Well Element**|**Requirement**|**Comments**
 :-----|:-----|:-----:|:-----|:-----|:-----
+**Bountiful Wells**|{{%element-solar%}}|2|{{%element-solar%}}|1 or more other well generating mods|Allows well generating mods to stack, but the best part is just having this mod equipped will _spawn an additional well to any other well generating mod_. ex: 1 Bountiful Wells + 1 Elemental Ordnance = 2 wells on grenade kills, add 1 Explosive Wellmaker and a single explosive grenade can generate _4 wells_.
 **Elemental Armaments**|Any|2|Subclass|Weapon takedowns with a damage type that matches your subclass element.|~10% on PvE kill; stacks until a Well spawns. It takes around eight kills on average to spawn a Well.
 **Elemental Light**|Any|1|Subclass|Super final blows.|Your Super needs to be able to damage enemies to generate Wells.
 **Elemental Ordnance**|Any|3|Subclass|Grenade final blows.|Grenades can only spawn an Elemental Well once every couple of seconds. Any grenade that deals persistent damage over an area, such as a Vortex Grenade, works best with Elemental Ordnance. When paired with Elemental Charge, this gives your abilities a means of generating stacks of Charged with Light
+**Explosive Wellmaker**|{{%element-solar%}}|3|{{%element-solar%}}|Rapid explosive damage final blows.|Applies broadly, basically anything that explodes save for Warmind Cells. Includes: Telesto bolts, Xenophage, Rocket/Grendade launchers, Reservoir Burst explosions, exploding thrall/supplicants/screebs, etc.
 **Melee Wellmaker**|Any|4|Subclass|Melee final blows (powered).|
-**Shieldcrash Wellmaker**|Any|4|Shield's Element|Breaking a shield with the matching weapon type.|The Elemental Well is generated under the target that just had their shield destroyed. This mod pairs exceptionally well with Shield-Break Charge.
 **Overcharge Wellmaker**|{{%element-arc%}}|4|{{%element-arc%}} x 2|Finisher final blows.|Due to how finishers place you next to enemies, you'll usually consume both Elemental Wells when the animation ends. Since finisher animations are rather lengthy, this mod indirectly bypasses the Elemental Well spawn cooldown, allowing you to spawn two Wells with every finisher.
-**Explosive Wellmaker**|{{%element-solar%}}|3|{{%element-solar%}}|Rapid explosive damage final blows.|Applies broadly, basically anything that explodes save for Warmind Cells.
 **Reaping Wellmaker**|{{%element-void%}}|2|{{%element-void%}}|After activating your class ability, your next weapon final blow|Reaping Wellmaker's effect lasts until you either kill an enemy or you die.
+**Shieldcrash Wellmaker**|Any|4|Shield's Element|Breaking a shield with the matching weapon type.|The Elemental Well is generated under the target that just had their shield destroyed. This mod pairs exceptionally well with Shield-Break Charge.
 
 ### Well Mods: Energy-Granting
 
@@ -81,6 +82,8 @@ The base effect of all Elemental Wells is to grant ability energy on pickup. The
 **Well of Restoration**|{{%element-stasis%}}|4|~6% energy for the ability that has the lowest energy / stack
 **Well Of Utility**|{{%element-void%}}|1|~6% class ability energy / stack
 
+With the addition of **Bountiful Wellmaker** (which spawns an extra well for every well generated), these mods tend to fell a bit underpowered (as of Season 15).
+
 ### Well Mods: TODO
 
 ### Well Mods: TODO
@@ -88,3 +91,4 @@ The base effect of all Elemental Wells is to grant ability energy on pickup. The
 ## Sources
 
 * Comprehensive article on TheGamer.com - [Destiny 2: An In-Depth Look At Every Elemental Well Mod](https://www.thegamer.com/destiny-2-all-elemental-well-mods-explained/)
+* Ehroar video on Bountiful Wellmaker - [This Mod Makes It Rain Elemental Wells Everywhere...](https://www.youtube.com/watch?v=AgAHh6akfmo)
