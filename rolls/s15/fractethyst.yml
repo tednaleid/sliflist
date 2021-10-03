@@ -1,33 +1,114 @@
--
+- 
   weapon_id: 3184681056
-  name: Friendly Fire
-  ratings_emoji: 👯
+  name: CastleContent's Pick (feat. Ensemble)
+  ratings_emoji: 🏰
   tags: ['pvp']
   overview: >
-    Ensemble improves the velocity of using this weapon when you're near your
-    friends.
+    [Castle Content](https://www.youtube.com/watch?v=bCbDZy-hqoI) has a well-reasoned review where he makes a strong case for both Ensemble and Harmony.
   base_perks:
-    barrels: [Rifled Barrel, Full Choke]
-    magazines: [Accurized Rounds]
+    barrels: [Full Choke]
+    magazines: [Assault Mag]
     perks1: [Ensemble]
-    perks2: [Opening Shot]
+    perks2: [Harmony, Opening Shot]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
-    magazines: [Accurized Rounds, Light Mag, Assault Mag]
+    barrels: [Full Choke, Barrel Shroud, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
+- 
+  weapon_id: 3184681056
+  name: CastleContent's Pick (feat. Quickdraw)
+  ratings_emoji: 🏰
+  tags: ['pvp']
+  overview: >
+    Similar to the above, but we're swapping out `Ensemble` for `Quickdraw`.
+  base_perks:
+    barrels: [Full Choke]
+    magazines: [Assault Mag]
+    perks1: [Quickdraw]
+    perks2: [Harmony, Opening Shot]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Choke, Barrel Shroud, Smallbore, Corkscrew Rifling]
+    magazines: [Assault Mag, Accurized Rounds, Light Mag]
 -
   weapon_id: 3184681056
   name: Cold Quarters Combat
-  ratings_emoji: 💥
+  ratings_emoji: 🥶
   tags: ['pvp']
   overview: >
-    The basic god roll. Except Stasis. Fast, ranged, high accuracy.
+    Standard Precision Frame shotgun perks.
   base_perks:
-    barrels: [Rifled Barrel, Full Choke]
+    barrels: [Full Choke]
     magazines: [Accurized Rounds]
     perks1: [Quickdraw, Slideshot]
     perks2: [Opening Shot]
     masterworks: [Range MW]
   extended_perks:
-    barrels: [Rifled Barrel, Full Choke, Smallbore, Corkscrew Rifling]
+    barrels: [Full Choke, Barrel Shroud, Smallbore, Corkscrew Rifling, Rifled Barrel]
     magazines: [Accurized Rounds, Light Mag, Assault Mag]
+-
+  weapon_id: 3184681056
+  name: Uphill Both Ways
+  ratings_emoji: 📈
+  tags: ['pve']
+  overview: >
+    `Adagio` slows you down by 20%, so we're going to rely on `Assault Mag` and `Full Auto` to speed things back up.
+  base_perks:
+    barrels: [Full Choke]
+    magazines: [Assault Mag]
+    perks1: [Full Auto]
+    perks2: [Adagio]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Choke, Barrel Shroud, Smallbore, Corkscrew Rifling]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (*barrels)"
+    - "{emoji} (*barrels, *masterworks)"
+-
+  weapon_id: 3184681056
+  name: Cold to the Touch
+  ratings_emoji: ☃️
+  tags: ['pve']
+  overview: >
+    `Trench Barrel` paired with the increased rate of fire from both `Assault Mag` and `Full Auto`.
+  base_perks:
+    barrels: [Full Choke]
+    magazines: [Assault Mag]
+    perks1: [Full Auto]
+    perks2: [Trench Barrel]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Choke, Barrel Shroud, Smallbore, Corkscrew Rifling]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (*barrels)"
+    - "{emoji} (*barrels, *masterworks)"
+-
+  weapon_id: 3184681056
+  name: Push the Tempo
+  ratings_emoji: 🏃
+  tags: ['pve']
+  overview: >
+    `Harmony` paired with RoF-increasing perks to empty the mag after a primary kill.
+  base_perks:
+    barrels: [Full Choke]
+    magazines: [Assault Mag]
+    perks1: [Full Auto]
+    perks2: [Harmony]
+    masterworks: [Range MW]
+  extended_perks:
+    barrels: [Full Choke, Barrel Shroud, Smallbore, Corkscrew Rifling]
+  custom_variants:
+    - "{emoji}{emoji}{emoji}🌟 Collector's Edition"
+    - "{emoji}{emoji}{emoji} CE (*masterworks)"
+    - "{emoji}{emoji}{emoji} CE (+barrels)"
+    - "{emoji}{emoji} (+barrels, *masterworks)"
+    - "{emoji}{emoji} (*barrels)"
+    - "{emoji} (*barrels, *masterworks)"
